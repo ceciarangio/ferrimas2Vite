@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoFerrimas2{
+    width: 200px;
+}
+.idiomas{
+    color: white;
+}
+.ceje-hambu{
+    padding-right: 0px;
+    margin-right: 40px;
+}

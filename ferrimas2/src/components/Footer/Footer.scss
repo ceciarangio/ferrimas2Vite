@@ -1,0 +1,57 @@
+.ceje-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+    &__avisos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        padding-left: 20px;
+        line-height: 10px;
+
+        &--p{
+            color: white;
+            cursor: pointer;
+            text-decoration: underline;
+            width: fit-content;
+        }
+    }
+
+    &__delegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        &__direccion{
+            text-align: left;
+            list-style: none;
+            &--h2{
+                color: rgb(158, 158, 158);
+                font-size: 16px;
+            }
+            &--p{
+                font-size: 14px;
+            }
+        }
+        &__contacto{
+            text-align: left;
+            list-style: none;
+            &--h2{
+                color: rgb(158, 158, 158);
+                font-size: 16px;
+            }
+            &--p{
+                font-size: 14px;
+            }
+        }
+    }
+}
