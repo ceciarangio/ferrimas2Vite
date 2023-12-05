@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(../../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+  @media only screen and (max-width: 600px) {
+    .formulario-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+        margin-top: 12%;
+    }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+          }
+          
+          label {
+            font-weight: bold;
+          }
+
+      input,
+      textarea {
+        width: 80%;
+        padding: 8px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+      }
+
+      .success-message {
+        background-color: #4CAF50; /* Color verde, puedes cambiarlo */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 9999;
+        
+
+        p{
+          text-align: center;
+          color: white;
+          padding-bottom: 25px;
+          padding-top: 25px;
+          font-size: 15px;
+        font-family: "Manrope";
+        }
+        
+      }
+      
+      /* Agrega un estilo de animación para desvanecer el mensaje */
+      @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+      
+    }
+  
+    @media only screen and (min-width: 768px) {
+        .formulario-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 15px;
+            text-align: center;
+            margin-top: 12%;
+        }
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+              }
+              
+              label {
+                font-weight: bold;
+              }
+              
+          
+            input,
+            textarea {
+                width: 80%;
+                padding: 8px;
+                box-sizing: border-box;
+                text-align: center;
+              border: 1px solid;
+              border-radius: 5px;
+            }
+            button {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px;
+                cursor: pointer;
+                border: none;
+                border-radius: 4px;
+              }
+
+              .success-message {
+                background-color: #4CAF50; /* Color verde, puedes cambiarlo */
+                color: white;
+                padding: 55px;
+                text-align: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 40%;
+                z-index: 9999;
+                font-size: 15px;
+                font-family: "Manrope";
+              }
+              
+              /* Agrega un estilo de animación para desvanecer el mensaje */
+              @keyframes fadeOut {
+                from { opacity: 1; }
+                to { opacity: 0; }
+              }
+          }
+    
+
+  @media only screen and (max-width: 768px) {
+        .formulario-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+        margin-top: 12%;
+    }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+          }
+          
+          label {
+            font-weight: bold;
+          }
+          
+      
+        input,
+        textarea {
+            width: 80%;
+            padding: 8px;
+            box-sizing: border-box;
+            text-align: center;
+          border: 1px solid;
+          border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+          }
+      }
+
+
+  @media only screen and (min-width: 992px) {
+    .formulario-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+        margin-top: 12%;
+
+        h2{
+            font-size: 25px;
+        }
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input,
+      textarea {
+        border: none;
+        width: 90%;
+        padding: 8px;
+        box-sizing: border-box;
+        text-align: center;
+        border-bottom: 1px solid black;
+        font-size: 20px;
+      }
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+      }
+  }
+
+  .success-message {
+    background-color: #4CAF50; /* Color verde, puedes cambiarlo */
+    color: white;
+    padding: 55px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 20px;
+    font-family: "Manrope";
+  }
+  
+  /* Agrega un estilo de animación para desvanecer el mensaje */
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  // .success-message {
+  //   animation: fadeOut 2s ease-in-out; /* Controla la duración de la animación */
+  // }

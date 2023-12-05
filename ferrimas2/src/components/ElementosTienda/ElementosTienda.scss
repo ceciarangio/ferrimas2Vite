@@ -1,0 +1,18 @@
+.ceje-Elementos-Tienda{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 20px;
+
+    &--p{
+        font-size: 14px;
+        cursor: pointer;
+    }
+    &--p:hover{
+        color: #FF0000;
+        text-decoration: underline;
+    }
+}

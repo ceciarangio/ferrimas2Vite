@@ -1,0 +1,236 @@
+.ceje-Intro__header{
+  background-color: rgba(0, 0, 0, 0.788);
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 20px;
+  height: 10vh;
+
+  &__language{
+    width: fit-content;
+  }
+}
+
+
+.ceje-Intro__container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .ceje-Intro__container {
+
+      
+        &--img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
+      
+        &__div {
+          text-align: center;
+          color: white;
+          font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+          &--p{
+            text-align: center;
+            line-height: 30px;
+            margin: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+          }
+      
+          &--button {
+            margin-top: 30px; /* Ajusta según sea necesario */
+            font-weight: bold;
+            border-style: none;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            width: 200px;
+            background-color: #95BC10;
+            cursor: pointer;
+      
+            &--link {
+              text-decoration: none;
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ceje-Intro__container {
+
+        background-color: rgba(0, 0, 0, 0.788);
+        &--img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
+      
+        &__div {
+          text-align: center;
+          color: white;
+          font-size: 1.2rem;
+    
+          &--p{
+            text-align: center;
+            line-height: 30px;
+          }
+          &--h3{
+            margin-top: 10px;
+          }
+      
+          &--button {
+            margin-top: 30px; /* Ajusta según sea necesario */
+            font-weight: bold;
+            border-style: none;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            width: 200px;
+            background-color: #95BC10;
+            cursor: pointer;
+      
+            &--link {
+              text-decoration: none;
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ceje-Intro__container {
+
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ceje-Intro__container {
+
+        &--img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        
+          &__div {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinea el contenido al centro */
+        
+            &--p {
+              text-align: center;
+              line-height: 40px;
+              font-size: 2rem;
+              margin: 0; 
+
+              max-width: 1000px; 
+            }
+
+            &--h3{
+                margin-top: 10px;
+                font-size: 2rem;
+            }
+
+            &--button {
+                margin-top: 30px; /* Ajusta según sea necesario */
+                font-weight: bold;
+                border-style: none;
+                border-radius: 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                height: 80px;
+                width: 250px;
+                
+                &--link {
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: white;
+                  }
+             
+              }
+      }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ceje-Intro__container {
+
+
+        &--img {
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        
+          &__div {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            &--p {
+              text-align: center;
+              line-height: 40px;
+              font-size: 2rem;
+              margin: 0; 
+
+              max-width: 1000px; 
+            }
+
+            &--h3{
+                margin-top: 10px;
+                font-size: 2rem;
+            }
+
+            &--button {
+                margin-top: 30px; /* Ajusta según sea necesario */
+                font-weight: bold;
+                border-style: none;
+                border-radius: 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                height: 80px;
+                width: 250px;
+                
+                &--link {
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: white;
+                  }
+             
+              }
+      }
+    }
+}

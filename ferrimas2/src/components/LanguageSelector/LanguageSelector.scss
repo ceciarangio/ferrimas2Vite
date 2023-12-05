@@ -1,0 +1,92 @@
+
+.languageSelector__menu{
+    display: none;
+
+    &--spanish{
+        font-size: 23px;
+        color: white;
+    }
+    &--english{
+        font-size: 23px;
+        color: white;
+    }
+    &--valencia{
+        font-size: 23px;
+        color: white;
+    }
+}
+
+.languageSelector__container--language--p{
+    color: white;
+}
+.languageSelector__container--language--img{
+    width: 24px;
+}
+
+.languageSelector__menu--show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.flag-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.imgFlag{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.languageSelector__menu__closeButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.closeButton{
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// animaciones
+.animate__fadeInDown{
+    animation-duration: 0.5s;
+    animation-name: fadeInDown;
+}
+.animate__fadeOutUp{
+    animation-duration: 0.5s;
+    animation-name: fadeOutUp;
+}
