@@ -11,7 +11,6 @@ import Tienda from './Pages/Tienda/Tienda';
 
 function App() {
 
-
   return (
     <>
     <div className="App">
