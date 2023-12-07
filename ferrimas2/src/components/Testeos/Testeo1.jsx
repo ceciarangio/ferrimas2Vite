@@ -24,8 +24,7 @@ const Testeo1 = () => {
         {tiendas.map((tienda, index) => (
           <li key={index}>
             <strong>Nombre:</strong> {tienda.nombre}<br />
-            <strong>Dirección:</strong> {tienda.direccion}<br />
-            <strong>Teléfono:</strong> {tienda.telefono}<br />
+            <strong>Imagen:</strong> {tienda.foto}<br />
           </li>
         ))}
       </ul>
