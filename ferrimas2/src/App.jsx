@@ -7,11 +7,11 @@ import PoliticaCookies from './Pages/PoliticaCookies/PoliticaCookies';
 import AvisoLegal from './Pages/AvisoLegal/AvisoLegal';
 import Contacto from './components/Contacto/Contacto';
 import Tienda from './Pages/Tienda/Tienda';
+import Testeo1 from './components/Testeos/Testeo1';
 
 
 function App() {
 
-  
   return (
     <>
     <div className="App">
@@ -24,6 +24,7 @@ function App() {
         <Route path='/politica-de-cookies' element={<PoliticaCookies/>}/>
         <Route path='/aviso-legal' element={<AvisoLegal/>}/>
         <Route path='/tienda' element={<Tienda/>}/>
+        <Route path='/testeo' element={<Testeo1/>}/>
       </Routes>
     </Router>
     </div>
