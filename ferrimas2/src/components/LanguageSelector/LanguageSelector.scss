@@ -18,6 +18,8 @@
 
 .languageSelector__container--language--p{
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 .languageSelector__container--language--img{
     width: 24px;

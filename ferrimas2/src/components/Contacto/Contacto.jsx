@@ -36,4 +36,4 @@ export default function Contacto(){
             <input type="submit" value="Send" />
         </form>
     );
-};
+}
