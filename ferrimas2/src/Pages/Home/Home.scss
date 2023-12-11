@@ -200,7 +200,6 @@ span{
     }
 
 }
- 
   
 
   @media only screen and (min-width: 992px) {
@@ -285,8 +284,158 @@ span{
 
 
 
+@media only screen and (max-width: 767px) {
 
+}
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .divTextoG{
+
+    &__container{
+      &--h2 {
+        font-size: 4rem;
+        width: 750px;
+      }
+      &--button{
+        font-size: 2rem;
+        width: 300px;
+        height: 150px;
+      }
+    }
+  }
+
+  .container3claves{
+    background-color: white;
+    &--h2{
+      margin-top: 70px;
+      font-size: 3rem;
+      margin-bottom: 70px;
+    }
+    &--h3{
+      font-size: 2rem;
+    }
+    &--p{
+      font-size: 1.5rem;
+    }
+
+    &--p2{
+      font-size: 1.5rem;
+      margin-bottom: 100px;
+    }
+
+    &__whiteBg{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      &__tresDivs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+    &__div{
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      width: 30%;
+      height: 450px;
+    }
+  }
+
+  .cejeMaquinaria__contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+    &__maquinariaCard{
+      display: flex;
+      justify-content: center;
+      width: 400px;
+      height: 400px;
+      flex-basis: calc(33.33% - 10px);
+      margin: 5px;
+
+      &__imageContainer{
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        &--img{
+          width: 350px;
+          height: 350px;
+
+        }
+        &--p{
+          text-align: center;
+          
+        }
+      }
+    }
+  }
+
+  .linkWithoutDecoration:hover{
+    background-color: rgb(208, 208, 208);
+    color: white;
+  }
+
+  .divMaqAlquiler{
+    &--h2{
+      font-size: 3rem;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+    &--p{
+      font-size: 1.5rem;
+    }
+  }
+
+  .ceje-container__presupuesto{
+    &__whiteBg{
+
+    }
+    &__divs{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    &--h2{
+      font-size: 3rem;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+    &__rentabilidad{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+
+      &--p{
+        font-size: 1.5rem;
+      }
+      
+    }
+  }
+  .botonPresupuesto{
+    font-size: 1.5rem;
+    background-color: #e6ebc7;
+    border: solid 1px black;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 100px;
+  
+  }
+}
 
 
 

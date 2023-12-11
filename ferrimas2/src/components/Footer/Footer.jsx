@@ -34,9 +34,8 @@ export default function Footer() {
                 </ul>
             </div>
             <div className='ceje-footer__avisos'>
-            <Link to='/politica-de-privacidad' ><p className='ceje-footer__avisos--p'>Política de privacidad</p></Link>
-            <Link to='/politica-de-cookies'><p className='ceje-footer__avisos--p'>Política de cookies</p></Link>
-            <Link to='/aviso-legal'><p className='ceje-footer__avisos--p'>Aviso legal</p></Link>
+            <p className='ceje-footer__avisos--p'><Link to='/politica-de-privacidad' >Política de privacidad</Link> - <Link to='/politica-de-cookies'> Política de cookies</Link> - <Link to='/aviso-legal'>Aviso legal</Link></p>
+
         </div>
         </div>
 
