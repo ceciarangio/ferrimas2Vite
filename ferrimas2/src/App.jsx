@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from './Pages/Home/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Intro from './Pages/Intro/Intro';
+// import Intro from './Pages/Intro/Intro';
 import PoliticaPrivacidad from './Pages/PoliticaPrivacidad/PoliticaPrivacidad';
 import PoliticaCookies from './Pages/PoliticaCookies/PoliticaCookies';
 import AvisoLegal from './Pages/AvisoLegal/AvisoLegal';
@@ -22,7 +22,8 @@ function App() {
     <div className="App">
     <Router>
       <Routes>
-        <Route path="/" element={<Intro/>}/>
+        <Route path="/" element={<Home/>}/>
+        {/* <Route path="/" element={<Intro/>}/> */}
         <Route path='/home' element={<Home/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='/politica-de-privacidad' element={<PoliticaPrivacidad/>}/>
