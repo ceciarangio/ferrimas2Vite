@@ -1,12 +1,14 @@
 .ceje-footer{
+    padding-left: 50px;
+    padding-top: 20px;
     background-color: black;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-decoration: none;
     list-style: none;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 
     &__avisos{
         display: flex;
@@ -15,13 +17,19 @@
         background-color: black;
         color: white;
         font-size: 14px;
-        padding-left: 20px;
         line-height: 10px;
+        margin-bottom: 50px;
 
-        &--p{
+        &--p a{
+            color: rgb(190, 190, 190);
+            cursor: pointer;
+            text-decoration: none;
+            width: fit-content;
+        }
+        &--p a:hover{
             color: white;
             cursor: pointer;
-            text-decoration: underline;
+            text-decoration: none;
             width: fit-content;
         }
     }
@@ -34,6 +42,7 @@
         &__direccion{
             text-align: left;
             list-style: none;
+            margin-bottom: 50px;
             &--h2{
                 color: rgb(158, 158, 158);
                 font-size: 16px;
@@ -45,6 +54,7 @@
         &__contacto{
             text-align: left;
             list-style: none;
+            margin-bottom: 50px;
             &--h2{
                 color: rgb(158, 158, 158);
                 font-size: 16px;
