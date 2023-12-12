@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-import Hamburguesa from "../../components/Hamburguesa/Hamburguesa";
-import LanguageSelector from "../../components/LanguageSelector/LanguageSelector";
-import logo from '../../public/assets/logo.png';
 import dumper from "../../public/assets/Dumpers/dump-2000kg.png";
 import plataftijera from "../../public/assets/plataformas-elevadoras-tijera/tijera-12m-elec.png";
 import vallas from "../../public/assets/vallas/valla-peatonal.png";
