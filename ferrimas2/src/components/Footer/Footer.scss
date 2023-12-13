@@ -1,16 +1,18 @@
-.ceje-footer{
-    padding-left: 50px;
+.ceje-footer {
+    width: 100%;
     padding-top: 20px;
     background-color: black;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-decoration: none;
     list-style: none;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: start;
 
-    &__avisos{
+    &__avisos {
+        padding-left: 50px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -18,50 +20,57 @@
         color: white;
         font-size: 14px;
         line-height: 10px;
-        margin-bottom: 50px;
-
-        &--p a{
-            color: rgb(190, 190, 190);
-            cursor: pointer;
-            text-decoration: none;
-            width: fit-content;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+        &--p a {
+        color: rgb(190, 190, 190);
+        cursor: pointer;
+        text-decoration: none;
+        width: fit-content;
         }
-        &--p a:hover{
-            color: white;
-            cursor: pointer;
-            text-decoration: none;
-            width: fit-content;
+        &--p a:hover {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        width: fit-content;
         }
     }
-
-    &__delegacion{
+    
+    &__delegacion {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    
+        &__direccion {
+        text-align: left;
+        list-style: none;
+        margin-bottom: 50px;
 
-        &__direccion{
+        &__li{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        &--h2 {
+            color: rgb(158, 158, 158);
+            font-size: 16px;
+        }
+        &--p {
+            font-size: 1.1rem;
+        }
+        }
+        &__contacto {
             text-align: left;
             list-style: none;
             margin-bottom: 50px;
-            &--h2{
+            &--h2 {
                 color: rgb(158, 158, 158);
                 font-size: 16px;
             }
-            &--p{
-                font-size: 14px;
+            &--p {
+                font-size: 1.1rem;
             }
-        }
-        &__contacto{
-            text-align: left;
-            list-style: none;
-            margin-bottom: 50px;
-            &--h2{
-                color: rgb(158, 158, 158);
-                font-size: 16px;
-            }
-            &--p{
-                font-size: 14px;
-            }
-        }
+        } 
     }
 }
