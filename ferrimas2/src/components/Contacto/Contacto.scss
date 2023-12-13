@@ -1,0 +1,40 @@
+.ceje-bg{
+    background-image: url('../../public/assets/handshake-3298455_1280.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ceje-contacto-form{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.717);
+    background-position: 0px;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+
+        &--label{
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        &--input{
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            height: 30px;
+        }
+
+        &--submit{
+            font-size: 1.5rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 40px;
+            background-color: #e6ebc7;
+            border: solid 1px black;
+        }
+    }   
+}

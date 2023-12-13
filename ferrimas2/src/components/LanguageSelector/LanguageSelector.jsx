@@ -6,7 +6,7 @@ import closeButton from '../../public/assets/x.png';
 import './LanguageSelector.scss';
 import { useTranslation } from 'react-i18next';
 import mundoTranslate from './../../public/assets/mundoTranslate.png';
-import i18n from "../../i18n";
+
 
 
 export default function LanguageSelector() {
@@ -81,6 +81,7 @@ export default function LanguageSelector() {
         <div className="languageSelector">
             <div className="languageSelector__container">
                 <div className="languageSelector__container--language" onClick={showMenu}>
+                    <span className="arrow-down"></span>
                     <p className="languageSelector__container--language--p" ><img className="languageSelector__container--language--img" src={mundoTranslate} alt="translate" /> {language}</p>
                 </div>
             </div>
