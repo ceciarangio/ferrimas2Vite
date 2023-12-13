@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
+import './Aceites.scss';
 
 const Aceites = () => {
   const [aceites, setAceites] = useState([]);
@@ -18,24 +20,23 @@ const Aceites = () => {
     fetchData();
   }, []);
 
-  return (
-    <div>
+  return (<>
+    <HeaderGeneral/>
+    <MenuTiendaD/>
+    <div className="aceites-container">
       <h2>Aceites y Limpiaparabrisas</h2>
-      <ul>
         {aceites && aceites.length > 0 ? (
             aceites.map((aceite, index) => (
-            <li key={index}>
-             <h3> {aceite.nombre}</h3>
+            <div key={index}>
+             <p> {aceite.nombre}</p>
         <img src={aceite.foto} alt="lala"/>
-            </li>
+            </div>
           ))
         ) : (
           <p>Cargando ...</p>
         )}
-      </ul>
-
     </div>
-  );
+    </>);
 };
 
 export default Aceites;

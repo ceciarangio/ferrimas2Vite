@@ -2,6 +2,7 @@ import Hamburguesa from "../Hamburguesa/Hamburguesa";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import './HeaderGeneral.scss';
 import logo from '../../public/assets/logo.png';
+import { Link } from "react-router-dom";
 
 
 
@@ -10,10 +11,10 @@ export default function HeaderGeneral(){
 
     return <>
     <header className="header">
-    <img src={logo} className="logoFerrimas2" alt="logo" />
+    <Link to='/'> <img src={logo} className="logoFerrimas2" alt="logo" /></Link>
     <div className="ceje-header__language-menu-container">
         <div className="ceje-opcionesHeader">
-            <a href="#" className="ceje-opcionesHeader--a">Tienda</a>
+            <a href="/tienda" className="ceje-opcionesHeader--a">Tienda</a>
             <a href="#" className="ceje-opcionesHeader--a--aboutUs">Sobre nosotros</a>
             <a href="#" className="ceje-opcionesHeader--a--ventajas">Nuestras ventajas</a>
             <a href="#" className="ceje-opcionesHeader--a">Formación</a>

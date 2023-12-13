@@ -1,6 +1,9 @@
+// Herramientas.jsx
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
+import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import './Herramientas.scss';
 
 const Herramientas = () => {
   const [herramientas, setHerramientas] = useState([]);
@@ -19,23 +22,27 @@ const Herramientas = () => {
   }, []);
 
   return (
-    <div>
-      <h2>HERRAMIENTAS</h2>
-      <ul>
-        {herramientas && herramientas.length > 0 ? (
-            herramientas.map((herramienta, index) => (
-            <li key={index}>
-             <h3> {herramienta.nombre}</h3>
-        <img src={herramienta.foto} alt="lala"/>
-            </li>
-          ))
-        ) : (
-          <p>Cargando herramientas...</p>
-        )}
-      </ul>
+    <>
+      <HeaderGeneral />
+      <MenuTiendaD />
+      <div className="herramientas-container">
 
-    </div>
+        <div className="herramientas-row">
+          {herramientas && herramientas.length > 0 ? (
+            herramientas.map((herramienta, index) => (
+              <div key={index} className="herramienta">
+                <h3>{herramienta.nombre}</h3>
+                <img src={herramienta.foto} alt={herramienta.nombre} />
+                <p>{/* Agrega aquí cualquier información adicional que desees mostrar */}</p>
+              </div>
+            ))
+          ) : (
+            <p>Cargando herramientas...</p>
+          )}
+        </div>
+      </div>
+    </>
   );
-};
+ }
 
 export default Herramientas;
