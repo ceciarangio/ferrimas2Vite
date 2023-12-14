@@ -24,8 +24,16 @@ a:hover {
 
 body {
   margin: 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+  padding: 0;
+>>>>>>> d2fb67460a6f816cfca464a7616b6be558f6a801
+=======
 
   padding: 0;
+>>>>>>> 5dfc0075ca72d17b46bed120f927d4b12dd8411a
 }
 
 h1 {
