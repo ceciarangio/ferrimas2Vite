@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import flagSpain from '../../public/assets/espana.png';
 import flagUK from '../../public/assets/reino-unido.png';
 import flagValencia from '../../public/assets/flagValencia.png';
@@ -8,12 +8,25 @@ import { useTranslation } from 'react-i18next';
 import mundoTranslate from './../../public/assets/mundoTranslate.png';
 
 
+const LANGUAGE_KEY = "selectedLanguage"; // Clave para el local storage
 
 export default function LanguageSelector() {
     const {i18n} = useTranslation();
+    const savedLanguage = localStorage.getItem(LANGUAGE_KEY);
+
+    // Se establece el idioma guardado al cargar la página
+    useEffect(() => {
+        if (savedLanguage) {
+            changeLanguage(savedLanguage);
+            setLanguage(getLanguageName(savedLanguage));
+        }
+    }, []);
+
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
+        localStorage.setItem(LANGUAGE_KEY, lng); // esto guarda el idioma seleccionado en el local storage
     }
+
 
     const [language, setLanguage] = useState('Español');
 
@@ -54,7 +67,18 @@ export default function LanguageSelector() {
         menuLanguage.classList.toggle('languageSelector__menu--show');
     }
 
-
+    const getLanguageName = (lang) => {
+        switch (lang) {
+            case 'es':
+                return 'Español';
+            case 'en':
+                return 'English';
+            case 'val':
+                return 'Valencià';
+            default:
+                return 'Español';
+        }
+    }
 
 
     return <>
@@ -87,4 +111,6 @@ export default function LanguageSelector() {
             </div>
         </div>
     </>
+
+
 }
