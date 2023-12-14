@@ -1,6 +1,9 @@
+// Carteleria.jsx
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import './Seguridad.scss';
+import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
+import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 
 const Seguridad = () => {
   const [seguridad, setSeguridad] = useState([]);
@@ -18,23 +21,38 @@ const Seguridad = () => {
     fetchData();
   }, []);
 
-  return (
-    <div>
-      <h2>Elementos de seguridad</h2>
-      <ul>
-        {seguridad && seguridad.length > 0 ? (
-            seguridad.map((elemSeguridad, index) => (
-            <li key={index}>
-             <h3> {elemSeguridad.nombre}</h3>
-        <img src={elemSeguridad.foto} alt="lala"/>
-            </li>
-          ))
-        ) : (
-          <p>Cargando ...</p>
-        )}
-      </ul>
+  // Función para dividir los carteles en filas de 3
+  const chunkArray = (array, chunkSize) => {
+    const result = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+      result.push(array.slice(i, i + chunkSize));
+    }
+    return result;
+  };
 
-    </div>
+  const seguridadRows = chunkArray(seguridad, 3);
+
+  return (
+    <>
+      <HeaderGeneral />
+      <MenuTiendaD />
+      <div>
+        <div className="seguridad-container">
+          <h2>Carteles en general</h2>
+          {seguridadRows.map((row, rowIndex) => (
+            <div key={rowIndex} className="seguridad-row">
+              {row.map((seguridad, index) => (
+                <div key={index} className="seguridad">
+                <p>{seguridad.nombre}</p>
+                  <img src={seguridad.foto} alt={seguridad.nombre} />
+                  
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

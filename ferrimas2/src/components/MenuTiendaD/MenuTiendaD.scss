@@ -1,39 +1,18 @@
+/* MenuTiendaD.css */
 .vertical-navbar {
-    width: 300px; /* Ajusta el ancho según tus necesidades */
-  }
-  
-  .menu-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .menu-item {
-    margin: 0;
-  }
-  
-  .menu-header {
-    cursor: pointer;
-    padding: 10px;
-    margin: 0;
-    background-color: #f5f5f5;
-  }
-  
-  .menu-header--open {
-    background-color: lightgray; /* Puedes ajustar el color según tus preferencias */
-  }
-  
-  .arrow-icon::before {
-    content: "▼";
-    margin-left: 5px;
-  }
-  
-  .menu-header--open .arrow-icon::before {
-    content: "▲";
-    margin-left: 5px;
-  }
-  
-  .submenu {
-    list-style-type: none;
-    padding-left: 40px; /* Ajusta el espacio del submenú según tus necesidades */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 20px;
+  position: fixed;
+}
+
+.vertical-navbar h2 {
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+.vertical-navbar h3 {
+  margin: 10px 0;
+}

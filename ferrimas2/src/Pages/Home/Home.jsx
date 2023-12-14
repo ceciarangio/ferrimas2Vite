@@ -4,7 +4,7 @@ import plataftijera from "../../public/assets/plataformas-elevadoras-tijera/tije
 import vallas from "../../public/assets/vallas/valla-peatonal.png";
 import generadores from "../../public/assets/generador/generador-25kv.png";
 import carretillaelevadora from "../../public/assets/carretilla-elevadora/carret-2000-diesel.png";
-import excavadoras from "../../public/assets/excavadoras/excav-3500kg.png";
+import excavadoras from "../../public/assets/excavadoras/excav-1000kg.png";
 import './Home.scss';
 import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";

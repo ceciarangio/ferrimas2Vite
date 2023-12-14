@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
+import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import './Iluminacion.scss'; // Asegúrate de tener la ruta correcta
 
 const Iluminacion = () => {
   const [iluminacion, setIluminacion] = useState([]);
@@ -19,22 +21,23 @@ const Iluminacion = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Ilumianción</h2>
-      <ul>
+    <>
+      <HeaderGeneral />
+      <MenuTiendaD />
+      <div className="iluminacion-container">
+        <h2>Iluminación</h2>
         {iluminacion && iluminacion.length > 0 ? (
-            iluminacion.map((iluminaciones, index) => (
-            <li key={index}>
-             <h3> {iluminaciones.nombre}</h3>
-        <img src={iluminaciones.foto} alt="lala"/>
-            </li>
+          iluminacion.map((iluminaciones, index) => (
+            <div key={index}>
+              <p>{iluminaciones.nombre}</p>
+              <img src={iluminaciones.foto} alt="lala" />
+            </div>
           ))
         ) : (
           <p>Cargando iluminacion...</p>
         )}
-      </ul>
-
-    </div>
+      </div>
+    </>
   );
 };
 
