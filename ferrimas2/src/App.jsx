@@ -13,12 +13,15 @@ import Iluminacion from './Pages/Iluminacion/Iluminacion';
 import Aceites from './Pages/Aceites/Aceites';
 import Seguridad from './Pages/Seguridad/Seguridad';
 import Carteleria from './Pages/Carteleria/Carteleria';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n'; // Importa tu configuración de i18n
 
 
 function App() {
 
   return (
     <>
+    <I18nextProvider i18n={i18n}>
     <div className="App">
     <Router>
       <Routes>
@@ -39,6 +42,7 @@ function App() {
       </Routes>
     </Router>
     </div>
+    </I18nextProvider>
     
     </>
   )
