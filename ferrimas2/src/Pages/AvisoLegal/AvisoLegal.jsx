@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
+import Footer from "../../components/Footer/Footer";
+import './AvisoLegal.scss';
 
 export default function AvisoLegal(){
 
@@ -15,6 +17,7 @@ export default function AvisoLegal(){
 
     return <>
     <HeaderGeneral/>
+    <div className="avisoLegal">
     <div id="aviso-legal-top">
         <h2>Aviso Legal</h2>
         <p>Última modificación: 30 de Noviembre de 2023
@@ -30,9 +33,9 @@ Si en algún momento no acepta las condiciones, debe dejar de usar el sitio web.
     <p>Sitio web: Todas las características, contenidos y servicios ofrecidos a través de aplicaciones móviles/de escritorio y el sitio web ferrimas2.com o sitios afiliados.
 
 Usuario: Persona, dispositivo, servicio, API, aplicación, robot, alienígena o inteligencia artificial que accede al sitio web.</p>
-   <p>1. Aceptación de las Condiciones de Uso</p>
+    <p>1. Aceptación de las Condiciones de Uso</p>
 
-   <p>El usuario declara haber leído y aceptado las condiciones. Asegura tener la capacidad jurídica para formar parte del acuerdo, no utilizará derechos de forma ilícita y usará el servicio según lo descrito.</p>
+    <p>El usuario declara haber leído y aceptado las condiciones. Asegura tener la capacidad jurídica para formar parte del acuerdo, no utilizará derechos de forma ilícita y usará el servicio según lo descrito.</p>
     <p>2. Derechos de Autor</p>
 
     <p>El sitio web, incluyendo diseño, textos, logotipos, imágenes, código fuente, pertenece a Ferri Mas 2 S.L. No se puede usar sin permiso. Contenidos no originales indican la fuente y licencia original.</p>
@@ -48,9 +51,13 @@ Usuario: Persona, dispositivo, servicio, API, aplicación, robot, alienígena o 
     <p>6. Jurisdicción</p>
 
     <p>Las condiciones se rigen por las leyes del Reino de España. Cualquier acción legal se presentará en los tribunales de Alicante</p>
-   <p>7. Finalización</p>
+    <p>7. Finalización</p>
 
-   <p>Ambas partes pueden finalizar la relación por incumplimiento. En caso de incumplimiento, el usuario debe dejar de usar el servicio y destruir todo material obtenido del sitio web.</p>
+    <p>Ambas partes pueden finalizar la relación por incumplimiento. En caso de incumplimiento, el usuario debe dejar de usar el servicio y destruir todo material obtenido del sitio web.</p>
+    </div>
+    </div>
+    <div className="footer">
+        <Footer />
     </div>
     </>
 }
