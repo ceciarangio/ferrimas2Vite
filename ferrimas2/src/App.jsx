@@ -15,6 +15,7 @@ import Seguridad from './Pages/Seguridad/Seguridad';
 import Carteleria from './Pages/Carteleria/Carteleria';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n'; // Importa tu configuración de i18n
+
 import MenuMaquinaMobile from './components/MenuMaquinaMobile/MenuMaquinaMobile';
 
 function App() {
