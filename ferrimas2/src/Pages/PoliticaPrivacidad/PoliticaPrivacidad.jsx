@@ -1,9 +1,12 @@
+import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
+import './PoliticaPrivacidad.scss';
 
 export default function PoliticaPrivacidad() {
   return (
     <>
     <HeaderGeneral/>
+    <div className="politicaPrivacidad">
       <h1>POLÍTICA DE PRIVACIDAD DE FERRI MAS 2 S.L.</h1>
       <p>
         Fecha de última actualización: 30 de Noviembre de 2023 
@@ -78,6 +81,11 @@ export default function PoliticaPrivacidad() {
         Benifato nº 27, 03530 La Nucia (Alicante) Teléfonos: 966896113 o
         647834593. Email: ferrimas2@gmail.com </p>
         <p>Fecha de última actualización: 30 de Noviembre de 2023</p>
+
+      </div>
+      <div className="footer">
+          <Footer />
+        </div>
     </>
   );
 }
