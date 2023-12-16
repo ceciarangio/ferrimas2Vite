@@ -288,7 +288,58 @@ span{
 
 
 @media only screen and (max-width: 767px) {
+  .cejeMaquinaria__contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
 
+    
+
+    &__maquinariaCard{
+      display: flex;
+      justify-content: center;
+      width: 400px;
+      height: 400px;
+      flex-basis: calc(33.33% - 10px);
+      margin: 5px;
+      margin-bottom: 50px;
+
+      &__imageContainer{
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        &--img{
+          width: 350px;
+          height: 350px;
+
+        }
+        &--p{
+          text-align: center;
+          font-size: 1.5rem;
+          
+        }
+      }
+    }
+  }
+  .ceje-container__presupuesto--h2{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ceje-container__presupuesto__rentabilidad--p{
+    font-size: 1rem;
+    padding-bottom: 30px;
+  }
+  .botonPresupuesto{
+    font-size: 1.5rem;
+    background-color: #e6ebc7;
+    border: solid 1px black;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -431,6 +482,7 @@ span{
 
       &--p{
         font-size: 1.5rem;
+        padding-bottom: 30px;
       }
       
     }
