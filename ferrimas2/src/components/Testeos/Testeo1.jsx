@@ -49,6 +49,7 @@ export default function MenuTiendaD() {
                 <Link to='/maquinaria/dumper-2500'><p>Giratorio 2500Kg</p></Link>
                 <Link to='/maquinaria/dumper-3500'><p>Giratorio 3500Kg</p></Link>
                 <Link to='/maquinaria/dumper-6000'><p>Hidroestático 6000Kg</p></Link>
+                
               </div>
             )}
           </div>

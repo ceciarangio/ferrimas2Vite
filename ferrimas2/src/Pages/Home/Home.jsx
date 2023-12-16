@@ -9,15 +9,21 @@ import './Home.scss';
 import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
 import { useTranslation } from 'react-i18next';
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+
 
 
 export default function Home() {
   const { t } = useTranslation();
 
+  
+
 
     return <>
       <HeaderGeneral/>
-      
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
     <main>
       <div className="divTextoG">
         <div className="bordeSeparador">
