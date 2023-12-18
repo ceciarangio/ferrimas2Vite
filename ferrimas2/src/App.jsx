@@ -17,6 +17,15 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n'; // Importa tu configuración de i18n
 
 import MenuMaquinaMobile from './components/MenuMaquinaMobile/MenuMaquinaMobile';
+import Dumpers from './Pages/Dumpers/Dumpers';
+import GruposElectrogenos from './Pages/GruposElectrogenos/GruposElectrogenos';
+import MartillosElectricos from './Pages/MartillosElectricos/MartillosElectricos';
+import MaquinariaCorte from './Pages/MaquinariaCorte/MaquinariaCorte';
+import Compactadoras from './Pages/Compactadoras/Compactadoras';
+import Vallas from './Pages/Vallas/Vallas';
+import Excavadoras from './Pages/Excavadoras/Excavadoras';
+import PlataformasArticuladas from './Pages/PlataformasArticuladas/PlataformasArticuladas';
+import PlataformasTijera from './Pages/PlataformasTijera/PlataformasTijera';
 
 function App() {
 
@@ -41,6 +50,15 @@ function App() {
         <Route path='aceites' element={<Aceites/>}/>
         <Route path='elementos-seguridad' element={<Seguridad/>}/>
         <Route path='carteleria' element={<Carteleria/>}/>
+        <Route path='/maquinaria/dumpers' element={<Dumpers/>}/>
+        <Route path='/maquinaria/grupos-electrogenos' element={<GruposElectrogenos/>}/>
+        <Route path='/maquinaria/martillos-electricos' element={<MartillosElectricos/>}/>
+        <Route path='/maquinaria/maquinaria-corte' element={<MaquinariaCorte/>}/>
+        <Route path='/maquinaria/vallas' element={<Vallas/>}/>
+        <Route path='/maquinaria/compactadoras' element={<Compactadoras/>}/>
+        <Route path='/maquinaria/excavadoras' element={<Excavadoras/>}/>
+        <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
+        <Route path='/maquinaria/plataformas-tijera' element={<PlataformasTijera/>}/>
       </Routes>
     </Router>
     </div>
