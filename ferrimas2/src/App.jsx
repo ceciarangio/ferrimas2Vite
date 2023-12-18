@@ -26,6 +26,7 @@ import Vallas from './Pages/Vallas/Vallas';
 import Excavadoras from './Pages/Excavadoras/Excavadoras';
 import PlataformasArticuladas from './Pages/PlataformasArticuladas/PlataformasArticuladas';
 import PlataformasTijera from './Pages/PlataformasTijera/PlataformasTijera';
+import Ventajas from './Pages/Ventajas/Ventajas';
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
         <Route path='/maquinaria/excavadoras' element={<Excavadoras/>}/>
         <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
         <Route path='/maquinaria/plataformas-tijera' element={<PlataformasTijera/>}/>
+        <Route path='/ventajas' element={<Ventajas/>}/>
       </Routes>
     </Router>
     </div>
