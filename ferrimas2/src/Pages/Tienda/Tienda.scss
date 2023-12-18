@@ -1,12 +1,184 @@
-.ceje-Tienda{
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+.tienda-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 
-    &__Elementos{
+    
+  }
+  
+//   .botones-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     flex-wrap: wrap;
+//   }
+  
+  button {
+    background-color: #ffffff;
+    color: #94B318;
+    padding: 15px; /* Ajusta según tu preferencia */
+    width: 200px; /* Ajusta según tu preferencia */
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #728F30;
+  }
+  
 
+  @media screen and (max-width: 767px) {
+    .ceje-imgTienda{
+        display: none;
     }
-    &__Productos{
+    .tienda-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        
+        h2{
+            font-family: 'Manrope';
+            font-size: 50px;
+        }
+      }
+      
+      .botones-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      button {
+        background-color: #ffffff;
+        color: #94B318;
+        padding: 15px; /* Ajusta según tu preferencia */
+        width: 300px; /* Ajusta según tu preferencia */
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Manrope';
+      }
+      
+      button:hover {
+        background-color: #728F30;
+      }
 
+      .tienda-footer{
+        margin-top: 2vh;
+      }
+      
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ceje-imgTienda{
+        text-align: center;
+        width: 150px;
+        height: 150px; /* Ajusta la altura deseada */
+    object-fit: cover;
     }
+    .tienda-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        
+        h2{
+            font-family: 'Manrope';
+            font-size: 50px;
+        }
+      }
+      
+      .botones-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        gap: 20px; 
+        justify-content: center;
+      }
+      
+      button {
+        background-color: #ffffff;
+        color: #94B318;
+        padding: 15px; /* Ajusta según tu preferencia */
+        width: 300px; /* Ajusta según tu preferencia */
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Manrope';
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+      
+      button:hover {
+        background-color: #728F30;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+    .ceje-imgTienda{
+        text-align: center;
+        width: 250px;
+        height: 250px; /* Ajusta la altura deseada */
+    object-fit: cover;
+    }
+    .tienda-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        
+        h2{
+            font-family: 'Manrope';
+            font-size: 50px;
+        }
+      }
+      
+      .botones-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        gap: 20px; 
+        justify-content: center;
+      }
+      
+      button {
+        background-color: #ffffff;
+        color: #94B318;
+        padding: 15px; /* Ajusta según tu preferencia */
+        width: 300px; /* Ajusta según tu preferencia */
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Manrope';
+      }
+      
+      button:hover {
+        background-color: #728F30;
+      }
 }
