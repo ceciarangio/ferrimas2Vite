@@ -4,7 +4,7 @@ import './Tienda.scss';  // Importa tu archivo CSS si tienes estilos personaliza
 import discos from '../../public/assets/TiendaOk/Herramientas/discos.png';
 import ilum from '../../public/assets/TiendaOk/Iluminacion/valisas.png';
 import aceite from '../../public/assets/TiendaOk/aceites/aceite repsol.png';
-import capazoss from '../../public/assets/TiendaOk/capazos/capazo.png';
+import capazoss from '../../public/assets/TiendaOk/capazos/capazos-peque.png';
 import calzado from '../../public/assets/TiendaOk/Seguridad/calzado.png';
 import cartel from '../../public/assets/TiendaOk/Carteleria/prohibido-paso.png';
 import Footer from '../../components/Footer/Footer';
@@ -19,17 +19,17 @@ const Tienda = () => {
         <h2>TIENDA</h2>
         <div className="botones-container">
 
-          <button type='button'><img className='ceje-imgTienda' src={discos} alt='discos'/> HERRAMIENTAS</button>
+          <button className='button'><img className='ceje-imgTienda' src={discos} alt='discos'/> HERRAMIENTAS</button>
            
-          <button type='button'><img className='ceje-imgTienda' src={aceite} alt='aceite'/> ACEITES</button>
+          <button className='button'><img className='ceje-imgTienda' src={aceite} alt='aceite'/> ACEITES</button>
           
-          <button type='button'><img className='ceje-imgTienda' src={capazoss} alt='capazoss'/> CAPAZOS</button>
+          <button className='button'><img className='ceje-imgTienda' src={capazoss} alt='capazoss'/> CAPAZOS</button>
           
-          <button type='button'><img className='ceje-imgTienda' src={ilum} alt='ilum'/> ILUMINACION</button>
+          <button className='button'><img className='ceje-imgTienda' src={ilum} alt='ilum'/> ILUMINACION</button>
           
-          <button type='button'><img className='ceje-imgTienda' src={calzado} alt='calzado'/> SEGURIDAD</button>
+          <button className='button'><img className='ceje-imgTienda' src={calzado} alt='calzado'/> SEGURIDAD</button>
           
-          <button type='button'><img className='ceje-imgTienda' src={cartel} alt='cartel'/> CARTELERIA</button>
+          <button className='button'><img className='ceje-imgTienda' src={cartel} alt='cartel'/> CARTELERIA</button>
           
         </div>
       </div>

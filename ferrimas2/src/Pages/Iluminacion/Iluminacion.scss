@@ -1,44 +1,153 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
 .iluminacion-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 20px;
-    padding-top: 150px;
-    margin-right: 120px;
-  
-    h2 {
-      width: 80%; /* Ocupar todo el ancho disponible */
-      text-align: center; /* Alinear al centro */
-      margin-bottom: 20px; /* Espacio entre el h2 y las imágenes */
-    }
-  
-    div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: beige;
-      padding: 10px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      max-width: 300px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  
-    img {
-      width: 70%;
-      max-width: 100%;
-      height: auto;
-      object-fit: contain;
-      padding-top: 10px;
-      border-radius: 5px;
-    }
-  
-    p {
-      margin-top: 5px;
-      text-align: right;
-      font-size: 20px;
-      font-weight: bold;
+  padding-top: 80px;
+
+  h2{
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+.iluminacion-row {
+  display: grid;
+      grid-template-columns: repeat(3, 0.2fr);
+      justify-content: end;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.iluminacion {
+  cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+}
+
+.iluminacion:hover {
+  background-color: #728F30;
+}
+.iluminacion img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.iluminacion p {
+  margin-top: 5px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Manrope';
+}
+
+
+.last-row {
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+.iluminacion-container {
+    h2{
       text-align: center;
+      font-size: 50px;
     }
   }
   
+  .iluminacion-row {
+    display: grid;
+        grid-template-columns: repeat(3, 0.2fr);
+
+        justify-content: end;
+    text-align: center;
+  }
+  
+  
+  .iluminacion img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .footer-iluminacion{
+    position: relative;
+    margin-top: 150px
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .iluminacion-container {
+
+    h2{
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  .iluminacion-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 45px;
+  }
+  .iluminacion img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .footer-iluminacion{
+    margin-top: 100px;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .iluminacion-container {
+    margin-top: 25px;
+    padding-top: 90px;
+
+    h2{
+      text-align: center;
+      font-size: 50px;
+    }
+  }
+  
+  .iluminacion-row {
+    display: grid;
+    grid-template-columns: repeat(3, 0.4fr);
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 45px;
+  }
+  
+  
+  .iluminacion img {
+    width: 180px;
+  }
+
+  .iluminacion p {
+    font-size: 30px;
+  }
+
+  .footer-iluminacion{
+    margin-top: 250px;
+  }
+}

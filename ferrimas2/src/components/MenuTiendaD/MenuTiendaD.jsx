@@ -5,17 +5,19 @@ import "./MenuTiendaD.scss"; // Asegúrate de tener la ruta correcta
 export default function MenuTiendaD() {
   return (
     <>
-      <div className="vertical-navbar">
-        <h2>TIENDA</h2>
+      <div className="vertical-navbarTienda">
+        <h2 className="name-Tienda">TIENDA</h2>
 
         <a href="/herramientas">
-         <h3> HERRAMIENTAS en GENERAL</h3>
+         <h3 className="h3-MenuTiendad"> HERRAMIENTAS en GENERAL</h3>
+         <h3 className="h3-MenuTienda">HERRAMIENTAS</h3>
         </a>
         <a href="/carteleria">
           <h3>CARTELERIA</h3>
         </a>
         <a href="/elementos-seguridad">
-          <h3>ELEMENTOS DE SEGURIDAD</h3>
+          <h3 className="h3-MenuTiendad">ELEMENTOS DE SEGURIDAD</h3>
+          <h3 className="h3-MenuTienda">SEGURIDAD</h3>
         </a>
         <a href="/iluminacion">
           <h3>ILUMINACION</h3>

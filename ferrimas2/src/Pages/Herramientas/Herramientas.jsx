@@ -4,6 +4,7 @@ import axios from 'axios';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Herramientas.scss';
+import Footer from '../../components/Footer/Footer';
 
 const Herramientas = () => {
   const [herramientas, setHerramientas] = useState([]);
@@ -26,7 +27,7 @@ const Herramientas = () => {
       <HeaderGeneral />
       <MenuTiendaD />
       <div className="herramientas-container">
-
+        <h2>HERRAMIENTAS</h2>
         <div className="herramientas-row">
           {herramientas && herramientas.length > 0 ? (
             herramientas.map((herramienta, index) => (
@@ -40,6 +41,9 @@ const Herramientas = () => {
             <p>Cargando herramientas...</p>
           )}
         </div>
+      </div>
+      <div className="footer-herramientas">
+        <Footer/>
       </div>
     </>
   );

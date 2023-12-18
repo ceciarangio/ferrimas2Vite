@@ -4,6 +4,7 @@ import axios from 'axios';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Capazos.scss';
+import Footer from '../../components/Footer/Footer';
 
 const Herramientas = () => {
   const [capazos, setCapazos] = useState([]);
@@ -26,7 +27,7 @@ const Herramientas = () => {
       <HeaderGeneral />
       <MenuTiendaD />
       <div className="capazos-container">
-
+        <h2>Capazos</h2>
         <div className="capazos-row">
           {capazos && capazos.length > 0 ? (
             capazos.map((capazo, index) => (
@@ -40,6 +41,9 @@ const Herramientas = () => {
             <p>Cargando herramientas...</p>
           )}
         </div>
+      </div>
+      <div className='footer-capazos'>
+        <Footer/>
       </div>
     </>
   );

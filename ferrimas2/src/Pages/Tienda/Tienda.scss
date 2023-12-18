@@ -62,12 +62,12 @@
         flex-wrap: wrap;
       }
       
-      button {
+      .button {
         background-color: #ffffff;
         color: #94B318;
         padding: 15px; /* Ajusta según tu preferencia */
         width: 300px; /* Ajusta según tu preferencia */
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -76,7 +76,7 @@
         font-family: 'Manrope';
       }
       
-      button:hover {
+      .button:hover {
         background-color: #728F30;
       }
 
@@ -100,6 +100,7 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
+        margin-top: 20px;
         
         h2{
             font-family: 'Manrope';
@@ -109,7 +110,7 @@
       
       .botones-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        grid-template-columns: repeat(2, 1fr); /* Tres columnas */
         gap: 20px; 
         justify-content: center;
       }
@@ -133,6 +134,10 @@
       
       button:hover {
         background-color: #728F30;
+      }
+
+      .tienda-footer{
+        margin-top: 120px;
       }
 }
 
