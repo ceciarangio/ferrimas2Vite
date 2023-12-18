@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./Testeo1.scss";
+import "./MenuMaquinaria.scss";
 import HeaderGeneral from "../HeaderGeneral/HeaderGeneral";
 import { Link } from "react-router-dom";
 
-export default function MenuTiendaD() {
+export default function MenuMaquinaria() {
   const [menuItems, setMenuItems] = useState({
     dumpers: false,
     gruposElectrogenos: false,
@@ -53,7 +53,7 @@ export default function MenuTiendaD() {
             )}
           </div>
           <div className="menu-item">
-            <h4
+           <Link to='/maquinaria/grupos-electrogenos'> <h4
               className={`menu-header ${
                 menuItems.gruposElectrogenos ? "menu-header--open" : ""
               }`}
@@ -61,20 +61,20 @@ export default function MenuTiendaD() {
             >
               GRUPOS ELECTROGENOS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.gruposElectrogenos && (
               <div className="submenu">
-               <Link to='/maquinaria/generador-25kv'><p>Generador 25kv</p></Link> 
-               <Link to='/maquinaria/generador-ayerbe-1000'><p>Ayerbe 1000</p></Link> 
-               <Link to='maquinaria/generador-ayerbe-3800'><p>Ayerbe 3800kte</p></Link> 
-               <Link to='maquinaria/generador-ayerbe-5000'><p>Ayerbe 5000kt</p></Link> 
-               <Link to='maquinaria/generador-ayerbe-8000'><p>Ayerbe 8000</p></Link> 
+               <Link to='/maquinaria/grupos-electrogenos/generador-25kv'><p>Generador 25kv</p></Link> 
+               <Link to='/maquinaria/grupos-electrogenos/generador-ayerbe-1000'><p>Ayerbe 1000</p></Link> 
+               <Link to='maquinaria/grupos-electrogenos/generador-ayerbe-3800'><p>Ayerbe 3800kte</p></Link> 
+               <Link to='maquinaria/grupos-electrogenos/generador-ayerbe-5000'><p>Ayerbe 5000kt</p></Link> 
+               <Link to='maquinaria/grupos-electrogenos/generador-ayerbe-8000'><p>Ayerbe 8000</p></Link> 
 
               </div>
             )}
           </div>
           <div className="menu-item">
-            <h4
+            <Link to='/maquinaria/martillos-electricos'> <h4
               className={`menu-header ${
                 menuItems.martillosElectricos ? "menu-header--open" : ""
               }`}
@@ -82,20 +82,20 @@ export default function MenuTiendaD() {
             >
               MARTILLOS ELECTRICOS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.martillosElectricos && (
               <div className="submenu">
-               <Link to='/maquinaria/hilti-t100'> <p>Hilti t100 Demolición</p></Link>
-               <Link to='/maquinaria/hilti-t70'><p>Hilti te70 Perforación</p></Link>
-               <Link to='/maquinaria/hilti-t500'><p>Hilti t500</p></Link>
-               <Link to='/maquinaria/taladros'><p>Taladros</p></Link>
-               <Link to='/maquinaria/taladros-martillo'><p>Taladro Martillo</p></Link>
+               <Link to='/maquinaria/martillos-electricos/hilti-t100'> <p>Hilti t100 Demolición</p></Link>
+               <Link to='/maquinaria/martillos-electricos/hilti-t70'><p>Hilti te70 Perforación</p></Link>
+               <Link to='/maquinaria/martillos-electricos/hilti-t500'><p>Hilti t500</p></Link>
+               <Link to='/maquinaria/martillos-electricos/taladros'><p>Taladros</p></Link>
+               <Link to='/maquinaria/martillos-electricos/taladros-martillo'><p>Taladro Martillo</p></Link>
 
               </div>
             )}
           </div>
           <div className="menu-item">
-            <h4
+           <Link to='/maquinaria/maquinaria-corte'><h4
               className={`menu-header ${
                 menuItems.maquinariaCorte ? "menu-header--open" : ""
               }`}
@@ -103,25 +103,25 @@ export default function MenuTiendaD() {
             >
              MAQUINARIA DE CORTE
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.maquinariaCorte && (
               <div className="submenu">
-                <Link to='/maquinaria/cortadora-juntas-45'><p>Cortadora de Juntas 45d.</p></Link>
-                <Link to='/maquinaria/cortadora-juntas-35'><p>Cortadora de Juntas 35d.</p></Link>
-                <Link to='/maquinaria/rubi'><p>Rubi 0.60 / 1.20 m.</p></Link>
-                <Link to='/maquinaria/virutex'><p>Virutex (Corta Parqué)</p></Link>
-                <Link to='/maquinaria/corte-humedo'> <p>Mesa de Corte Húmedo</p></Link>
-                <Link to='/maquinaria/corte-seco'><p>Mesa de Corte Seco</p></Link>
-                <Link to='/maquinaria/sierra-circular'><p>Sierra Circular (madera)</p></Link>
-                <Link to='/maquinaria/radial-gasolina'><p>Radial Gasolina</p></Link>
-                <Link to='/maquinaria/radial-electrica-230'><p>Radial Eléctrica 230mm.</p></Link>
-                <Link to='/maquinaria/radial-electrica-115'><p>Radial Eléctrica 115mm.</p></Link>
+                <Link to='maquinaria/maquinaria-corte/cortadora-juntas-45'><p>Cortadora de Juntas 45d.</p></Link>
+                <Link to='maquinaria/maquinaria-corte/cortadora-juntas-35'><p>Cortadora de Juntas 35d.</p></Link>
+                <Link to='maquinaria/maquinaria-corte/rubi'><p>Rubi 0.60 / 1.20 m.</p></Link>
+                <Link to='maquinaria/maquinaria-corte/virutex'><p>Virutex (Corta Parqué)</p></Link>
+                <Link to='maquinaria/maquinaria-corte/corte-humedo'> <p>Mesa de Corte Húmedo</p></Link>
+                <Link to='maquinaria/maquinaria-corte/corte-seco'><p>Mesa de Corte Seco</p></Link>
+                <Link to='maquinaria/maquinaria-corte/sierra-circular'><p>Sierra Circular (madera)</p></Link>
+                <Link to='maquinaria/maquinaria-corte/radial-gasolina'><p>Radial Gasolina</p></Link>
+                <Link to='maquinaria/maquinaria-corte/radial-electrica-230'><p>Radial Eléctrica 230mm.</p></Link>
+                <Link to='maquinaria/maquinaria-corte/radial-electrica-115'><p>Radial Eléctrica 115mm.</p></Link>
 
               </div>
             )}
           </div>
           <div className="menu-item">
-            <h4
+           <Link to='/maquinaria/vallas'> <h4
               className={`menu-header ${
                 menuItems.vallas ? "menu-header--open" : ""
               }`}
@@ -129,7 +129,7 @@ export default function MenuTiendaD() {
             >
               VALLAS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.vallas && (
               <div className="submenu">
                 <Link to='/maquinaria/vallas-metalicas' ><p>Vallas Metálicas</p></Link>
@@ -156,7 +156,7 @@ export default function MenuTiendaD() {
             )}
           </div>
           <div className="menu-item">
-            <h4
+            <Link to='/maquinaria/compactadoras'><h4
               className={`menu-header ${
                 menuItems.compactadoras ? "menu-header--open" : ""
               }`}
@@ -164,7 +164,7 @@ export default function MenuTiendaD() {
             >
               COMPACTADORAS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.compactadoras && (
               <div className="submenu">
                 <Link to='/maquinaria/pison' ><p>Pisón</p></Link>
@@ -176,7 +176,7 @@ export default function MenuTiendaD() {
             )}
           </div>
           <div className="menu-item">
-            <h4
+           <Link to='/maquinaria/excavadoras'> <h4
               className={`menu-header ${
                 menuItems.excavadoras ? "menu-header--open" : ""
               }`}
@@ -184,7 +184,7 @@ export default function MenuTiendaD() {
             >
               EXCAVADORAS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.excavadoras && (
               <div className="submenu">
                <Link to='/maquinaria/mini-1'> <p>Minigiratoria 1 t</p></Link>
@@ -195,7 +195,7 @@ export default function MenuTiendaD() {
             )}
           </div>
           <div className="menu-item">
-            <h4
+           <Link to='/maquinaria/plataformas-articuladas'> <h4
               className={`menu-header ${
                 menuItems.plataformasArticuladas ? "menu-header--open" : ""
               }`}
@@ -203,7 +203,7 @@ export default function MenuTiendaD() {
             >
               PLATAFORMAS ARTICULADAS
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.plataformasArticuladas && (
               <div className="submenu">
               <Link to='/maquinaria/articulada-11'> <p>11 m. electrica</p></Link>
@@ -216,7 +216,7 @@ export default function MenuTiendaD() {
             )}
           </div>
           <div className="menu-item">
-            <h4
+          <Link to='/maquinaria/plataformas-tijera'> <h4
               className={`menu-header ${
                 menuItems.plataformasTijera ? "menu-header--open" : ""
               }`}
@@ -224,7 +224,7 @@ export default function MenuTiendaD() {
             >
               PLATAFORMAS DE TIJERA
               <span className="arrow-icon"></span>
-            </h4>
+            </h4></Link>
             {menuItems.plataformasTijera && (
               <div className="submenu">
                <Link to='/maquinaria/tijera-6'> <p>6 m. eléctrica</p></Link>
@@ -262,3 +262,4 @@ export default function MenuTiendaD() {
     </>
   );
 }
+
