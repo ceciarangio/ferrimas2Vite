@@ -3,9 +3,18 @@
     background-size: cover;
     background-position: bottom;
 }
+.ceje-contacto-form--h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.ceje-contacto-form--p{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2vh;
+}
 
 .ceje-contacto-form{
-    padding-top: 100px;
+    padding-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;

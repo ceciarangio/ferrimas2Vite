@@ -21,7 +21,8 @@ export default function HeaderGeneral(){
             <Link to={'/ventajas'} className="ceje-opcionesHeader--a--ventajas" >{t('translated-header-ventajas')}</Link>
             <a href="#" className="ceje-opcionesHeader--a">{t('translated-header-training')}</a>
             <a href="#" className="ceje-opcionesHeader--a">{t('translated-header-rental')}</a>
-            <a href="#" className="ceje-opcionesHeader--a--condiciones">{t('translated-header-rental-conditions')}</a>
+            <Link to={'/condiciones-alquiler'} className="ceje-opcionesHeader--a--condiciones" >
+            {t('translated-header-rental-conditions')}</Link>
             <a href="#" className="ceje-opcionesHeader--a--faq">{t('translated-header-faq')}</a>
             <a href="/contacto" className="ceje-opcionesHeader--a">{t('translated-header-contact')}</a>
         </div>
@@ -34,6 +35,7 @@ export default function HeaderGeneral(){
             <Hamburguesa/>
         </div>
     </header>
+    <div className="ceje-header-margInf"/>
     </>
 
 }

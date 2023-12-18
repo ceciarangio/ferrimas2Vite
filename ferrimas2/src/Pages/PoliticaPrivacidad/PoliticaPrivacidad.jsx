@@ -83,7 +83,7 @@ export default function PoliticaPrivacidad() {
         <p>Fecha de última actualización: 30 de Noviembre de 2023</p>
 
       </div>
-      <div className="footer">
+      <div className="politicaPrivacidad-footer">
           <Footer />
         </div>
     </>
