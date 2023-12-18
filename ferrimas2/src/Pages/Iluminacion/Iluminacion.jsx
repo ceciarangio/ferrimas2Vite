@@ -3,6 +3,7 @@ import axios from 'axios';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Iluminacion.scss'; // Asegúrate de tener la ruta correcta
+import Footer from '../../components/Footer/Footer';
 
 const Iluminacion = () => {
   const [iluminacion, setIluminacion] = useState([]);
@@ -26,9 +27,10 @@ const Iluminacion = () => {
       <MenuTiendaD />
       <div className="iluminacion-container">
         <h2>Iluminación</h2>
+        <div className='iluminacion-row'>
         {iluminacion && iluminacion.length > 0 ? (
           iluminacion.map((iluminaciones, index) => (
-            <div key={index}>
+            <div key={index} className='iluminacion'>
               <p>{iluminaciones.nombre}</p>
               <img src={iluminaciones.foto} alt="lala" />
             </div>
@@ -36,6 +38,10 @@ const Iluminacion = () => {
         ) : (
           <p>Cargando iluminacion...</p>
         )}
+        </div>
+      </div>
+      <div className="footer-iluminacion">
+        <Footer/>
       </div>
     </>
   );

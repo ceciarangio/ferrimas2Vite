@@ -4,6 +4,7 @@ import axios from 'axios';
 import './Carteleria.scss';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import Footer from '../../components/Footer/Footer';
 
 const Carteleria = () => {
   const [carteleria, setCarteleria] = useState([]);
@@ -51,6 +52,9 @@ const Carteleria = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className='footer-carteles'>
+        <Footer/>
       </div>
     </>
   );

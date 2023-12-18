@@ -1,37 +1,35 @@
-.capazos-container {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    padding-top: 150px;
-
-    margin-left: 350px;
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  }
   
+  .capazos-container {
+    padding-top: 50px;
+  
+    h2{
+      text-align: center;
+      font-size: 50px;
+    }
   }
   
   .capazos-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 20px;
-    width: 80%; /* Ajuste del ancho */
+    text-align: center;
     margin-top: 20px;
   }
   
   .capazo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: beige;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    max-width: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-right: 40px;
   }
   
+  .capazo:hover {
+    background-color: #728F30;
+  }
   .capazo img {
-    width: 90%;
-    max-width: 100%;
+    width: 150px;
     height: auto;
     object-fit: contain;
     padding-top: 10px;
@@ -44,13 +42,100 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Manrope';
   }
   
- 
+  
   .last-row {
     justify-content: space-between;
     gap: 20px;
   }
   
-
+  .footer-capazos{
+    position: relative;
+  }
   
+  
+  @media screen and (min-width: 1024px) {
+  .capazos-container {
+      h2{
+        text-align: center;
+        font-size: 50px;
+      }
+    }
+    
+    .capazos-row {
+      display: grid;
+          grid-template-columns: repeat(3, 0.2fr);
+  
+          justify-content: end;
+      text-align: center;
+    }
+    
+    
+    .capazo img {
+      width: 150px;
+      height: auto;
+      object-fit: contain;
+      padding-top: 10px;
+      border-radius: 5px;
+    }
+    .capazo h3 {
+        font-size: 30px;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .capazos-container {
+  
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+    .capazos-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .capazo img {
+      width: 90px;
+      height: auto;
+      object-fit: contain;
+      padding-top: 10px;
+      border-radius: 5px;
+    }
+  
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .capazos-container {
+      margin-top: 25px;
+  
+      h2{
+        text-align: center;
+        font-size: 50px;
+      }
+    }
+    
+    .capazos-row {
+      display: grid;
+      grid-template-columns: repeat(3, 0.4fr);
+      gap: 15px;
+      text-align: center;
+      align-items: center;
+      justify-items: center;
+      margin-left: 45px;
+    }
+    
+    
+    .capazo img {
+      width: 200px;
+      height: auto;
+    }
+  
+    .capazo p {
+      font-size: 35px;
+    }
+  }

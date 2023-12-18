@@ -4,6 +4,7 @@ import axios from 'axios';
 import './Seguridad.scss';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import Footer from '../../components/Footer/Footer';
 
 const Seguridad = () => {
   const [seguridad, setSeguridad] = useState([]);
@@ -38,7 +39,7 @@ const Seguridad = () => {
       <MenuTiendaD />
       <div>
         <div className="seguridad-container">
-          <h2>Carteles en general</h2>
+          <h2>Elementos de Seguridad</h2>
           {seguridadRows.map((row, rowIndex) => (
             <div key={rowIndex} className="seguridad-row">
               {row.map((seguridad, index) => (
@@ -51,6 +52,9 @@ const Seguridad = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className='footer-seguridad'>
+        <Footer/>
       </div>
     </>
   );
