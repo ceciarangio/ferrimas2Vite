@@ -23,6 +23,9 @@ export default function MenuTiendaD() {
         <a href="/aceites">
           <h3>ACEITES / LIMPIAPARABRISAS</h3>
         </a>
+        <a href="/capazos">
+          <h3>CAPAZOS</h3>
+        </a>
       </div>
     </>
   );

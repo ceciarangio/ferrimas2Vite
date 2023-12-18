@@ -13,6 +13,7 @@ import Iluminacion from './Pages/Iluminacion/Iluminacion';
 import Aceites from './Pages/Aceites/Aceites';
 import Seguridad from './Pages/Seguridad/Seguridad';
 import Carteleria from './Pages/Carteleria/Carteleria';
+import Capazos from './Pages/Capazos/Capazos';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n'; // Importa tu configuración de i18n
 
@@ -50,6 +51,7 @@ function App() {
         <Route path='aceites' element={<Aceites/>}/>
         <Route path='elementos-seguridad' element={<Seguridad/>}/>
         <Route path='carteleria' element={<Carteleria/>}/>
+        <Route path='/capazos' element={<Capazos/>}/>
         <Route path='/maquinaria/dumpers' element={<Dumpers/>}/>
         <Route path='/maquinaria/grupos-electrogenos' element={<GruposElectrogenos/>}/>
         <Route path='/maquinaria/martillos-electricos' element={<MartillosElectricos/>}/>
