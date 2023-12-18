@@ -30,19 +30,21 @@ export default function Contacto() {
   return (
     <>
       <HeaderGeneral />
-      <div>
-        <h3>Formulario de Contacto</h3>
-        <p>
-          Al completar este formulario de contacto, encontrarás soluciones para
-          cualquier pregunta o consulta relacionada con nuestros servicios.
-          Asimismo, podrás solicitar un presupuesto sin compromiso de manera
-          sencilla y rápida mediante este formulario. Nuestro equipo de atención
-          al cliente se encargará de proporcionarte una respuesta rápida en el
-          menor tiempo posible. Estamos aquí para ayudarte.
-        </p>
-      </div>
+
       <div className="ceje-bg">
+
         <form className="ceje-contacto-form" ref={form} onSubmit={sendEmail}>
+        <div>
+          <h3 className="ceje-contacto-form--h3">Formulario de Contacto</h3>
+          <p className="ceje-contacto-form--p">
+            Al completar este formulario de contacto, encontrarás soluciones para
+            cualquier pregunta o consulta relacionada con nuestros servicios.
+            Asimismo, podrás solicitar un presupuesto sin compromiso de manera
+            sencilla y rápida mediante este formulario. Nuestro equipo de atención
+            al cliente se encargará de proporcionarte una respuesta rápida en el
+            menor tiempo posible. Estamos aquí para ayudarte.
+          </p>
+        </div>
           <div className="ceje-contacto-form__container">
             <label className="ceje-contacto-form__container--label">
               Nombre o Empresa

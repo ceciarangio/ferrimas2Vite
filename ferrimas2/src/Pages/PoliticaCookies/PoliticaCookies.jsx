@@ -59,7 +59,7 @@ export default function PoliticaCookies(){
         Última Actualización: 30 de Noviembre de 2023.
       </p>
       </div>
-      <div className="footer">
+      <div className="politicaPrivacidad-footer">
         <Footer />
       </div>
     </>

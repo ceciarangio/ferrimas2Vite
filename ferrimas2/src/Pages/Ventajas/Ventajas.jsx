@@ -12,7 +12,7 @@ export default function Ventajas(){
 
     return <>
     <HeaderGeneral/>
-    <h1>Descubre las ventajas de alquilar con FerriMas2.</h1>
+    <h1 className='ceje-ventajas-h1'>Descubre las ventajas de alquilar con FerriMas2.</h1>
     <div className="ceje-ventajasContainer">
         <div className='ceje-ventajasContainer__ventajas'>
             <h2 className='ceje-ventajasContainer__ventajas--h2'>FLEXIBILIDAD DE ACTUALIZACIÓN</h2>

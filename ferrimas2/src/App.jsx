@@ -28,6 +28,7 @@ import Excavadoras from './Pages/Excavadoras/Excavadoras';
 import PlataformasArticuladas from './Pages/PlataformasArticuladas/PlataformasArticuladas';
 import PlataformasTijera from './Pages/PlataformasTijera/PlataformasTijera';
 import Ventajas from './Pages/Ventajas/Ventajas';
+import CondicionesAlquiler from './Pages/CondicionesAlquiler/CondicionesAlquiler';
 
 function App() {
 
@@ -63,6 +64,7 @@ function App() {
         <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
         <Route path='/maquinaria/plataformas-tijera' element={<PlataformasTijera/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
+        <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
       </Routes>
     </Router>
     </div>

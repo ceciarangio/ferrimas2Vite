@@ -56,7 +56,7 @@ Usuario: Persona, dispositivo, servicio, API, aplicación, robot, alienígena o 
     <p>Ambas partes pueden finalizar la relación por incumplimiento. En caso de incumplimiento, el usuario debe dejar de usar el servicio y destruir todo material obtenido del sitio web.</p>
     </div>
     </div>
-    <div className="footer">
+    <div className="politicaPrivacidad-footer">
         <Footer />
     </div>
     </>

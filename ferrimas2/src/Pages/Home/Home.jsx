@@ -26,9 +26,9 @@ export default function Home() {
       </div>
     <main>
       <div className="divTextoG">
-        <div className="bordeSeparador">
+        {/* <div className="bordeSeparador">
           <div className="bordeSeparador__separador"></div>
-        </div>
+        </div> */}
 
         <div className="divTextoG__container">
           <h2 className="divTextoG__container--h2 animate__animated animate__fadeInLeft">{t("translated-Home-exploraNuestraGama")}</h2>
