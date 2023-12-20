@@ -22,16 +22,6 @@ const Carteleria = () => {
     fetchData();
   }, []);
 
-  // Función para dividir los carteles en filas de 3
-  const chunkArray = (array, chunkSize) => {
-    const result = [];
-    for (let i = 0; i < array.length; i += chunkSize) {
-      result.push(array.slice(i, i + chunkSize));
-    }
-    return result;
-  };
-
-  const cartelesRows = chunkArray(carteleria, 3);
 
   return (
     <>
@@ -40,17 +30,16 @@ const Carteleria = () => {
       <div>
         <div className="carteleria-container">
           <h2>Carteles en general</h2>
-          {cartelesRows.map((row, rowIndex) => (
-            <div key={rowIndex} className="carteles-row">
-              {row.map((cartel, index) => (
+            <div className="carteles-row">
+              {carteleria.map((cartel, index) => (
                 <div key={index} className="cartel">
                 <p>{cartel.nombre}</p>
-                  <img src={cartel.foto} alt={cartel.nombre} />
+                  <img className='img-carteleria' src={cartel.foto} alt={cartel.nombre} />
                   
                 </div>
               ))}
             </div>
-          ))}
+          
         </div>
       </div>
       <div className='footer-carteles'>

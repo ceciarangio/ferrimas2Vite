@@ -1,45 +1,153 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
 .aceites-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 20px;
-    padding-top: 150px;
-    margin-right: 250px;
-  
-    h2 {
-      width: 90%; /* Ocupar todo el ancho disponible */
-      text-align: center; /* Alinear al centro */
-      margin-bottom: 20px;
-      margin-left: 550px; /* Espacio entre el h2 y las imágenes */
-    }
-    
-    div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: beige;
-      padding: 10px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      max-width: 300px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  
-    img {
-      width: 70%;
-      max-width: 100%;
-      height: auto;
-      object-fit: contain;
-      padding-top: 10px;
-      border-radius: 5px;
-    }
-  
-    p {
-      margin-top: 5px;
-      text-align: right;
-      font-size: 20px;
-      font-weight: bold;
+  padding-top: 80px;
+
+  h2{
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+.aceites-row {
+  display: grid;
+      grid-template-columns: repeat(3, 0.2fr);
+      justify-content: end;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aceites {
+  cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+}
+
+.aceites:hover {
+  background-color: #728F30;
+}
+.aceites img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.aceites p {
+  margin-top: 5px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Manrope';
+}
+
+
+.last-row {
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+.aceites-container {
+    h2{
       text-align: center;
+      font-size: 50px;
+      padding-left: 115px;
     }
   }
   
+  .aceites-row {
+    display: grid;
+        grid-template-columns: repeat(3, 0.2fr);
+
+        justify-content: end;
+    text-align: center;
+  }
+  
+  
+  .aceites img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .footer-aceites{
+    position: relative;
+    margin-top: 100px
+  }
+
+  .aceites p {
+    font-size: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .aceites-container {
+
+    h2{
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  .aceites-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 45px;
+  }
+  .aceites img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .aceites-container {
+    margin-top: 25px;
+    padding-top: 90px;
+
+    h2{
+      text-align: center;
+      font-size: 50px;
+    }
+  }
+  
+  .aceites-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    text-align: center;
+    margin-left: 45px;
+  }
+  
+  
+  .aceites img {
+    width: 180px;
+  }
+
+  .aceites p {
+    font-size: 30px;
+  }
+
+  .footer-aceites{
+    margin-top: 150px;
+  }
+}

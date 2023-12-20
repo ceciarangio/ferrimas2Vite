@@ -39,10 +39,10 @@ export default function Contacto() {
           <p className="ceje-contacto-form--p">
             Al completar este formulario de contacto, encontrarás soluciones para
             cualquier pregunta o consulta relacionada con nuestros servicios.
-            Asimismo, podrás solicitar un presupuesto sin compromiso de manera
-            sencilla y rápida mediante este formulario. Nuestro equipo de atención
-            al cliente se encargará de proporcionarte una respuesta rápida en el
-            menor tiempo posible. Estamos aquí para ayudarte.
+           <p> Asimismo, podrás solicitar un presupuesto sin compromiso de manera
+            sencilla y rápida mediante este formulario.</p>
+            <p>Nuestro equipo de atención al cliente se encargará de proporcionarte una respuesta rápida en el
+            menor tiempo posible. Estamos aquí para ayudarte.</p> 
           </p>
         </div>
           <div className="ceje-contacto-form__container">

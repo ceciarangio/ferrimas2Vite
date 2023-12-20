@@ -53,6 +53,7 @@
   
   .footer-capazos{
     position: relative;
+    margin-top: 100px;
   }
   
   
@@ -106,6 +107,11 @@
       object-fit: contain;
       padding-top: 10px;
       border-radius: 5px;
+    }
+
+    .footer-capazos{
+      position: relative;
+      margin-top: 30px;
     }
   
   }

@@ -29,6 +29,7 @@ import PlataformasArticuladas from './Pages/PlataformasArticuladas/PlataformasAr
 import PlataformasTijera from './Pages/PlataformasTijera/PlataformasTijera';
 import Ventajas from './Pages/Ventajas/Ventajas';
 import CondicionesAlquiler from './Pages/CondicionesAlquiler/CondicionesAlquiler';
+import Semaforos from './Pages/Semaforos/Semaforos';
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
         <Route path='/maquinaria/martillos-electricos' element={<MartillosElectricos/>}/>
         <Route path='/maquinaria/maquinaria-corte' element={<MaquinariaCorte/>}/>
         <Route path='/maquinaria/vallas' element={<Vallas/>}/>
+        <Route path='/maquinaria/senalizacion' element={<Semaforos/>}/>
         <Route path='/maquinaria/compactadoras' element={<Compactadoras/>}/>
         <Route path='/maquinaria/excavadoras' element={<Excavadoras/>}/>
         <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
