@@ -6,6 +6,7 @@ import dum2500 from "../../public/assets/Dumpers/dump-2500kg.png";
 import dump3500 from "../../public/assets/Dumpers/3500KG-dump.png";
 import dump6500 from "../../public/assets/Dumpers/dump-6000kg.png";
 import './Dumpers.scss';
+import Footer from "../../components/Footer/Footer";
 
 export default function Dumpers(){
 
@@ -38,6 +39,9 @@ export default function Dumpers(){
             <p>Hidroestático, 4x4 , con pala</p>
             <img src={dump6500} alt="dumper-6000"/>
         </div>
+        </div>
+        <div className="footer-dumpers">
+            <Footer/>
         </div>
     </>
 }

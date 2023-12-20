@@ -11,7 +11,7 @@
   justify-content: center;
   height: 60%;
   margin-left: 20px;
-  position: fixed;
+  position: absolute;
   background-color: #94B318;
   margin-top: 130px;
   width: 350px;
@@ -48,6 +48,7 @@
     background-color: #94B318;
     width: 100%;
     padding: 6px;
+    margin-top: 50px;
   
     a{
       text-decoration: none;
@@ -83,6 +84,8 @@
     background-color: #b7d347;
     width: 100%;
     padding: 6px;
+    margin-top: 50px;
+  
   
     a{
       text-decoration: none;
@@ -92,7 +95,7 @@
     }
   
     h2 {
-      margin-bottom: 20px; /* Ajusta según sea necesario */
+      margin-bottom: 20px; 
     }
   
     h3 {

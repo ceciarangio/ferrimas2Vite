@@ -7,7 +7,7 @@ import PoliticaCookies from './Pages/PoliticaCookies/PoliticaCookies';
 import AvisoLegal from './Pages/AvisoLegal/AvisoLegal';
 import Contacto from './components/Contacto/Contacto';
 import Tienda from './Pages/Tienda/Tienda';
-import Testeo1 from './components/Testeos/Testeo1';
+// import Testeo1 from './components/Testeos/Testeo1';
 import Herramientas from './Pages/Herramientas/Herramientas';
 import Iluminacion from './Pages/Iluminacion/Iluminacion';
 import Aceites from './Pages/Aceites/Aceites';
@@ -30,6 +30,8 @@ import PlataformasTijera from './Pages/PlataformasTijera/PlataformasTijera';
 import Ventajas from './Pages/Ventajas/Ventajas';
 import CondicionesAlquiler from './Pages/CondicionesAlquiler/CondicionesAlquiler';
 import Semaforos from './Pages/Semaforos/Semaforos';
+// import MenuMaquinaria from './components/MenuMaquinaria/MenuMaquinaria';
+import Maquinaria from './Pages/Maquinaria/Maquinaria';
 
 function App() {
 
@@ -47,7 +49,7 @@ function App() {
         <Route path='/politica-de-cookies' element={<PoliticaCookies/>}/>
         <Route path='/aviso-legal' element={<AvisoLegal/>}/>
         <Route path='/tienda' element={<Tienda/>}/>
-        <Route path='/testeo' element={<Testeo1/>}/>
+        <Route path='/maquinaria' element={<Maquinaria/>}/>
         <Route path='/maquinaria' element={<MenuMaquinaMobile/>}/>
         <Route path='/herramientas' element={<Herramientas/>}/>
         <Route path='iluminacion' element={<Iluminacion/>}/>

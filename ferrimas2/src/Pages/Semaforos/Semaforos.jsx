@@ -11,13 +11,15 @@ export default function PlataformasArticuladas(){
     return <>
         <HeaderGeneral/>
         <MenuMaquinaria/>
-        <div>
+        <div className="semaforos-container">
+        <div className="semaforos-individual">
             <h3>Semáforos</h3>
             <img src={semaforos} alt="semaforos"/>
         </div>
         <div>
             <h3>Señales de Obra</h3>
             <img src={senales} alt='señales obra'/>
+        </div>
         </div>
         <div>
             <Footer/>
