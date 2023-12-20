@@ -48,8 +48,20 @@ const resources = {
             "translated-Home-soluciones-adaptadas": '<span> Soluciones Adaptadas a tus Necesidades:</span><br></br> Proporcionamos soluciones personalizadas que se ajustan específicamente a los requisitos de cada cliente.',
             "translated-Home-atencion-cliente": '<span>Atención al cliente: </span><br></br>Nos esforzamos por ofrecer un servicio al cliente excepcional, asegurando una experiencia satisfactoria para cada uno de nuestros clientes.',
             "translated-Home-pide-presupuesto": '¡Pide ya tu presupuesto!',
-
             // fin traducciones Home
+            // Traducciones Condiciones Alquiler
+            "translated-CondicionesAlquiler-titular": "Condiciones de Alquiler FerriMas2",
+            "translated-CondicionesAlquiler-condicion1": "<span className='colorRed'>1. </span>El alquiler mínimo de cualquier máquina será de un (1) día, se facturará por días, incluyendo los fines de semana.",
+            "translated-CondicionesAlquiler-condicion2": "<span className='colorRed'>2. </span>Las averías derivadas por el mal manejo del arrendatario no están incluidas e irán a cargo del mismo.",
+            "translated-CondicionesAlquiler-condicion3": "<span className='colorRed'>3. </span>El arrendatario se compromete a hacer buen uso del material que se le entregue y a su conservación; si al retirar el material faltase alguina pieza o presente desperfectos, se obliga a satisfacer su importe al precio vigente.",
+            "translated-CondicionesAlquiler-condicion4": "<span className='colorRed'>4. </span>El transporte de la maquinaria alquilada no está incluido en el precio del alquiler de la misma.",
+            "translated-CondicionesAlquiler-condicion5": "<span className='colorRed'>5. </span>El alquiler empieza a devengarse en el momento en que la máquina es retirada.",
+            "translated-CondicionesAlquiler-condicion6": "<span className='colorRed'>6. </span>El combustible no está incluido en el precio del alquiler de las máquinas.",
+            "translated-CondicionesAlquiler-condicion7": "<span className='colorRed'>7. </span>La maquinaria de FerriMas2 está asegurada con responsabilidad civil, en ningún caso por robo o hurto.",
+            "translated-CondicionesAlquiler-condicion8": "<span className='colorRed'>8. </span>En caso de robo o hurto de la máquina arrendada al arrendatario mientras este la tenga alquilada, este último abonará a FerriMas2 la maquinaria a precio vigente. Para tales casos, el arrendador queda facultado para expedir, a cargo de la arrendataria, la correpondiente factura comprensiva del precio de los materiales perdidos.",
+            "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>En el caso de que el arrendatario no devolviese la máquina, FerriMas2, S.L. presentará la correspondiente denuncia por robo contra el arrendatario.",
+            "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>Para alquilar cualquier máquina, se tendrás que depositar una fianza. La cantidad quedará estipulada por la empresa, en relación al valor de la misma.",
+            // Fin traduccion Condiciones alquiler
 
             
             
@@ -97,6 +109,21 @@ const resources = {
             "translated-Home-atencion-cliente": '<span>Customer Service: </span><br></br>We strive to provide exceptional customer service, ensuring a satisfactory experience for each of our clients.',
             "translated-Home-pide-presupuesto": 'Get your quote now!',
             // fin traducciones Home
+
+            // Traducciones Condiciones Alquiler
+            "translated-CondicionesAlquiler-titular": "Rental Conditions FerriMas2",
+            "translated-CondicionesAlquiler-condicion1": `<span className='colorRed'>1. </span>The minimum rental period for any machine will be one (1) day, billed on a daily basis, including weekends.`,
+            "translated-CondicionesAlquiler-condicion2": 
+            `<span className='colorRed'>2. </span>Breakdowns resulting from improper handling by the lessee are not included and will be the lessee's responsibility.`,
+            "translated-CondicionesAlquiler-condicion3": "<span className='colorRed'>3. </span>The lessee undertakes to make proper use of the equipment delivered and to ensure its conservation. If any piece is missing or if there is any damage upon return, the lessee agrees to pay for its replacement at the current price.",
+            "translated-CondicionesAlquiler-condicion4": "<span className='colorRed'>4. </span>The transportation of the rented machinery is not included in the rental price.",
+            "translated-CondicionesAlquiler-condicion5": "<span className='colorRed'>5. </span>Rental charges begin to accrue from the moment the machine is removed.",
+            "translated-CondicionesAlquiler-condicion6": "<span className='colorRed'>6. </span>Fuel is not included in the rental price of the machines.",
+            "translated-CondicionesAlquiler-condicion7": "<span className='colorRed'>7. </span>FerriMas2's machinery is insured for civil liability, but not in any case for theft.",
+            "translated-CondicionesAlquiler-condicion8": "<span className='colorRed'>8. </span>In case of theft of the rented machine while in the lessee's possession, the lessee will pay FerriMas2 the current price of the machinery. In such cases, the lessor is authorized to issue, at the expense of the lessee, the corresponding invoice including the price of the lost materials.",
+            "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>In case that the lessee fails to return the machine, FerriMas2, S.L. will file the corresponding theft report against the lessee.",
+            "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>To rent any machine, a security deposit must be paid. The amount will be determined by the company, in relation to the value of the machine.",
+            // Fin traduccion Condiciones alquiler
         }
     },
     val: {
@@ -142,6 +169,20 @@ const resources = {
             "translated-Home-atencion-cliente": '<span>Atenció al client: </span><br></br>Ens esforcem per a oferir un servei al client excepcional, assegurant una experiència satisfactòria per a cadascun dels nostres clients.',
             "translated-Home-pide-presupuesto": 'Demana ja el teu pressupost!',
             // fin traducciones Home
+
+            // Traducciones Condiciones Alquiler
+            "translated-CondicionesAlquiler-titular": "Condicions de Lloguer FerriMas2",
+            "translated-CondicionesAlquiler-condicion1": "<span className='colorRed'>1. </span>El lloguer mínim de qualsevol màquina serà d'un (1) dia, facturat per dies, incloent els caps de setmana.",
+            "translated-CondicionesAlquiler-condicion2": "<span className='colorRed'>2. </span>Les avaries derivades del mal ús per part del llogater no estan incloses i aniran a càrrec del mateix.",
+            "translated-CondicionesAlquiler-condicion3": "<span className='colorRed'>3. </span>El llogater es compromet a fer un bon ús del material que se li entrega i a conservar-lo; si en retirar el material faltara alguna peça o presentara desperfectes, es compromet a satisfer el seu import al preu vigent.",
+            "translated-CondicionesAlquiler-condicion4": "<span className='colorRed'>4. </span>El transport de la maquinària llogada no està inclòs en el preu del lloguer de la mateixa.",
+            "translated-CondicionesAlquiler-condicion5": "<span className='colorRed'>5. </span>El lloguer comença a devengar-se en el moment en què la màquina és retirada.",
+            "translated-CondicionesAlquiler-condicion6": "<span className='colorRed'>6. </span>El combustible no està inclòs en el preu del lloguer de les màquines.",
+            "translated-CondicionesAlquiler-condicion7": "<span className='colorRed'>7. </span>La maquinària de FerriMas2 està assegurada amb responsabilitat civil, en cap cas per robatori o furt.",
+            "translated-CondicionesAlquiler-condicion8": "<span className='colorRed'>8. </span>En cas de robatori de la màquina llogada mentre estigui en possessió del llogater, aquest últim abonarà a FerriMas2 la maquinària al preu vigent. Per a aquests casos, el llogater queda facultat per a expedir, a càrrec del llogater, la corresponent factura comprensiva del preu dels materials perduts.",
+            "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>En el cas que el llogater no tornara la màquina, FerriMas2, S.L. presentarà la corresponent denúncia per robatori contra el llogater.",
+            "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>Per llogar qualsevol màquina, caldrà dipositar una fiança. La quantitat serà estipulada per l'empresa, en relació amb el valor de la mateixa.",
+            // Fin traduccion Condiciones alquiler
         }
     }
 
