@@ -1,65 +1,65 @@
 
-.container {
-    display: flex;
-    margin-top: 80px;
-  }
+// .container {
+//     display: flex;
+//     margin-top: 80px;
+//   }
   
-  .vertical-navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #78ebbf;
-    width: 300px;
-    padding: 10px;
-    position: fixed;
-    height: 85vh; 
-    overflow-y: auto; 
-  }
+//   .vertical-navbar {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     background-color: #78ebbf;
+//     width: 300px;
+//     padding: 10px;
+//     position: fixed;
+//     height: 85vh; 
+//     overflow-y: auto; 
+//   }
   
-  .menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+//   .menu-list {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//   }
   
-  .menu-item {
-    margin-bottom: 10px;
-  }
+//   .menu-item {
+//     margin-bottom: 10px;
+//   }
   
-  .menu-header {
-    color: #ecf0f1;
-    cursor: pointer;
-    position: relative;
-    transition: background-color 0.3s;
+//   .menu-header {
+//     color: #ecf0f1;
+//     cursor: pointer;
+//     position: relative;
+//     transition: background-color 0.3s;
   
-    &:hover {
-      background-color: #9ac0e6;
-    }
+//     &:hover {
+//       background-color: #9ac0e6;
+//     }
   
-    .arrow-icon {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+//     .arrow-icon {
+//       position: absolute;
+//       right: 10px;
+//       top: 50%;
+//       transform: translateY(-50%);
+//     }
   
-    &--open {
-      background-color: #b2ceeb;
-    }
+//     &--open {
+//       background-color: #b2ceeb;
+//     }
   
-    .submenu {
-      padding: 0;
-      margin: 0;
-      display: none;
+//     .submenu {
+//       padding: 0;
+//       margin: 0;
+//       display: none;
   
-      p {
-        padding: 8px;
-        color: #ecf0f1;
-        transition: background-color 0.3s;
+//       p {
+//         padding: 8px;
+//         color: #ecf0f1;
+//         transition: background-color 0.3s;
   
-        &:hover {
-          background-color: #7491ad;
-        }
-      }
-    }
-  }
+//         &:hover {
+//           background-color: #7491ad;
+//         }
+//       }
+//     }
+//   }

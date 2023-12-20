@@ -3,7 +3,7 @@
     src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
 }
 
-.tienda-container {
+.maquinaria-container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -14,14 +14,14 @@
     
   }
   
-//   .botones-container {
+//   .botonesmaq-container {
 //     display: flex;
 //     flex-direction: column;
 //     align-items: center;
 //     flex-wrap: wrap;
 //   }
   
-  button {
+  .buttonMaqui {
     background-color: #ffffff;
     color: #94B318;
     padding: 15px; /* Ajusta según tu preferencia */
@@ -32,23 +32,17 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .buttonMaqui:hover {
     background-color: #728F30;
   }
   
 
   @media screen and (max-width: 767px) {
-    .ceje-imgTienda{
+    .ceje-imgMaquinaria{
         display: none;
     }
-    .tienda-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        margin-top: 60px;
+    .maquinaria-container {
+        display: none;
         
         h2{
             font-family: 'Manrope';
@@ -56,52 +50,39 @@
         }
       }
       
-      .botones-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
+      .botonesmaq-container {
+        display: none;
       }
       
-      .button {
-        background-color: #ffffff;
-        color: #94B318;
-        padding: 15px; /* Ajusta según tu preferencia */
-        width: 300px; /* Ajusta según tu preferencia */
-        margin-bottom: 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1.5em;
-        font-weight: 700;
-        font-family: 'Manrope';
+      .buttonMaqui {
+        display: none;
       }
       
-      .button:hover {
-        background-color: #728F30;
+      .buttonMaqui:hover {
+        display: none;;
       }
 
-      .tienda-footer{
+      .maquinaria-footer{
         margin-top: 2vh;
       }
       
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .ceje-imgTienda{
+    .ceje-imgMaquinaria{
         text-align: center;
-        width: 150px;
-        height: 150px; /* Ajusta la altura deseada */
+        width: 180px;
+        height: 180px; /* Ajusta la altura deseada */
     object-fit: cover;
     }
-    .tienda-container {
+    .maquinaria-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: center;
+        align-content: flex-end;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 30px;
         
         h2{
             font-family: 'Manrope';
@@ -109,14 +90,14 @@
         }
       }
       
-      .botones-container {
+      .botonesmaq-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Tres columnas */
         gap: 20px; 
         justify-content: center;
       }
       
-      button {
+      .buttonMaqui {
         background-color: #ffffff;
         color: #94B318;
         padding: 15px; /* Ajusta según tu preferencia */
@@ -133,29 +114,30 @@
     align-items: center;
       }
       
-      button:hover {
+      .buttonMaqui:hover {
         background-color: #728F30;
       }
 
-      .tienda-footer{
+      .maquinaria-footer{
         margin-top: 120px;
       }
 }
 
 @media screen and (min-width: 1024px) {
-    .ceje-imgTienda{
+    .ceje-imgMaquinaria{
         text-align: center;
-        width: 250px;
-        height: 250px; /* Ajusta la altura deseada */
+        width: 180px;
+        height: 180px; /* Ajusta la altura deseada */
     object-fit: cover;
     }
-    .tienda-container {
+    .maquinaria-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: center;
+        align-content: flex-end;
         justify-content: center;
+        gap: 20px;
         
         h2{
             font-family: 'Manrope';
@@ -163,16 +145,16 @@
         }
       }
       
-      .botones-container {
+      .botonesmaq-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Tres columnas */
-        gap: 20px; 
         justify-content: center;
+        row-gap: 70px;
       }
       
-      button {
+      .buttonMaqui {
         background-color: #ffffff;
-        color: #94B318;
+        color: #809b15;
         padding: 15px; /* Ajusta según tu preferencia */
         width: 300px; /* Ajusta según tu preferencia */
         margin-bottom: 10px;
@@ -184,7 +166,7 @@
         font-family: 'Manrope';
       }
       
-      button:hover {
-        background-color: #728F30;
+      .buttonMaqui:hover {
+        background-color: #A2C31E;
       }
 }
