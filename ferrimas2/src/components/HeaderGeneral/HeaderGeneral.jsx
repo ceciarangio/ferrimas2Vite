@@ -16,7 +16,7 @@ export default function HeaderGeneral(){
     <Link to={'/'}><img src={logo} className="logoFerrimas2" alt="logo" /></Link>
     <div className="ceje-header__language-menu-container">
         <div className="ceje-opcionesHeader">
-            <a href="#" className="ceje-opcionesHeader--a">{t('translated-header-shop')}</a>
+            <a href="/tienda" className="ceje-opcionesHeader--a">{t('translated-header-shop')}</a>
             <a href="#" className="ceje-opcionesHeader--a--aboutUs">{t('translated-header-aboutUs')}</a>
             <Link to={'/ventajas'} className="ceje-opcionesHeader--a--ventajas" >{t('translated-header-ventajas')}</Link>
             <a href="#" className="ceje-opcionesHeader--a">{t('translated-header-training')}</a>

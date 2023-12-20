@@ -32,7 +32,7 @@
 .cartel:hover {
   background-color: #728F30;
 }
-.cartel img {
+.img-carteleria {
   width: 150px;
   height: auto;
   object-fit: contain;
@@ -128,17 +128,18 @@
   
   .carteles-row {
     display: grid;
-    grid-template-columns: repeat(3, 0.4fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     text-align: center;
-    align-items: center;
-    justify-items: center;
-    margin-left: 45px;
   }
   
   
-  .cartel img {
-    width: 180px;
+  .img-carteleria {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
   }
 
   .cartel p {

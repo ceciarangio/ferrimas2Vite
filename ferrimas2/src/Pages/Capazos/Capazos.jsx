@@ -34,7 +34,7 @@ const Herramientas = () => {
               <div key={index} className="capazo">
                 <h3>{capazo.nombre}</h3>
                 <img src={capazo.foto} alt={capazo.nombre} />
-                <p>{/* Agrega aquí cualquier información adicional que desees mostrar */}</p>
+                
               </div>
             ))
           ) : (

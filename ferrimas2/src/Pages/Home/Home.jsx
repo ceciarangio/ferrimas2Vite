@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import dumper from "../../public/assets/Dumpers/dump-2000kg.png";
 import plataftijera from "../../public/assets/plataformas-elevadoras-tijera/tijera-12m-elec.png";
-import vallas from "../../public/assets/vallas/valla-peatonal.png";
+import maquinageneral from "../../public/assets/todo-maquinas.png";
 import generadores from "../../public/assets/generador/generador-25kv.png";
 import carretillaelevadora from "../../public/assets/carretilla-elevadora/carret-2000-diesel.png";
 import excavadoras from "../../public/assets/excavadoras/excav-1000kg.png";
@@ -85,10 +85,10 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/vallas" className="linkWithoutDecoration">
+          <Link to="/excavadoras" className="linkWithoutDecoration">
 
-            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={vallas} alt="valla peatonal" />
-            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-vallas")}</p>
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={excavadoras} alt="excavadoras" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
           </Link>
 
           </div>
@@ -115,9 +115,9 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/excavadoras" className="linkWithoutDecoration">
+          <Link to="/maquinaria" className="linkWithoutDecoration">
 
-            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={excavadoras} alt="excavadoras" />
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={maquinageneral} alt="maquinaria general" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
           </Link>
 

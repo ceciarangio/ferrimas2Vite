@@ -8,6 +8,7 @@ import capazoss from '../../public/assets/TiendaOk/capazos/capazos-peque.png';
 import calzado from '../../public/assets/TiendaOk/Seguridad/calzado.png';
 import cartel from '../../public/assets/TiendaOk/Carteleria/prohibido-paso.png';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 const Tienda = () => {
@@ -19,17 +20,17 @@ const Tienda = () => {
         <h2>TIENDA</h2>
         <div className="botones-container">
 
-          <button className='button'><img className='ceje-imgTienda' src={discos} alt='discos'/> HERRAMIENTAS</button>
+          <Link to='/herramientas'><button className='button'><img className='ceje-imgTienda' src={discos} alt='discos'/> HERRAMIENTAS</button></Link>
            
-          <button className='button'><img className='ceje-imgTienda' src={aceite} alt='aceite'/> ACEITES</button>
+          <Link to='/aceites'><button className='button'><img className='ceje-imgTienda' src={aceite} alt='aceite'/> ACEITES</button></Link>
           
-          <button className='button'><img className='ceje-imgTienda' src={capazoss} alt='capazoss'/> CAPAZOS</button>
+          <Link to='/capazos'><button className='button'><img className='ceje-imgTienda' src={capazoss} alt='capazoss'/> CAPAZOS</button></Link>
           
-          <button className='button'><img className='ceje-imgTienda' src={ilum} alt='ilum'/> ILUMINACION</button>
+          <Link to='/iluminacion'><button className='button'><img className='ceje-imgTienda' src={ilum} alt='ilum'/> ILUMINACION</button></Link>
           
-          <button className='button'><img className='ceje-imgTienda' src={calzado} alt='calzado'/> SEGURIDAD</button>
+          <Link to='/elementos-seguridad'> <button className='button'><img className='ceje-imgTienda' src={calzado} alt='calzado'/> SEGURIDAD</button></Link>
           
-          <button className='button'><img className='ceje-imgTienda' src={cartel} alt='cartel'/> CARTELERIA</button>
+          <Link to='/carteleria'> <button className='button'><img className='ceje-imgTienda' src={cartel} alt='cartel'/> CARTELERIA</button></Link>
           
         </div>
       </div>

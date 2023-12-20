@@ -32,12 +32,12 @@ export default function Hamburguesa() {
             </div>
             <Link to={'/testeo'}><p className="haMenu--a">Tienda</p></Link>
             <p className="haMenu--a">Sobre nosotros</p>
-            <p className="haMenu--a">Nuestras ventajas</p>
+            <Link to='/ventajas'><p className="haMenu--a">Nuestras ventajas</p></Link>
             <p className="haMenu--a">Formación</p>
             <p className="haMenu--a">Alquiler de maquinaria</p>
-            <p className="haMenu--a">Condiciones de alquiler</p>
+            <Link to='/condiciones-alquiler'><p className="haMenu--a">Condiciones de alquiler</p></Link>
             <p className="haMenu--a">Preguntas frecuentes (F.A.Q.)</p>
-            <p className="haMenu--a">Contacto</p>
+            <Link to='/contacto'><p className="haMenu--a">Contacto</p></Link>
         </div>}
 
         <div className="Hamburguesa">
