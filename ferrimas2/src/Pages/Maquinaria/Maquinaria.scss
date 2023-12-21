@@ -93,15 +93,15 @@
       .botonesmaq-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Tres columnas */
-        gap: 20px; 
+
         justify-content: center;
       }
       
       .buttonMaqui {
         background-color: #ffffff;
         color: #94B318;
-        padding: 15px; /* Ajusta según tu preferencia */
-        width: 300px; /* Ajusta según tu preferencia */
+        padding: 15px; 
+        width: 250px; 
         margin-bottom: 10px;
         border: none;
         border-radius: 5px;
