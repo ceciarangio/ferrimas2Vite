@@ -234,17 +234,17 @@ export default function MenuMaquinaria() {
     </div>
   )}
 </div>
-          <div className="menu-item">
-            <h4
-              className={`menu-header ${
-                menuItems.carretillasElevadoras ? "menu-header--open" : ""
-              }`}
-              onClick={() => toggleMenu("carretillasElevadoras")}
-            >
-              CARRETILLAS ELEVADORAS
-              <span className="arrow-icon"></span>
-            </h4>
-            {menuItems.carretillasElevadoras && (
+                 <div className="menu-item">
+  <Link to='/maquinaria/limpieza'>
+    <h4
+      className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
+      onClick={() => toggleMenu("plataformasTijera")}
+    >
+      LIMPIEZA{' '}
+      <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
+    </h4>
+  </Link>
+            {/* {menuItems.carretillasElevadoras && (
               <div className="submenu">
                 <Link className='a-none' to='/maquinaria/carretillaelev-1500e'><p>1500kg eléctrica</p></Link>
                 <Link className='a-none' to='/maquinaria/carretillaelev-1500d'><p>1500kg diesel</p></Link>
@@ -252,7 +252,7 @@ export default function MenuMaquinaria() {
                 <Link className='a-none' to='/maquinaria/carretillaelev-2000'><p>2000kg 4x4</p></Link>
                 <Link className='a-none' to='/maquinaria/carretillaelev-2500'> <p>2500kg</p></Link>
               </div>
-            )}
+            )} */}
           </div>
           <div className="menu-item">
             <h4
