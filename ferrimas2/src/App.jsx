@@ -32,6 +32,7 @@ import CondicionesAlquiler from './Pages/CondicionesAlquiler/CondicionesAlquiler
 import Semaforos from './Pages/Semaforos/Semaforos';
 // import MenuMaquinaria from './components/MenuMaquinaria/MenuMaquinaria';
 import Maquinaria from './Pages/Maquinaria/Maquinaria';
+import Limpieza from './Pages/Limpieza/Limpieza';
 
 function App() {
 
@@ -67,6 +68,7 @@ function App() {
         <Route path='/maquinaria/excavadoras' element={<Excavadoras/>}/>
         <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
         <Route path='/maquinaria/plataformas-tijera' element={<PlataformasTijera/>}/>
+        <Route path='/maquinaria/limpieza' element={<Limpieza/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
         <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
       </Routes>
