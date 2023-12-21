@@ -62,7 +62,27 @@ const resources = {
             "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>En el caso de que el arrendatario no devolviese la máquina, FerriMas2, S.L. presentará la correspondiente denuncia por robo contra el arrendatario.",
             "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>Para alquilar cualquier máquina, se tendrás que depositar una fianza. La cantidad quedará estipulada por la empresa, en relación al valor de la misma.",
             // Fin traduccion Condiciones alquiler
+            // Inicio traducción ventajas
+            "translated-ventajas-titular": "Descubre las ventajas de alquilar con FerriMas2.",
+            "translated-ventajas-titulo1": "FLEXIBILIDAD DE ACTUALIZACIÓN",
+            "translated-ventajas-texto1": "La opción de alquiler permite a su empresa adaptarse rápidamente a las últimas tecnologías y modelos, sin quedar atrapada con equipos obsoletos.",
+            "translated-ventajas-titulo2": "GESTIÓN AMBIENTAL",
+            "translated-ventajas-texto2": "Contribuye a la sostenibilidad al reducir la producción de residuos asociada con la obsolescencia de equipos y fomenta la reutilización.",
+            "translated-ventajas-titulo3": "LIBERACIÓN DE CAPITAL",
+            "translated-ventajas-texto3": "Al no inmovilizar recursos financieros en la compra de maquinaria, se libera capital que puede destinarse a otras áreas estratégicas del negocio.",
+            "translated-ventajas-titulo4": "SERVICIO TÉCNICO INCLUIDO",
+            "translated-ventajas-texto4": "Muchas empresas de alquiler ofrecen servicios técnicos especializados, lo que garantiza un mantenimiento adecuado y reduce el tiempo de inactividad.",
+            "translated-ventajas-titulo5": "RENTABILIDAD A CORTO PLAZO",
+            "translated-ventajas-texto5": "El alquiler permite a las empresas beneficiarse de la maquinaria sin compromisos financieros a largo plazo, lo que puede ser especialmente ventajoso en proyectos temporales.",
+            "translated-ventajas-titulo6": "ASESORAMIENTO PROFESIONAL",
+            "translated-ventajas-texto6": "Alquilando, se puede obtener asesoramiento de expertos en la selección de equipos que se ajusten específicamente a las necesidades de cada proyecto.",
+            "translated-ventajas-titulo7": "LIBERTAD GEOGRÁFICA",
+            "translated-ventajas-texto7": "Facilita la movilidad de la maquinaria según las necesidades de los proyectos, sin estar limitado a un solo lugar de operación.",
+            "translated-ventajas-titulo8": "RESPONSABILIDAD DEL PROVEEDOR",
+            "translated-ventajas-texto8": "Los costes asociados con problemas técnicos o de mantenimiento recaen en el proveedor de alquiler, aliviando a la empresa de estas responsabilidades.",
 
+
+            // Fin traducción ventajas
             
             
         }
@@ -124,6 +144,26 @@ const resources = {
             "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>In case that the lessee fails to return the machine, FerriMas2, S.L. will file the corresponding theft report against the lessee.",
             "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>To rent any machine, a security deposit must be paid. The amount will be determined by the company, in relation to the value of the machine.",
             // Fin traduccion Condiciones alquiler
+            // Inicio traducción ventajas
+            "translated-ventajas-titular": "Discover the advantages of renting with FerriMas2.",
+            "translated-ventajas-titulo1": "FLEXIBILITY OF UPGRADING",
+            "translated-ventajas-texto1": "The rental option allows your company to quickly adapt to the latest technologies and models, avoiding being stuck with outdated equipment.",
+            "translated-ventajas-titulo2": "ENVIRONMENTAL MANAGEMENT",
+            "translated-ventajas-texto2": "Contributes to sustainability by reducing waste production associated with equipment obsolescence and promoting reuse.",
+            "translated-ventajas-titulo3": "CAPITAL RELEASE",
+            "translated-ventajas-texto3": "By not tying up financial resources in machinery purchases, capital is freed up for allocation to other strategic areas of the business.",
+            "translated-ventajas-titulo4": "INCLUDED TECHNICAL SERVICE",
+            "translated-ventajas-texto4": "Many rental companies provide specialized technical services, ensuring proper maintenance and minimizing downtime.",
+            "translated-ventajas-titulo5": "SHORT-TERM PROFITABILITY",
+            "translated-ventajas-texto5": "Renting allows companies to benefit from machinery without long-term financial commitments, which can be especially advantageous for temporary projects.",
+            "translated-ventajas-titulo6": "PROFESSIONAL ADVICE",
+            "translated-ventajas-texto6": "Through renting, expert advice on equipment selection tailored to the specific needs of each project can be obtained.",
+            "translated-ventajas-titulo7": "GEOGRAPHICAL FREEDOM",
+            "translated-ventajas-texto7": "Facilitates machinery mobility based on project needs, without being restricted to a single operating location.",
+            "translated-ventajas-titulo8": "SUPPLIER RESPONSIBILITY",
+            "translated-ventajas-texto8": "Costs associated with technical or maintenance issues fall on the rental provider, relieving the company of these responsibilities.",
+
+            // Fin traducción ventajas
         }
     },
     val: {
@@ -183,6 +223,26 @@ const resources = {
             "translated-CondicionesAlquiler-condicion9": "<span className='colorRed'>9. </span>En el cas que el llogater no tornara la màquina, FerriMas2, S.L. presentarà la corresponent denúncia per robatori contra el llogater.",
             "translated-CondicionesAlquiler-condicion10": "<span className='colorRed'>10. </span>Per llogar qualsevol màquina, caldrà dipositar una fiança. La quantitat serà estipulada per l'empresa, en relació amb el valor de la mateixa.",
             // Fin traduccion Condiciones alquiler
+            // Inicio traducción ventajas
+            "translated-ventajas-titular": "Descobreix els avantatges de llogar amb FerriMas2.",
+            "translated-ventajas-titulo1": "FLEXIBILITAT D'ACTUALITZACIÓ",
+            "translated-ventajas-texto1": "L'opció de lloguer permet a la teua empresa adaptar-se ràpidament a les últimes tecnologies i models, sense quedar atrapada amb equips obsolets.",
+            "translated-ventajas-titulo2": "GESTIÓ AMBIENTAL",
+            "translated-ventajas-texto2": "Contribueix a la sostenibilitat al reduir la producció de residus associada a l'obsolescència d'equips i fomenta la reutilització.",
+            "translated-ventajas-titulo3": "ALLIBERAMENT DE CAPITAL",
+            "translated-ventajas-texto3": "Al no immobilitzar recursos financers en la compra de maquinària, es llibera capital que pot destinar-se a altres àrees estratègiques del negoci.",
+            "translated-ventajas-titulo4": "SERVEI TÈCNIC INCLOS",
+            "translated-ventajas-texto4": "Moltes empreses de lloguer ofereixen serveis tècnics especialitzats, garantint un manteniment adequat i reduint el temps d'inactivitat.",
+            "translated-ventajas-titulo5": "RENTABILITAT A CURT TERMINI",
+            "translated-ventajas-texto5": "El lloguer permet a les empreses beneficiar-se de la maquinària sense compromisos financers a llarg termini, la qual cosa pot ser especialment avantatjosa en projectes temporals.",
+            "translated-ventajas-titulo6": "ASSESSORAMENT PROFESSIONAL",
+            "translated-ventajas-texto6": "Llogant, es pot obtenir assessorament d'experts en la selecció d'equips que s'ajusten específicament a les necessitats de cada projecte.",
+            "translated-ventajas-titulo7": "LLIBERTAT GEOGRÀFICA",
+            "translated-ventajas-texto7": "Facilita la mobilitat de la maquinària segons les necessitats dels projectes, sense estar limitat a un sol lloc d'operació.",
+            "translated-ventajas-titulo8": "RESPONSABILITAT DEL PROVEÏDOR",
+            "translated-ventajas-texto8": "Els costos associats a problemes tècnics o de manteniment recauen en el proveïdor de lloguer, alleujant l'empresa d'aquestes responsabilitats.",
+
+            // Fin traducción ventajas
         }
     }
 
