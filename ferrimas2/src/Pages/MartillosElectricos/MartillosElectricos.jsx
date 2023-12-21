@@ -6,6 +6,7 @@ import hilti500 from '../../public/assets/Martillos/hilti-t500.png';
 import taladro from '../../public/assets/Martillos/taladros.png';
 import taladromart from '../../public/assets/Martillos/taladro-martillo.png';
 import './MartillosElectricos.scss';
+import Footer from "../../components/Footer/Footer";
 
 export default function MartillosElectricos(){
 
@@ -33,6 +34,9 @@ export default function MartillosElectricos(){
             <h3>Taladro Martillo</h3>
             <img src={taladromart} alt="Taladro Martillo"/>
         </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }

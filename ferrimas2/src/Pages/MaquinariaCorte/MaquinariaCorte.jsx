@@ -11,6 +11,7 @@ import radialg from '../../public/assets/Maquinaria-corte/RADIAL-GASOLINA.png';
 import radiale230 from '../../public/assets/Maquinaria-corte/RADIAL-elec-230mm-(Sin disco).png';
 import radiale115 from '../../public/assets/Maquinaria-corte/RADIAL-elec-115 mm.-(Sin disco).png';
 import './MaquinariaCortes.scss';
+import Footer from "../../components/Footer/Footer";
 
 export default function MaquinariaCorte(){
 
@@ -58,6 +59,9 @@ export default function MaquinariaCorte(){
             <h3>Radial Eléctrica 115 mm.</h3>
             <img src={radiale115} alt="Radial Eléctrica 115"/>
         </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }

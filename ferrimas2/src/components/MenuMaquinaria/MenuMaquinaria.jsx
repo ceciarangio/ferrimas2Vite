@@ -140,13 +140,13 @@ export default function MenuMaquinaria() {
   )}
 </div>
 <div className="menu-item1">
-  <h4
+ <Link to='/maquinaria/senalizacion'> <h4
     className={`menu-header ${menuItems.semaforos ? "menu-header--open" : ""}`}
     onClick={() => toggleMenu("semaforos")}
   >
     SEÑALIZACION{' '}
     <span className="arrow-icon"></span>
-  </h4>
+  </h4> </Link>
   {menuItems.semaforos && (
     <div className="submenu">
       <p className='a-none'>Semáforos</p>

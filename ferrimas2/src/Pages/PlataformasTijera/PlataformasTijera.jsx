@@ -7,6 +7,7 @@ import plat10m from '../../public/assets/plataformas-elevadoras-tijera/tijera-10
 import plat12me from '../../public/assets/plataformas-elevadoras-tijera/tijera-12m-elec.png';
 import plat12md from '../../public/assets/plataformas-elevadoras-tijera/tijera-12m.png';
 import plat18m from '../../public/assets/plataformas-elevadoras-tijera/tijera-18m.png';
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -40,6 +41,9 @@ export default function PlataformasArticuladas(){
             <h3>18 m. Diesel</h3>
                 <img src={plat18m} alt="plataforma 18m"/>
             </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }

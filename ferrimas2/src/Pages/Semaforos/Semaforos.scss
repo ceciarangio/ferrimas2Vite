@@ -1,56 +1,65 @@
 @font-face {
-    font-family: 'Manrope';
-    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  font-family: 'Manrope';
+  src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 767px) {
+.ceje-semaforos{
+
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  h3{
+      font-family: 'Manrope';
   }
-  
-  .semaforos-container {
-    padding-top: 80px;
-  
-    h2{
+  img{
+      width: 300px;
+      height: 300px;
+      
+  }
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .ceje-semaforos{
+      margin-left: 220px;
+      display: grid;
+      align-items: center;
       text-align: center;
-      font-size: 50px;
-    }
+      padding-top: 150px;
+
+      h3{
+          font-family: 'Manrope';
+      }
+  
+      img{
+          width: 300px;
+          height: 300px;
+      }
   }
-  
-  .semaforos-individual {
-    display: grid;
-        grid-template-columns: repeat(3, 0.2fr);
-        justify-content: end;
-    text-align: center;
-    margin-top: 20px;
+
+  .footer-semaforos{
+    margin-top: 40px;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .ceje-semaforos{
+      margin-left: 370px;
+      display: grid;
+      align-items: center;
+      text-align: center;
+
+      h3{
+          font-size: 25px;
+          font-family: 'Manrope';
+      }
   
-  .semaforos {
-    cursor: pointer;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-right: 40px;
+      img{
+          width: 480px;
+          height: 480px;
+          object-fit: contain;
+      }
   }
-  
-  .semaforos:hover {
-    background-color: #728F30;
-  }
-  .semaforos img {
-    width: 150px;
-    height: auto;
-    object-fit: contain;
-    padding-top: 10px;
-    border-radius: 5px;
-  }
-  
-//   .semaforos p {
-//     margin-top: 5px;
-//     text-align: right;
-//     font-size: 20px;
-//     font-weight: bold;
-//     text-align: center;
-//     font-family: 'Manrope';
-//   }
-  
-  
-  .last-individual {
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
+}

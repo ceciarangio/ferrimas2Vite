@@ -3,6 +3,7 @@ import MenuMaquinaria from "../../components/MenuMaquinaria/MenuMaquinaria";
 import vallasmet from '../../public/assets/vallas/valla-pie-hormigon.png';
 import vallaprot from '../../public/assets/vallas/valla-peatonal.png';
 import './Vallas.scss';
+import Footer from "../../components/Footer/Footer";
 
 export default function Vallas(){
 
@@ -18,6 +19,9 @@ export default function Vallas(){
             <h3>Vallas de Protección</h3>
             <img src={vallaprot} alt="vallas de proteccion"/>
         </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }
