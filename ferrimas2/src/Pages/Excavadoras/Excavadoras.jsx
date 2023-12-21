@@ -6,6 +6,7 @@ import excavadoras from '../../public/assets/excavadoras/excavadoras.png';
 import martilloexc from '../../public/assets/excavadoras/martillo.png';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuMaquinaria from '../../components/MenuMaquinaria/MenuMaquinaria';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -35,6 +36,9 @@ export default function Excavadoras(){
                 <h3>Martillo para Minigiratoria</h3>
                 <img src={martilloexc} alt='Martillo'/>
             </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }

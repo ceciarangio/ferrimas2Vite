@@ -11,8 +11,8 @@ export default function PlataformasArticuladas(){
     return <>
         <HeaderGeneral/>
         <MenuMaquinaria/>
-        <div className="semaforos-container">
-        <div className="semaforos-individual">
+        <div className="ceje-semaforos">
+        <div>
             <h3>Semáforos</h3>
             <img src={semaforos} alt="semaforos"/>
         </div>
@@ -21,7 +21,7 @@ export default function PlataformasArticuladas(){
             <img src={senales} alt='señales obra'/>
         </div>
         </div>
-        <div>
+        <div className="footer-semaforos">
             <Footer/>
         </div>
         </>

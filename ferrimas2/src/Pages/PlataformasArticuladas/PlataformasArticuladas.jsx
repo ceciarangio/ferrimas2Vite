@@ -7,6 +7,7 @@ import plat16m from '../../public/assets/plataforma-articulada/articulada-16m-di
 import plat20m from '../../public/assets/plataforma-articulada/articulada-20m-diesel.png';
 import plat23m from '../../public/assets/plataforma-articulada/articulada-23m.png';
 import platgral from '../../public/assets/plataforma-articulada/plataformas-gral.png';
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -40,6 +41,9 @@ export default function PlataformasArticuladas(){
             <h3>Plataformas</h3>
                 <img src={platgral} alt="plataformas"/>
             </div>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </>
 }
