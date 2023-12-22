@@ -11,6 +11,7 @@
   h2{
     text-align: center;
     font-size: 50px;
+    font-family: 'Manrope';
   }
 }
 
@@ -66,6 +67,7 @@
     h2{
       text-align: center;
       font-size: 50px;
+      font-family: 'Manrope';
     }
   }
   
@@ -79,8 +81,8 @@
   
   
   .cartel img {
-    width: 150px;
-    height: auto;
+    width: 280px;
+    height: 280px;
     object-fit: contain;
     padding-top: 10px;
     border-radius: 5px;
@@ -90,18 +92,19 @@
 
 @media screen and (max-width: 767px) {
   .carteleria-container {
-
+    padding-top: 80px;
     h2{
       text-align: center;
       font-size: 30px;
+      font-family: 'Manrope';
     }
   }
   .carteles-row {
     display: grid;
-    grid-template-columns: repeat(3, 0.3fr);
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     text-align: center;
+    
   }
   .cartel img {
     width: 90px;
@@ -112,7 +115,8 @@
   }
 
   .cartel p {
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Manrope';
   }
 
 }

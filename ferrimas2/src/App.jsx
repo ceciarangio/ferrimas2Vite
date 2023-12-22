@@ -36,6 +36,8 @@ import Limpieza from './Pages/Limpieza/Limpieza';
 import BombasAgua from './Pages/BombasAgua/BombasAgua';
 import Compresor from './Pages/Compresores/Compresor';
 import SistemaSecado from './Pages/SistemaSecado/SistemaSecado';
+// import Nosotros from './Pages/Nosotros/Nosotros';
+
 
 function App() {
 
@@ -46,7 +48,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        {/* <Route path="/" element={<Intro/>}/> */}
+        {/* <Route path="/sobre-nosotros" element={<Nosotros/>}/> */}
         <Route path='/home' element={<Home/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='/politica-de-privacidad' element={<PoliticaPrivacidad/>}/>

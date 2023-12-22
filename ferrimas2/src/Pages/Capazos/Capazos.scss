@@ -60,8 +60,9 @@
   @media screen and (min-width: 1024px) {
   .capazos-container {
       h2{
-        text-align: center;
+        text-align: right;
         font-size: 50px;
+        padding-right: 320px;
       }
     }
     
@@ -88,6 +89,7 @@
   
   @media screen and (max-width: 767px) {
     .capazos-container {
+      padding-top: 100px;
   
       h2{
         text-align: center;
@@ -117,7 +119,7 @@
   }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .capazos-container {
-      margin-top: 25px;
+      padding-top: 180px;
       
   
       h2{
@@ -131,18 +133,31 @@
       grid-template-columns: repeat(3, 0.4fr);
       gap: 15px;
       text-align: center;
-      align-items: center;
-      justify-items: center;
+
       margin-left: 45px;
     }
     
     
     .capazo img {
       width: 200px;
-      height: auto;
+      height: 200px;
     }
   
     .capazo p {
       font-size: 35px;
+    }
+    .footer-capazos{
+      margin-top: 220px;
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 1201px) {
+    .capazos-container {
+      padding-top: 220px;
+      margin-top: 25px;
+    }
+    
+    
+    .footer-capazos{
+      margin-top: 260px;
     }
   }
