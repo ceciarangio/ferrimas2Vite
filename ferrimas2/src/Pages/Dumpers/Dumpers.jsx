@@ -7,37 +7,65 @@ import dump3500 from "../../public/assets/Dumpers/3500KG-dump.png";
 import dump6500 from "../../public/assets/Dumpers/dump-6000kg.png";
 import './Dumpers.scss';
 import Footer from "../../components/Footer/Footer";
+import minidum from "../../public/assets/Dumpers/mini-dumper.png";
+import oruga from "../../public/assets/Dumpers/carretilla-oruga.png";
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+
 
 export default function Dumpers(){
 
     return<>
     <HeaderGeneral/>
     <MenuMaquinaria/>
+    <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
     <div className="ceje-dumpers">
-        <div>
+        <div className="dumpers-div">
+            {/* <h3>Dúmper 2000kg</h3>
+            <p>Hidroestático, 4x4 , con pala</p> */}
+            <img src={dum2000} alt="dumper-2000-pala"/>
             <h3>Dúmper 2000kg</h3>
             <p>Hidroestático, 4x4 , con pala</p>
-            <img src={dum2000} alt="dumper-2000-pala"/>
         </div>
         <div>
+            {/* <h3>Dúmper 2000kg</h3>
+            <p>Hidroestático, 4x4 , sin pala</p> */}
+            <img src={dum2000p} alt="dumper-2000"/>
             <h3>Dúmper 2000kg</h3>
             <p>Hidroestático, 4x4 , sin pala</p>
-            <img src={dum2000p} alt="dumper-2000"/>
         </div>
         <div>
+            {/* <h3>Dúmper 2500kg</h3>
+            <p>Hidroestático, 4x4 , giratorio</p> */}
+            <img src={dum2500} alt="dumper-2500"/>
             <h3>Dúmper 2500kg</h3>
             <p>Hidroestático, 4x4 , giratorio</p>
-            <img src={dum2500} alt="dumper-2500"/>
         </div>
         <div>
+            {/* <h3>Dúmper 3500kg</h3>
+            <p>Hidroestático, 4x4 , con pala</p> */}
+            <img src={dump3500} alt="dumper3500"/>
             <h3>Dúmper 3500kg</h3>
             <p>Hidroestático, 4x4 , con pala</p>
-            <img src={dump3500} alt="dumper3500"/>
         </div>
         <div>
+            {/* <h3>Dúmper 6000kg</h3>
+            <p>Hidroestático, 4x4 , con pala</p> */}
+            <img src={dump6500} alt="dumper-6000"/>
             <h3>Dúmper 6000kg</h3>
             <p>Hidroestático, 4x4 , con pala</p>
-            <img src={dump6500} alt="dumper-6000"/>
+        </div>
+        <div>
+        
+            <img src={minidum} alt="mini dumper"/>
+            <h3>Mini Dumper</h3>
+        </div>
+        <div>
+            
+            <img src={oruga} alt="oruga"/>
+            <h3>Carretilla Oruga</h3>
+            
         </div>
         </div>
         <div className="footer-dumpers">

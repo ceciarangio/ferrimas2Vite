@@ -29,7 +29,7 @@ main {
   color: white;
   height: 92vh;
   text-align: center;
-  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  font-family: "Manrope";
 
     &--img{
         width: 100%;
@@ -48,6 +48,7 @@ main {
             text-align: left;
             color: white;
             font-size: 2rem;
+            font-family: "Manrope";
 
         }
 
@@ -95,24 +96,31 @@ span{
         color: black;
         text-align: center;
         margin-bottom: 20px;
+        font-family: "Manrope";
     }
     &--h3{
         color: black;
         text-align: center;
         margin-bottom: 20px;
         text-decoration: underline;
+        font-family: "Manrope";
     }
     &--p{
       color: black;
       text-align: justify;
       margin-bottom: 20px;
       font-weight: 500;
+      font-family: "Manrope";
+      font-size: 1.2rem;
     }
     &--p2{
         margin-top: 40px;
         color: black;
         text-align: center;
         margin-bottom: 20px;
+        font-family: "Manrope";
+        font-size: 1.1rem;
+    padding-bottom: 25px;
     }
 }
 .bordeSeparador{
@@ -170,6 +178,7 @@ span{
     color: white;
     border-radius: 0 0 8px 8px;
     box-sizing: border-box;
+    font-family: "Manrope";
   }
 
   
@@ -208,6 +217,7 @@ span{
   
     .imageContainer p {
       box-sizing: border-box;
+      font-family: "Manrope";
     }
   
     
@@ -246,6 +256,7 @@ span{
     
       .imageContainer p {
         box-sizing: border-box;
+        font-family: "Manrope";
       }
     
       
@@ -261,6 +272,7 @@ span{
 
     p{
         color: black;
+        font-family: "Manrope";
     }
   }
 
@@ -336,6 +348,7 @@ span{
         &--p{
           text-align: center;
           font-size: 1.5rem;
+          font-family: "Manrope";
           
         }
       }
@@ -345,11 +358,13 @@ span{
     font-size: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: "Manrope";
   }
   .ceje-container__presupuesto__rentabilidad--p{
     font-size: 1rem;
     padding-bottom: 30px;
     text-align: center;
+    font-family: "Manrope";
   }
   .botonPresupuesto{
     font-size: 1.5rem;
@@ -358,6 +373,7 @@ span{
     width: 250px;
     height: 100px;
     margin-bottom: 100px;
+    font-family: "Manrope";
   }
 }
 
@@ -406,7 +422,7 @@ span{
     margin-bottom: 50px;
   }
   .ceje-container__presupuesto__rentabilidad--p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-bottom: 30px;
     text-align: center;
   }
@@ -487,6 +503,7 @@ span{
       &--h2 {
         font-size: 4rem;
         width: 750px;
+        font-family: "Manrope";
       }
       &--button{
         font-size: 2rem;
@@ -502,17 +519,21 @@ span{
       margin-top: 70px;
       font-size: 3rem;
       margin-bottom: 70px;
+      font-family: "Manrope";
     }
     &--h3{
       font-size: 2rem;
+      font-family: "Manrope";
     }
     &--p{
       font-size: 1.5rem;
+      font-family: "Manrope";
     }
 
     &--p2{
       font-size: 1.5rem;
       margin-bottom: 100px;
+      font-family: "Manrope";
     }
 
     &__whiteBg{
@@ -563,7 +584,7 @@ span{
         }
         &--p{
           text-align: center;
-          
+          font-family: "Manrope";
         }
       }
     }
@@ -584,6 +605,7 @@ span{
     &--p{
       font-size: 1.5rem;
       padding-bottom: 50px;
+      font-family: "Manrope";
     }
   }
 
@@ -602,6 +624,7 @@ span{
       font-size: 3rem;
       margin-top: 70px;
       margin-bottom: 70px;
+      font-family: "Manrope";
     }
     &__rentabilidad{
       display: flex;
@@ -612,6 +635,7 @@ span{
       &--p{
         font-size: 1.5rem;
         padding-bottom: 30px;
+        font-family: "Manrope";
       }
       
     }
@@ -623,6 +647,7 @@ span{
     width: 250px;
     height: 100px;
     margin-bottom: 100px;
+    font-family: "Manrope";
   
   }
 }

@@ -5,6 +5,7 @@ import './Seguridad.scss';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import Footer from '../../components/Footer/Footer';
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
 
 const Seguridad = () => {
   const [seguridad, setSeguridad] = useState([]);
@@ -37,6 +38,9 @@ const Seguridad = () => {
     <>
       <HeaderGeneral />
       <MenuTiendaD />
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
       <div>
         <div className="seguridad-container">
           <h2>Elementos de Seguridad</h2>

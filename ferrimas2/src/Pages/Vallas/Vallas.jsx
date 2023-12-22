@@ -4,23 +4,29 @@ import vallasmet from '../../public/assets/vallas/valla-pie-hormigon.png';
 import vallaprot from '../../public/assets/vallas/valla-peatonal.png';
 import './Vallas.scss';
 import Footer from "../../components/Footer/Footer";
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
 
 export default function Vallas(){
 
     return <>
         <HeaderGeneral/>
         <MenuMaquinaria/>
+        <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
         <div className="ceje-vallas">
         <div>
-            <h3>Vallas Metalicas</h3>
+            
             <img src={vallasmet} alt="vallas metalicas"/>
+            <h3>Vallas Metalicas</h3>
         </div>
         <div>
-            <h3>Vallas de Protección</h3>
+            
             <img src={vallaprot} alt="vallas de proteccion"/>
+            <h3>Vallas de Protección</h3>
         </div>
         </div>
-        <div>
+        <div className="footer-vallas">
             <Footer/>
         </div>
     </>

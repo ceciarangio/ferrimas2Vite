@@ -1,5 +1,6 @@
 import Footer from '../../components/Footer/Footer'
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral'
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
 import './CondicionesAlquiler.scss'
 import { useTranslation } from 'react-i18next';
 
@@ -12,6 +13,9 @@ export default function CondicionesAlquiler(){
 
     return <>
     <HeaderGeneral/>
+    <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
     <h2 className='ceje-titularH2'>{t("translated-CondicionesAlquiler-titular")}</h2>
     <div className='ceje-condicionesContainer'>
         <div className='ceje-condicionesContainer__condicionesAlquiler'>
