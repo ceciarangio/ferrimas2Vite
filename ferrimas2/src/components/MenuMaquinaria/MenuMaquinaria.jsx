@@ -255,16 +255,16 @@ export default function MenuMaquinaria() {
             )} */}
           </div>
           <div className="menu-item">
-            <h4
-              className={`menu-header ${
-                menuItems.carretillasElevadoras ? "menu-header--open" : ""
-              }`}
-              onClick={() => toggleMenu("carretillasElevadoras")}
-            >
-              CARRETILLAS ELEVADORAS
-              <span className="arrow-icon"></span>
-            </h4>
-            {menuItems.carretillasElevadoras && (
+  <Link to='/maquinaria/bombas-agua'>
+    <h4
+      className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
+      onClick={() => toggleMenu("plataformasTijera")}
+    >
+      BOMBAS DE AGUA{' '}
+      <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
+    </h4>
+  </Link>
+            {/* {menuItems.carretillasElevadoras && (
               <div className="submenu">
                 <Link to='/maquinaria/carretillaelev-1500e'><p>1500kg eléctrica</p></Link>
                 <Link to='/maquinaria/carretillaelev-1500d'><p>1500kg diesel</p></Link>
@@ -272,19 +272,19 @@ export default function MenuMaquinaria() {
                 <Link to='/maquinaria/carretillaelev-2000'><p>2000kg 4x4</p></Link>
                 <Link to='/maquinaria/carretillaelev-2500'> <p>2500kg</p></Link>
               </div>
-            )}
+            )} */}
           </div>
           <div className="menu-item">
-            <h4
-              className={`menu-header ${
-                menuItems.carretillasElevadoras ? "menu-header--open" : ""
-              }`}
-              onClick={() => toggleMenu("carretillasElevadoras")}
-            >
-              CARRETILLAS ELEVADORAS
-              <span className="arrow-icon"></span>
-            </h4>
-            {menuItems.carretillasElevadoras && (
+  <Link to='/maquinaria/compresor-aire'>
+    <h4
+      className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
+      onClick={() => toggleMenu("plataformasTijera")}
+    >
+      COMPRESOR DE AIRE{' '}
+      <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
+    </h4>
+  </Link>
+            {/* {menuItems.carretillasElevadoras && (
               <div className="submenu">
                 <Link to='/maquinaria/carretillaelev-1500e'><p>1500kg eléctrica</p></Link>
                 <Link to='/maquinaria/carretillaelev-1500d'><p>1500kg diesel</p></Link>
@@ -292,19 +292,19 @@ export default function MenuMaquinaria() {
                 <Link to='/maquinaria/carretillaelev-2000'><p>2000kg 4x4</p></Link>
                 <Link to='/maquinaria/carretillaelev-2500'> <p>2500kg</p></Link>
               </div>
-            )}
+            )} */}
           </div>
           <div className="menu-item">
-            <h4
-              className={`menu-header ${
-                menuItems.carretillasElevadoras ? "menu-header--open" : ""
-              }`}
-              onClick={() => toggleMenu("carretillasElevadoras")}
-            >
-              CARRETILLAS ELEVADORAS
-              <span className="arrow-icon"></span>
-            </h4>
-            {menuItems.carretillasElevadoras && (
+  <Link to='/maquinaria/sistema-secado'>
+    <h4
+      className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
+      onClick={() => toggleMenu("plataformasTijera")}
+    >
+      SISTEMAS DE SECADO{' '}
+      <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
+    </h4>
+  </Link>
+            {/* {menuItems.carretillasElevadoras && (
               <div className="submenu">
                 <Link to='/maquinaria/carretillaelev-1500e'><p>1500kg eléctrica</p></Link>
                 <Link to='/maquinaria/carretillaelev-1500d'><p>1500kg diesel</p></Link>
@@ -312,7 +312,7 @@ export default function MenuMaquinaria() {
                 <Link to='/maquinaria/carretillaelev-2000'><p>2000kg 4x4</p></Link>
                 <Link to='/maquinaria/carretillaelev-2500'> <p>2500kg</p></Link>
               </div>
-            )}
+            )} */}
           </div>
           <div className="menu-item">
             <h4

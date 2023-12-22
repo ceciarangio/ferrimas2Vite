@@ -5,6 +5,7 @@ import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Capazos.scss';
 import Footer from '../../components/Footer/Footer';
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
 
 const Herramientas = () => {
   const [capazos, setCapazos] = useState([]);
@@ -26,6 +27,9 @@ const Herramientas = () => {
     <>
       <HeaderGeneral />
       <MenuTiendaD />
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
       <div className="capazos-container">
         <h2>Capazos</h2>
         <div className="capazos-row">

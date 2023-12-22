@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import "./WhatsAppLink.scss";
-import whatsImage from "../../public/assets/whatsapp.png"
+import whatsImage from "../../public/assets/whatsappOk.png"
 
 
 // eslint-disable-next-line react/prop-types
