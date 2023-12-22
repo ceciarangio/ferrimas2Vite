@@ -53,6 +53,9 @@ main {
         }
 
         &--button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-top: 100px;
             font-weight: bold;
             border-style: none;
@@ -190,6 +193,9 @@ span{
       flex-wrap: wrap;
       justify-content: space-around;
     }
+    .divTextoG__container--h2 {
+      font-size: 4rem;
+    }
   
     .maquinariaCard {
       width: 28%;
@@ -308,6 +314,10 @@ span{
 
 
 @media only screen and (max-width: 767px) {
+  .divTextoG__container--h2{
+    font-size: 2rem;
+  }
+
   .cejeMaquinaria__contain {
     display: flex;
     flex-wrap: wrap;
@@ -345,7 +355,7 @@ span{
     }
   }
   .ceje-container__presupuesto--h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: "Manrope";
@@ -368,6 +378,9 @@ span{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .divTextoG__container--h2{
+    font-size: 4rem;
+  }
   .cejeMaquinaria__contain {
     display: flex;
     flex-wrap: wrap;
