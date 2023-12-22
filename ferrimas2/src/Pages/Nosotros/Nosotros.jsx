@@ -1,6 +1,4 @@
-// import { Link } from 'react-router-dom';
-// import logo from '../../public/assets/logo.png';
-// import './Intro.scss';
+
 // import LanguageSelector from '../../components/LanguageSelector/LanguageSelector';
 // import { useTranslation } from 'react-i18next';
 
@@ -17,7 +15,7 @@
 
 //     </header>
 //     <div className='ceje-Intro__container'>
-//     <img src={logo} className="ceje-Intro__container--img" alt="logo" />
+
 //     <div className='ceje-Intro__container__div'>
 //     <h1>{t("translated-bienvenido")}</h1>
 //     <div className='ceje-Intro__container__div'>
@@ -32,7 +30,7 @@
 //         {t("translated-agradecemos_sinceramente")}
 //         </h3>
 //     </div>
-//     <button className='ceje-Intro__container__div--button'><Link className='ceje-Intro__container__div--button--link' to="/home">{t("translated-descubrenos")}</Link></button>
+    
 //     </div>
 //     </div>
 //     </>

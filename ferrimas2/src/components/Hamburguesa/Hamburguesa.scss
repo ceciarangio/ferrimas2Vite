@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  }
+
 .Hamburguesa {
     display: flex;
     flex-direction: column;
@@ -28,7 +33,7 @@
     right: 0;
     width: 240px;
     height: 430px;
-    background-color: white;
+    background-color: rgb(236, 234, 234);
     margin: 2px;
     color: black;
     text-decoration: none;
@@ -37,6 +42,9 @@
     align-items: flex-start;
     justify-content: space-around;
     z-index: 20;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Manrope";
     &__div{
         width: 100%;
         display: flex;

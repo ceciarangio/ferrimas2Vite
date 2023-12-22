@@ -25,6 +25,7 @@ export default function Home() {
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
     <main>
+    <div className="container3claves__whiteBg">
       <div className="divTextoG">
         {/* <div className="bordeSeparador">
           <div className="bordeSeparador__separador"></div>
@@ -35,9 +36,10 @@ export default function Home() {
           <button className="divTextoG__container--button animate__animated animate__fadeInLeft">{t("translated-Home-botonOpcionesMaquinaria")}</button>
         </div>
       </div>
-      <div className="bordeSeparador">
-        <div className="bordeSeparador__separador"></div>
       </div>
+      {/* <div className="bordeSeparador">
+        <div className="bordeSeparador__separador"></div>
+      </div> */}
       <div className="container3claves">
       
         <div className="container3claves__whiteBg">
