@@ -39,6 +39,7 @@ import SistemaSecado from './Pages/SistemaSecado/SistemaSecado';
 import Formacion from './Pages/Formacion/Formacion';
 // import Nosotros from './Pages/Nosotros/Nosotros';
 
+import Faq from './Pages/FAQ/Faq';
 
 function App() {
 
@@ -80,7 +81,10 @@ function App() {
         <Route path='/maquinaria/sistema-secado' element={<SistemaSecado/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
         <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
+
+        <Route path='/faq' element={<Faq/>}/>
         <Route path='/formacion' element={<Formacion/>}/>
+
       </Routes>
     </Router>
     </div>

@@ -9,12 +9,6 @@ import './Ventajas.scss';
 export default function Ventajas(){
     const { t } = useTranslation();
 
-
-
-
-
-
-
     return <>
     <HeaderGeneral/>
 

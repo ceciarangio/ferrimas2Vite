@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       </div>
-      {/* <div className="bordeSeparador">
+      {/* {/* <div className="bordeSeparador">
         <div className="bordeSeparador__separador"></div>
       </div> */}
       <div className="container3claves">
@@ -120,7 +120,7 @@ export default function Home() {
           <Link to="/maquinaria" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={maquinageneral} alt="maquinaria general" />
-            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-more")}</p>
           </Link>
 
           </div>

@@ -36,7 +36,7 @@ export default function Hamburguesa() {
             <p className="haMenu--a">Formación</p>
             <Link to='/maquinaria'><p className="haMenu--a">Alquiler de maquinaria</p></Link>
             <Link to='/condiciones-alquiler'><p className="haMenu--a">Condiciones de alquiler</p></Link>
-            <p className="haMenu--a">Preguntas frecuentes (F.A.Q.)</p>
+            <Link to={'/faq'}><p className="haMenu--a">Preguntas frecuentes (F.A.Q.)</p></Link>
             <Link to='/contacto'><p className="haMenu--a">Contacto</p></Link>
         </div>}
 
