@@ -33,10 +33,10 @@ export default function Hamburguesa() {
             <Link to={'/tienda'}><p className="haMenu--a">Tienda</p></Link>
             {/* <Link to='/sobre-nosotros'><p className="haMenu--a">Sobre nosotros</p></Link> */}
             <Link to='/ventajas'><p className="haMenu--a">Nuestras ventajas</p></Link>
-            <p className="haMenu--a">Formación</p>
+            <Link to='/formacion'><p className="haMenu--a">Formación</p></Link>
             <Link to='/maquinaria'><p className="haMenu--a">Alquiler de maquinaria</p></Link>
             <Link to='/condiciones-alquiler'><p className="haMenu--a">Condiciones de alquiler</p></Link>
-            <Link to={'/faq'}><p className="haMenu--a">Preguntas frecuentes (F.A.Q.)</p></Link>
+            <Link to='/faq'><p className="haMenu--a">Preguntas frecuentes (F.A.Q.)</p></Link>
             <Link to='/contacto'><p className="haMenu--a">Contacto</p></Link>
         </div>}
 
