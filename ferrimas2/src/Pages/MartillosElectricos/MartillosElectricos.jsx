@@ -17,28 +17,28 @@ export default function MartillosElectricos(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-martilloselec">
-        <div>
+        <div className="ceje-martilloselec animate__animated animate__fadeInRight">
+        <div className="martillo-div">
             
             <img src={hilti70} alt="Hilti 70"/>
             <h3>Martillo Eléctrico Hilti te70</h3>
         </div>
-        <div>
+        <div className="martillo-div">
             
             <img src={hilti500} alt="Hilti t500"/>
             <h3>Martillo Eléctrico Hilti t500</h3>
         </div>
-        <div>
+        <div className="martillo-div">
             
             <img src={hilti1000} alt="Hilti 1000"/>
             <h3>Martillo Eléctrico Hilti t1000</h3>
         </div>
-        <div>
+        <div className="martillo-div">
             
             <img src={taladro} alt="taladros"/>
             <h3>Taladros</h3>
         </div>
-        <div>
+        <div className="martillo-div">
 
             <img src={taladromart} alt="Taladro Martillo"/>
             <h3>Taladro Martillo</h3>

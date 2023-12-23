@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+
 .ceje-footer {
     width: 100%;
     padding-top: 20px;
@@ -28,6 +35,7 @@
         cursor: pointer;
         text-decoration: none;
         width: fit-content;
+        font-family: 'Manrope';
         }
         &--p a:hover {
         color: white;
@@ -46,18 +54,22 @@
         text-align: left;
         list-style: none;
         margin-bottom: 50px;
+        font-family: 'Manrope';
 
         &__li{
             padding-left: 50px;
             padding-right: 50px;
+            font-family: 'Manrope';
         }
 
         &--h2 {
             color: rgb(158, 158, 158);
             font-size: 16px;
+            font-family: 'Manrope';
         }
         &--p {
             font-size: 1.1rem;
+            font-family: 'Manrope';
         }
         }
         &__contacto {

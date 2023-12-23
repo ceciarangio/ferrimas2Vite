@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 767px) {
 .ceje-compact{
-
+    margin-top: 100px;
     display: grid;
     align-items: center;
     text-align: center;
@@ -20,7 +20,20 @@
         height: 300px;
         position: relative;
             top: 40px;
+            object-fit: cover;
     }
+}
+
+.compac-div {
+    background-color: #fff;
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+    padding: 0px;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    height: 350px;
+    margin-left: 30px;
 }
 }
 
@@ -33,6 +46,7 @@
         text-align: center;
         position: relative;
       bottom: 20px;
+      padding-top: 120px;
 
         h3{
             font-family: 'Manrope';
@@ -43,11 +57,26 @@
             height: 300px;
             position: relative;
             top: 80px;
+            object-fit: cover;
+            padding-bottom: 100px;
+            padding-right: 30px;
         }
     }
 
     .footer-compactadoras{
-        margin-top: 170px;
+        margin-top: 50px;
+    }
+
+    .compac-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 250px;
+        margin-top: 20px;
+        height: 350px;
+        margin-left: 40px;
     }
 }
 
@@ -60,6 +89,7 @@
         text-align: center;
         position: relative;
         bottom: 180px;
+        margin-top: 200px;
 
         h3{
             font-size: 25px;
@@ -67,11 +97,24 @@
         }
     
         img{
-            width: 480px;
-            height: 480px;
-            object-fit: contain;
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
             position: relative;
             top: 90px;
+            padding-bottom: 100px;
         }
+    }
+
+    .compac-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 400px;
+        margin-top: 20px;
+        height: 450px;
+        margin-left: 30px;
     }
 }

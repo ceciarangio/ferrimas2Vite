@@ -21,50 +21,49 @@ export default function Limpieza(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-limpieza">
-            <div>
+        <div className="ceje-limpieza animate__animated animate__fadeInRight">
+            <div className="limpieza-div">
                 
                 <img src={aspiIndus} alt="Aspiradora Industrial"/>
                 <h3>Aspiradora Industrial</h3>
                 <p>De polvo y agua. Hilti</p>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={barredora} alt="Barredora Manual"/>
                 <h3>Barredora Manual</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={abrillan} alt="Abrillan"/>
                 <h3>Abrillantadora</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={fregadora} alt="Fregadora"/>
                 <h3>Fregadora</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={lijadora} alt="Lijadora de Pared"/>
                 <h3>Lijadora de Pared</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={vaporeta} alt=""/>
                 <h3>Vaporeta - Aspirador de Tapicería</h3>
-                <p>Productos de limpieza aparte</p>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={hidrog} alt="Hidrolimpiadora gasolina"/>
                 <h3>Hidrolimpiadora de Gasolina</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={hidroele} alt="Hidrolimpiadora Eléctrica"/>
                 <h3>Hidrolimpiadora Eléctrica</h3>
             </div>
-            <div>
+            <div className="limpieza-div">
                 
                 <img src={hidrocalie} alt="Hidrolimpiadora Eléctrica caliente"/>
                 <h3>Hidrolimpiadora Eléctrica</h3>

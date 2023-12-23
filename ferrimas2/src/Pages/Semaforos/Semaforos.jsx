@@ -15,13 +15,13 @@ export default function PlataformasArticuladas(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-semaforos">
-        <div>
+        <div className="ceje-semaforos animate__animated animate__fadeInRight">
+        <div className="semaforos-div">
             
             <img src={semaforos} alt="semaforos"/>
             <h3>Semáforos</h3>
         </div>
-        <div>
+        <div className="semaforos-div">
             
             <img src={senales} alt='señales obra'/>
             <h3>Señales de Obra</h3>

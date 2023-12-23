@@ -3,9 +3,11 @@
   src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
 }
 
+
 .aceites-container {
   padding-top: 50px;
   min-height: 60vh;
+  
 
 
   h2{
@@ -20,9 +22,11 @@
       justify-content: end;
   text-align: center;
   margin-top: 20px;
+  
 }
 
 .aceites {
+  
   cursor: pointer;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -31,7 +35,7 @@
 }
 
 .aceites:hover {
-  background-color: #728F30;
+  background-color: #dcf188;
 }
 .aceites img {
   width: 150px;
@@ -59,7 +63,12 @@
 
 
 @media screen and (min-width: 1024px) {
-.aceites-container {
+  .aceites{
+    border: 1px solid #e2f8d8;
+    box-shadow: 11px 9px 8px rgba(51, 155, 10, 0.1);
+  }
+
+  .aceites-container {
     h2{
       text-align: right;
       font-size: 50px;
@@ -118,13 +127,16 @@
     padding-top: 10px;
     border-radius: 5px;
   }
+  .aceites{
+    border: 1px solid #e2f8d8;
+    box-shadow: 11px 9px 8px rgba(51, 155, 10, 0.1);
+  }
 
 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .aceites-container {
-    margin-top: 25px;
-    padding-top: 130px;
+    padding-top: 150px;
 
     h2{
       text-align: center;
@@ -151,5 +163,10 @@
 
   .footer-aceites{
     margin-top: 150px;
+  }
+
+  .aceites{
+    border: 1px solid #e2f8d8;
+    box-shadow: 11px 9px 8px rgba(51, 155, 10, 0.1);
   }
 }

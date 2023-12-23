@@ -16,23 +16,23 @@ export default function Compactadoras (){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-compact">
-            <div>
+        <div className="ceje-compact animate__animated animate__fadeInRight">
+            <div className="compac-div">
                 
                 <img src={pison} alt='pison'/>
                 <h3>Pisón</h3>
             </div>
-            <div>
+            <div className="compac-div">
                 
                 <img src={bandeja} alt='bandeja compactadora'/>
                 <h3>Bandeja Compactadora</h3>
             </div>
-            <div>
+            <div className="compac-div">
                 
                 <img src={rod650} alt='Rodillo 650'/>
                 <h3>Rodillo 650kg</h3>
             </div>
-            <div>
+            <div className="compac-div">
                 
                 <img src={rod3000} alt='Rodillo 3000'/>
                 <h3>Rodillo 3000kg</h3>
