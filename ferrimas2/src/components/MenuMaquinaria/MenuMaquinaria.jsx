@@ -312,7 +312,7 @@ export default function MenuMaquinaria() {
               </div>
             )} */}
           </div>
-          <div className="menu-item">
+          {/* <div className="menu-item">
             <h4
               className={`menu-header ${
                 menuItems.carretillasElevadoras ? "menu-header--open" : ""
@@ -352,7 +352,7 @@ export default function MenuMaquinaria() {
                 <Link to='/maquinaria/carretillaelev-2500'> <p>2500kg</p></Link>
               </div>
             )}
-          </div>
+          </div> */}
           </div>   
                 
       </nav>
