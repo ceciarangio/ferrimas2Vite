@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  }
+
+  .h2-formacion{
+    font-family: 'Manrope';
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .div-containet-formacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+  }
+.div-formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    p{
+        font-family: 'Manrope';
+        font-size: 25px;
+    }
+
+    li{
+        font-family: 'Manrope';
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .h2-formacion{
+        margin-top: 70px;
+        text-align: center;
+      }
+    .div-containet-formacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    
+     
+    }
+
+
+        .div-formacion{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            p{
+                font-size: 20px;
+            }
+        
+            li{
+                font-size: 20px;
+            }
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .h2-formacion{
+        margin-top: 110px;
+        text-align: center;
+      }
+
+      .div-containet-formacion{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    padding: 10px;
+        margin-top: 120px;
+        margin-bottom: 150px;
+      }
+}
