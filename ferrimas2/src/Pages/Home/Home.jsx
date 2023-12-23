@@ -35,9 +35,9 @@ export default function Home() {
           <button className="divTextoG__container--button animate__animated animate__fadeInLeft">{t("translated-Home-botonOpcionesMaquinaria")}</button>
         </div>
       </div>
-      <div className="bordeSeparador">
+      {/* <div className="bordeSeparador">
         <div className="bordeSeparador__separador"></div>
-      </div>
+      </div> */}
       <div className="container3claves">
       
         <div className="container3claves__whiteBg">
@@ -118,7 +118,7 @@ export default function Home() {
           <Link to="/maquinaria" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={maquinageneral} alt="maquinaria general" />
-            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-more")}</p>
           </Link>
 
           </div>

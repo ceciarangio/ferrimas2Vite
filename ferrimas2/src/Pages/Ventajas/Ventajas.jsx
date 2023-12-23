@@ -7,12 +7,6 @@ import './Ventajas.scss';
 export default function Ventajas(){
     const { t } = useTranslation();
 
-
-
-
-
-
-
     return <>
     <HeaderGeneral/>
     <h1 className='ceje-ventajas-h1'>{t("translated-ventajas-titular")}</h1>

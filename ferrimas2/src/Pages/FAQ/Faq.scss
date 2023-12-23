@@ -1,0 +1,443 @@
+@font-face {
+    font-family: 'manrope';
+    src: url('../../public/fonts/Manrope-VariableFont_wght.ttf');
+}
+
+.ceje-faq-titulo{
+    font-family: 'manrope';
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 8vh;
+}
+
+.ceje-faq-container{
+    min-height: 70vh;
+
+    &__faq1{
+        // background-color: beige;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq2{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq3{
+        // background-color: beige;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+}
+
+    &__faq4{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+}
+
+    &__faq5{
+        // background-color: beige;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq6{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        height: 90px;
+        font-family: 'manrope';
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq7{
+        // background-color: beige;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq8{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq9{
+        // background-color: beige;
+        font-size: 21px;
+        padding-left: 20px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq10{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq11{
+        // background-color: beige;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+    &__faq12{
+        // background-color: gainsboro;
+        padding-left: 20px;
+        font-size: 21px;
+        font-family: 'manrope';
+        height: 90px;
+        &--h3{
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+// Responsive
+
+@media only screen and (max-width: 767px) {
+    .ceje-faq-container{
+        min-height: 70vh;
+    
+        &__faq1{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq2{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq3{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq4{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq5{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq6{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            min-height: 200px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq7{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            min-height: 200px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq8{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            min-height: 200px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq9{
+            // background-color: beige;
+            font-size: 15px;
+            padding-left: 20px;
+            font-family: 'manrope';
+            min-height: 290px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq10{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            min-height: 200px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq11{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            min-height: 200px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq12{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            min-height: 200px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .ceje-faq-container{
+        min-height: 70vh;
+    
+        &__faq1{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq2{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq3{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq4{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq5{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq6{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq7{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq8{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq9{
+            // background-color: beige;
+            font-size: 15px;
+            padding-left: 20px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq10{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq11{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq12{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 15px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+    }
+}
+
+
+
+// Animaciones
+.animate__fadeInLeftBig{
+    font-family: 'manrope';
+    font-size: 18px;
+    animation: fadeInLeftBig; 
+    animation-duration: 1s; 
+    color: midnightblue;
+}

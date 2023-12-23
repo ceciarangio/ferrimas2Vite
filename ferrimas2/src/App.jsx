@@ -33,6 +33,7 @@ import Semaforos from './Pages/Semaforos/Semaforos';
 // import MenuMaquinaria from './components/MenuMaquinaria/MenuMaquinaria';
 import Maquinaria from './Pages/Maquinaria/Maquinaria';
 import Limpieza from './Pages/Limpieza/Limpieza';
+import Faq from './Pages/FAQ/Faq';
 
 function App() {
 
@@ -71,6 +72,7 @@ function App() {
         <Route path='/maquinaria/limpieza' element={<Limpieza/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
         <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
+        <Route path='/faq' element={<Faq/>}/>
       </Routes>
     </Router>
     </div>

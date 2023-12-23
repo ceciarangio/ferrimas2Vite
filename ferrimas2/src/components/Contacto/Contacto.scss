@@ -4,6 +4,7 @@
     background-position: bottom;
 }
 .ceje-contacto-form--h3{
+    padding-top: 50px;
     font-size: 3rem;
     text-align: center;
 }
@@ -15,11 +16,35 @@
 
 .ceje-contacto-form{
     padding-top: 2vh;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.717);
     background-position: 0px;
+    display: flex;
+    flex-direction: column;
+
+    &__formulario{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;    
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 20px;
+        &__izquierda{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        &__derecha{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
 
     &__container{
         display: flex;
@@ -34,16 +59,32 @@
         &--input{
             font-size: 1.2rem;
             margin-bottom: 10px;
-            height: 30px;
+            height: 50px;
+
+            &--comentarios{
+                vertical-align: top;
+                overflow-y: auto;
+                resize: vertical;
+                resize: none;
+                font-size: 1.2rem;
+                height: 200px;
+                text-align: start;
+            }
         }
 
         &--submit{
+            font-family: 'manrope';
             font-size: 1.5rem;
             margin-top: 10px;
             margin-bottom: 10px;
-            height: 40px;
+            height: 60px;
+            border-radius: 50px;
             background-color: #e6ebc7;
             border: solid 1px black;
         }
+        
     }   
+}
+.small{
+    margin-bottom: 40px;
 }
