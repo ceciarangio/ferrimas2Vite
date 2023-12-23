@@ -6,6 +6,7 @@ import carret1500d from '../../public/assets/carretilla-elevadora/carret-1500kg-
 import carret1600 from '../../public/assets/carretilla-elevadora/carret-1600-electrica.png';
 import carret2000 from '../../public/assets/carretilla-elevadora/carret-2000-diesel.png';
 import carret2500 from '../../public/assets/carretilla-elevadora/carret-2500kg-diesel.png';
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
 
 
 
@@ -14,6 +15,9 @@ export default function PlataformasArticuladas(){
     return <>
         <HeaderGeneral/>
         <MenuMaquinaria/>
+        <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
         <div className="ceje-carretillas">
             <div>
                 <h3>1500kg Eléctrica</h3>

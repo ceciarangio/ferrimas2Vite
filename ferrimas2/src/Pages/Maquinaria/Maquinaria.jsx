@@ -9,6 +9,7 @@ import cortehumedo from '../../public/assets/Maquinaria-corte/mesa-corte-humedo.
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
 import MenuMaquinaria from "../../components/MenuMaquinaria/MenuMaquinaria";
 import './Maquinaria.scss';
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
 
 
 const Maquinaria = () => {
@@ -16,6 +17,9 @@ const Maquinaria = () => {
       <>
       <HeaderGeneral/>
       <MenuMaquinaria/>
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
         <div className="maquinaria-container">
           
           <h2>MAQUINARIA DE ALQUILER</h2>

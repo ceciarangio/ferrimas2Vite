@@ -3,7 +3,10 @@ import emailjs from "@emailjs/browser";
 import Footer from "../Footer/Footer";
 import HeaderGeneral from "../HeaderGeneral/HeaderGeneral";
 import "./Contacto.scss";
+
 import { Link } from "react-router-dom";
+
+import WhatsAppLink from "../WhatsAppLink/WhatsAppLink";
 
 export default function Contacto() {
   const form = useRef();
@@ -31,7 +34,9 @@ export default function Contacto() {
   return (
     <>
       <HeaderGeneral />
-
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
       <div className="ceje-bg">
 
         <form className="ceje-contacto-form" ref={form} onSubmit={sendEmail}>

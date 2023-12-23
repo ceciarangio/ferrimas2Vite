@@ -4,6 +4,7 @@ import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import './Aceites.scss';
 import Footer from '../../components/Footer/Footer';
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
 
 const Aceites = () => {
   const [aceites, setAceites] = useState([]);
@@ -24,6 +25,9 @@ const Aceites = () => {
   return (<>
     <HeaderGeneral/>
     <MenuTiendaD/>
+    <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
     <div className="aceites-container">
       <h2>Aceites y Limpiaparabrisas</h2>
       <div className="aceites-row">

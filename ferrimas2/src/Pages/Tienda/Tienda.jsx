@@ -9,12 +9,16 @@ import calzado from '../../public/assets/TiendaOk/Seguridad/calzado.png';
 import cartel from '../../public/assets/TiendaOk/Carteleria/prohibido-paso.png';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
 
 
 const Tienda = () => {
   return (
     <>
     <HeaderGeneral/>
+    <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
       <div className="tienda-container">
         {/* <MenuTiendaD /> */}
         <h2>TIENDA</h2>

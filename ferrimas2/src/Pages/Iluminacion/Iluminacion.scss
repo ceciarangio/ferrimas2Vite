@@ -4,7 +4,7 @@
 }
 
 .iluminacion-container {
-  padding-top: 100px;
+  padding-top: 50px;
 
   h2{
     text-align: center;
@@ -59,8 +59,9 @@
 @media screen and (min-width: 1024px) {
 .iluminacion-container {
     h2{
-      text-align: center;
+      text-align: right;
       font-size: 50px;
+      padding-right: 320px;
     }
   }
   
@@ -90,7 +91,7 @@
 
 @media screen and (max-width: 767px) {
   .iluminacion-container {
-    // padding-top: 30px;
+    padding-top: 100px;
 
     h2{
       text-align: center;

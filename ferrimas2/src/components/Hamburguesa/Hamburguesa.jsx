@@ -31,7 +31,7 @@ export default function Hamburguesa() {
                 <button onClick={toggleButton} className='haMenu__div--button'> <img className='haMenu__div--button--img' src='https://cdn.zeplin.io/5e2a11b5ca786f8064774510/assets/9419C1A3-4787-4177-B727-B2338C933115.png' alt=''/> </button>
             </div>
             <Link to={'/tienda'}><p className="haMenu--a">Tienda</p></Link>
-            <p className="haMenu--a">Sobre nosotros</p>
+            {/* <Link to='/sobre-nosotros'><p className="haMenu--a">Sobre nosotros</p></Link> */}
             <Link to='/ventajas'><p className="haMenu--a">Nuestras ventajas</p></Link>
             <p className="haMenu--a">Formación</p>
             <Link to='/maquinaria'><p className="haMenu--a">Alquiler de maquinaria</p></Link>

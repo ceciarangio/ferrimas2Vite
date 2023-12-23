@@ -23,13 +23,29 @@ main {
 }
 
 .divTextoG {
-  background-image: url("https://globen.es/wp-content/uploads/alquiler-maquinaria-para-construccion-1030x388.jpg");
-  background-size: cover;;
+  // background-image: url("https://globen.es/wp-content/uploads/alquiler-maquinaria-para-construccion-1030x388.jpg");
+  // background-image: url("../../public/assets/bg3.jpg");
+  // background-size: cover;
+  // height: fit-content;
+  
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../public/assets/e201608a99a56ce360c06ed2c9b325d8-medium-PhotoRoom.png");
+    background-size: cover;
+    background-position: center;
+    // height: 100vh;
+    height: fit-content;
   width: 100%;
   color: white;
   height: 92vh;
   text-align: center;
-  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+  font-family: "Manrope";
+ 
+
+  &__whiteBg{
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 
     &--img{
         width: 100%;
@@ -37,6 +53,7 @@ main {
         object-fit: cover;
         object-position: -1100px;
         z-index: 5;
+
         }
     &__container{
         position: absolute;
@@ -46,8 +63,9 @@ main {
 
         &--h2 {
             text-align: left;
-            color: white;
+            color: rgb(126, 123, 123);
             font-size: 2rem;
+            font-family: "Manrope";
 
         }
 
@@ -59,7 +77,7 @@ main {
             font-weight: bold;
             border-style: none;
             border-radius: 10px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Manrope';
             height: 60px;
             width: 200px;
             background-color: rgba(75, 127, 203, 0.8);
@@ -75,18 +93,12 @@ span{
 }
 
 .container3claves{
-    background-color: black;
-    background-image: url("../../public/assets/bg3.jpg");
-    background-size: cover;
-    background-position: center;
-    // height: 100vh;
+    background-color: wheat;
     height: fit-content;
     
     &__whiteBg{
-      height: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
         background-color: rgba($color: #ffffff, $alpha: 0.85);
-        margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -95,24 +107,31 @@ span{
         color: black;
         text-align: center;
         margin-bottom: 20px;
+        font-family: "Manrope";
     }
     &--h3{
         color: black;
         text-align: center;
         margin-bottom: 20px;
         text-decoration: underline;
+        font-family: "Manrope";
     }
     &--p{
       color: black;
       text-align: justify;
       margin-bottom: 20px;
       font-weight: 500;
+      font-family: "Manrope";
+      font-size: 1.2rem;
     }
     &--p2{
         margin-top: 40px;
         color: black;
         text-align: center;
         margin-bottom: 20px;
+        font-family: "Manrope";
+        font-size: 1.1rem;
+    padding-bottom: 25px;
     }
 }
 .bordeSeparador{
@@ -170,6 +189,7 @@ span{
     color: white;
     border-radius: 0 0 8px 8px;
     box-sizing: border-box;
+    font-family: "Manrope";
   }
 
   
@@ -208,6 +228,7 @@ span{
   
     .imageContainer p {
       box-sizing: border-box;
+      font-family: "Manrope";
     }
   
     
@@ -246,6 +267,7 @@ span{
     
       .imageContainer p {
         box-sizing: border-box;
+        font-family: "Manrope";
       }
     
       
@@ -254,13 +276,22 @@ span{
         color: black; 
       }
 
-  }
+      .divTextoG__container {
+    
+        margin-top: 100px;
+
+
+        
+      }}
+
+  
 
   .divMaqAlquiler{
     text-align: center;
 
     p{
         color: black;
+        font-family: "Manrope";
     }
   }
 
@@ -312,8 +343,6 @@ span{
     justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
 
-    
-
     &__maquinariaCard{
       display: flex;
       justify-content: center;
@@ -336,20 +365,24 @@ span{
         &--p{
           text-align: center;
           font-size: 1.5rem;
+          font-family: "Manrope";
           
         }
       }
     }
+
   }
   .ceje-container__presupuesto--h2{
     font-size: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: "Manrope";
   }
   .ceje-container__presupuesto__rentabilidad--p{
     font-size: 1rem;
     padding-bottom: 30px;
     text-align: center;
+    font-family: "Manrope";
   }
   .botonPresupuesto{
     font-size: 1.5rem;
@@ -358,10 +391,29 @@ span{
     width: 250px;
     height: 100px;
     margin-bottom: 100px;
+    font-family: "Manrope";
   }
+
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  .divTextoG__container{
+    &--button{
+      margin-top: 100px;
+      font-weight: bold;
+      border-style: none;
+      border-radius: 10px;
+      font-family: 'Manrope';
+      height: 60px;
+      width: 200px;
+      background-color: rgba(75, 127, 203, 0.8);
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  }
   .divTextoG__container--h2{
     font-size: 4rem;
   }
@@ -371,7 +423,16 @@ span{
     justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
 
-    
+    .container3claves{
+      background-color: wheat;
+      height: fit-content;
+      
+      &__whiteBg{
+          margin-top: 20px;
+          background-color: rgba($color: #ffffff, $alpha: 0.85);
+          padding-left: 10px;
+          padding-right: 10px;
+      }}
 
     &__maquinariaCard{
       display: flex;
@@ -398,7 +459,11 @@ span{
           
         }
       }
+
+      
     }
+
+    
   }
   .ceje-container__presupuesto--h2{
     font-size: 2rem;
@@ -406,7 +471,7 @@ span{
     margin-bottom: 50px;
   }
   .ceje-container__presupuesto__rentabilidad--p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-bottom: 30px;
     text-align: center;
   }
@@ -418,7 +483,69 @@ span{
     height: 100px;
     margin-bottom: 100px;
   }
+  .divTextoG__container {
+    
+    margin-top: 100px;
+  }
 
+  .divTextoG {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../public/assets/e201608a99a56ce360c06ed2c9b325d8-medium-PhotoRoom.png");
+      background-size: cover;
+      background-position: center;
+
+      height: fit-content;
+    width: 100%;
+    color: white;
+    height: 92vh;
+    text-align: center;
+    font-family: "Manrope";
+   
+  
+    &__whiteBg{
+        margin-top: 10px;
+        background-color: rgba($color: #ffffff, $alpha: 0.85);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  
+      &--img{
+          width: 100%;
+          height: 92vh;
+          object-fit: cover;
+          object-position: -1100px;
+          z-index: 5;
+  
+          }
+      &__container{
+          position: absolute;
+          top: 50px;
+          left: 20px;
+          width: 70%;
+  
+          &--h2 {
+              text-align: left;
+              color: rgb(126, 123, 123);
+              font-size: 2rem;
+              font-family: "Manrope";
+  
+          }
+  
+          &--button{
+              margin-top: 100px;
+              font-weight: bold;
+              border-style: none;
+              border-radius: 10px;
+              font-family: 'Manrope';
+              height: 60px;
+              width: 200px;
+              background-color: rgba(75, 127, 203, 0.8);
+              color: white;
+              font-size: 20px;
+              cursor: pointer;
+          }
+      }
+  }
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -429,6 +556,7 @@ span{
     background-color: rgb(235, 235, 235);
 
 
+
     
 
     &__maquinariaCard{
@@ -476,17 +604,13 @@ span{
     height: 100px;
     margin-bottom: 100px;
   }
-
-}
-
-@media only screen and (min-width: 1200px) {
-
   .divTextoG{
 
     &__container{
       &--h2 {
-        font-size: 4rem;
+        font-size: 3rem;
         width: 750px;
+        font-family: "Manrope";
       }
       &--button{
         font-size: 2rem;
@@ -496,23 +620,48 @@ span{
     }
   }
 
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .divTextoG{
+
+    &__container{
+      &--h2 {
+        font-size: 3rem;
+        width: 750px;
+        font-family: "Manrope";
+      }
+      &--button{
+        font-size: 2rem;
+        width: 300px;
+        height: 150px;
+      }
+    }
+  }
+
+
   .container3claves{
     background-color: white;
     &--h2{
       margin-top: 70px;
       font-size: 3rem;
       margin-bottom: 70px;
+      font-family: "Manrope";
     }
     &--h3{
       font-size: 2rem;
+      font-family: "Manrope";
     }
     &--p{
       font-size: 1.5rem;
+      font-family: "Manrope";
     }
 
     &--p2{
       font-size: 1.5rem;
       margin-bottom: 100px;
+      font-family: "Manrope";
     }
 
     &__whiteBg{
@@ -563,7 +712,7 @@ span{
         }
         &--p{
           text-align: center;
-          
+          font-family: "Manrope";
         }
       }
     }
@@ -584,13 +733,12 @@ span{
     &--p{
       font-size: 1.5rem;
       padding-bottom: 50px;
+      font-family: "Manrope";
     }
   }
 
   .ceje-container__presupuesto{
-    &__whiteBg{
-
-    }
+    
     &__divs{
       display: flex;
       flex-direction: row;
@@ -602,6 +750,7 @@ span{
       font-size: 3rem;
       margin-top: 70px;
       margin-bottom: 70px;
+      font-family: "Manrope";
     }
     &__rentabilidad{
       display: flex;
@@ -612,6 +761,7 @@ span{
       &--p{
         font-size: 1.5rem;
         padding-bottom: 30px;
+        font-family: "Manrope";
       }
       
     }
@@ -623,6 +773,7 @@ span{
     width: 250px;
     height: 100px;
     margin-bottom: 100px;
+    font-family: "Manrope";
   
   }
 }
