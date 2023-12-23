@@ -17,7 +17,6 @@ export default function Ventajas(){
     <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-    <h1 className='ceje-ventajas-h1'>Descubre las ventajas de alquilar con FerriMas2.</h1>
 
     <div className="ceje-ventajasContainer">
         <div className='ceje-ventajasContainer__ventajas'>

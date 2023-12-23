@@ -2,14 +2,18 @@
     font-family: 'Manrope';
     src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
   }
+  .ceje-excavadoras{
+    margin-top: 8vh;
+
+  }
+
 
 @media screen and (max-width: 767px) {
 .ceje-excavadoras{
-
     display: grid;
     align-items: center;
     text-align: center;
-    position: relative;
+    // position: relative;
     bottom: 80px;
 
     h3{
