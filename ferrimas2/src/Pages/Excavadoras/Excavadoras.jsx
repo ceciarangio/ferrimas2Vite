@@ -8,7 +8,7 @@ import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuMaquinaria from '../../components/MenuMaquinaria/MenuMaquinaria';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
-
+import minipala from '../../public/assets/excavadoras/minipala.png';
 
 
 export default function Excavadoras(){
@@ -44,6 +44,10 @@ export default function Excavadoras(){
                 
                 <img src={martilloexc} alt='Martillo'/>
                 <h3>Martillo para Minigiratoria</h3>
+            </div>
+            <div className='excav-div'>
+                <img src={minipala} alt='mini pala'/>
+                <h3>Mini Pala</h3>
             </div>
         </div>
         <div>

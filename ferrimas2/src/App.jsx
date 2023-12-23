@@ -38,8 +38,11 @@ import Compresor from './Pages/Compresores/Compresor';
 import SistemaSecado from './Pages/SistemaSecado/SistemaSecado';
 import Formacion from './Pages/Formacion/Formacion';
 // import Nosotros from './Pages/Nosotros/Nosotros';
+import CarretillasElevadoras from './Pages/CarretillasElevadoras/CarretillasElevadoras'; './Pages/CarretillasElevadoras/CarretillasElevadoras';
 
 import Faq from './Pages/FAQ/Faq';
+import Hormigoneras from './Pages/Hormigoneras/Hormigoneras';
+import Jardineria from './Pages/Jardineria/Jardineria';
 
 function App() {
 
@@ -81,7 +84,9 @@ function App() {
         <Route path='/maquinaria/sistema-secado' element={<SistemaSecado/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
         <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
-
+        <Route path='/maquinaria/hormigoneras' element={<Hormigoneras/>}/>
+        <Route path='/maquinaria/jardineria' element={<Jardineria/>}/>
+        <Route path='/maquinaria/carretillas-elevadoras' element={<CarretillasElevadoras/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/formacion' element={<Formacion/>}/>
 

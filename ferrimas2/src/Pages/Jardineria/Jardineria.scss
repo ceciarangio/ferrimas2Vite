@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .ceje-carretillas {
+    .ceje-jardineria {
         margin-top: 100px;
         display: grid;
         align-items: center;
@@ -17,14 +17,14 @@
         }
 
         img {
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             position: relative;
-            top: 0px;
+            top: 40px;
             object-fit: cover;
         }
     }
-    .carreelev-div {
+    .jardineria-div {
         background-color: #fff;
         border: 1px solid #e2f8d8;
         box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
@@ -38,7 +38,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .ceje-carretillas {
+    .ceje-jardineria {
         margin-left: 220px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -54,15 +54,15 @@
 
         img {
             width: 250px;
-            height: 270px;
+            height: 250px;
             position: relative;
-            top: 0px;
+            top: 50px;
             object-fit: cover;
             padding-bottom: 20px;
         }
     }
 
-    .carreelev-div {
+    .jardineria-div {
         background-color: #fff;
         border: 1px solid #e2f8d8;
         box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
@@ -76,7 +76,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .ceje-carretillas {
+    .ceje-jardineria {
         margin-left: 370px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -92,7 +92,7 @@
         }
 
         img {
-            width: 300px;
+            width: 400px;
             height: 400px;
             object-fit: cover;
             position: relative;
@@ -107,7 +107,7 @@
         }
     }
 
-    .carreelev-div {
+    .jardineria-div {
         background-color: #fff;
         border: 1px solid #e2f8d8;
         box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
