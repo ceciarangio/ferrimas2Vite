@@ -13,8 +13,8 @@ export default function Compresor(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-compresor">
-            <div>
+        <div className="ceje-compresor animate__animated animate__fadeInRight">
+            <div className="compresor-div">
                 <img src={compresor} alt="compresor de aire"/>
                 <h3>Compresor de Aire</h3>
             </div>

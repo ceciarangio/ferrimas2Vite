@@ -14,13 +14,13 @@ export default function Vallas(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-vallas">
-        <div>
+        <div className="ceje-vallas animate__animated animate__fadeInRight ">
+        <div className="vallas-div">
             
             <img src={vallasmet} alt="vallas metalicas"/>
             <h3>Vallas Metalicas</h3>
         </div>
-        <div>
+        <div className="vallas-div">
             
             <img src={vallaprot} alt="vallas de proteccion"/>
             <h3>Vallas de Protección</h3>

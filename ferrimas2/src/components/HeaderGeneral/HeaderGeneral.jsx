@@ -19,7 +19,7 @@ export default function HeaderGeneral(){
             <Link to="/tienda" className="ceje-opcionesHeader--a">{t('translated-header-shop')}</Link>
             <a href="#" className="ceje-opcionesHeader--a--aboutUs">{t('translated-header-aboutUs')}</a>
             <Link to={'/ventajas'} className="ceje-opcionesHeader--a--ventajas" >{t('translated-header-ventajas')}</Link>
-            <a href="#" className="ceje-opcionesHeader--a">{t('translated-header-training')}</a>
+            <Link to="/formacion" className="ceje-opcionesHeader--a">{t('translated-header-training')}</Link>
             <Link to="/maquinaria" className="ceje-opcionesHeader--a">{t('translated-header-rental')}</Link>
             <Link to={'/condiciones-alquiler'} className="ceje-opcionesHeader--a--condiciones" >
             {t('translated-header-rental-conditions')}</Link>

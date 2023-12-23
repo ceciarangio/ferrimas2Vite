@@ -16,7 +16,9 @@ const Maquinaria = () => {
     return (
       <>
       <HeaderGeneral/>
+      <div className='menumaquiiz'>
       <MenuMaquinaria/>
+      </div>
       <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>

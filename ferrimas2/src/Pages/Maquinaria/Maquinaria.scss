@@ -80,19 +80,25 @@
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: flex-end;
+        align-content: center ;
         justify-content: center;
-        margin-top: 30px;
+        padding-top: 130px;
         
         h2{
             font-family: 'Manrope';
-            font-size: 50px;
+            font-size: 35px;
+            text-align: center;
+            margin-bottom: 20px;
+      
         }
       }
       
+      .menumaquiiz{
+        display: none;
+      }
       .botonesmaq-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Tres columnas */
+        grid-template-columns: repeat(2, 1fr);
 
         justify-content: center;
       }
@@ -101,9 +107,11 @@
         background-color: #ffffff;
         color: #94B318;
         padding: 15px; 
-        width: 250px; 
+        width: 280px; 
+        height: 280px;
         margin-bottom: 10px;
         border: none;
+        margin-left: 20px;
         border-radius: 5px;
         cursor: pointer;
         font-size: 1.5em;
@@ -111,11 +119,13 @@
         font-family: 'Manrope';
         display: flex;
     flex-direction: column;
-    align-items: center;
+
+    border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
       }
       
       .buttonMaqui:hover {
-        background-color: #728F30;
+        background-color: #dcf188;
       }
 
       .maquinaria-footer{
@@ -126,8 +136,8 @@
 @media screen and (min-width: 1024px) {
     .ceje-imgMaquinaria{
         text-align: center;
-        width: 180px;
-        height: 180px; /* Ajusta la altura deseada */
+        width: 150px;
+        height: 150px; 
     object-fit: cover;
     }
     .maquinaria-container {
@@ -135,28 +145,33 @@
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: flex-end;
+        align-content: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         
         h2{
             font-family: 'Manrope';
             font-size: 50px;
         }
       }
-      
+      .menumaquiiz{
+        display: none;
+      }
+
       .botonesmaq-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        grid-template-columns: repeat(3, 1fr); 
         justify-content: center;
-        row-gap: 70px;
+        row-gap: 20px;
       }
       
       .buttonMaqui {
+        margin-right: 15px;
         background-color: #ffffff;
         color: #809b15;
-        padding: 15px; /* Ajusta según tu preferencia */
-        width: 300px; /* Ajusta según tu preferencia */
+        padding: 15px; 
+        width: 280px; 
+        height: 320px;
         margin-bottom: 10px;
         border: none;
         border-radius: 5px;
@@ -164,9 +179,15 @@
         font-size: 1.5em;
         font-weight: 700;
         font-family: 'Manrope';
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
       }
       
       .buttonMaqui:hover {
-        background-color: #A2C31E;
+        background-color: #dcf188;
+      }
+
+      .maquinaria-footer{
+        margin-top: 50px;
       }
 }

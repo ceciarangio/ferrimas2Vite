@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../Footer/Footer";
 import HeaderGeneral from "../HeaderGeneral/HeaderGeneral";
@@ -10,9 +10,19 @@ import WhatsAppLink from "../WhatsAppLink/WhatsAppLink";
 
 export default function Contacto() {
   const form = useRef();
+  const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const userEmail = form.current.user_email.value.trim();
+    const userNumber = form.current.user_number.value.trim();
+
+    if (!userEmail && !userNumber) {
+      setError("Debes proporcionar al menos un correo electrónico o número de teléfono.");
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -24,6 +34,8 @@ export default function Contacto() {
       .then(
         (result) => {
           console.log(result.text);
+          setError(""); // Reinicia el mensaje de error si la operación fue exitosa
+          setSuccessMessage("Formulario enviado con éxito! Nos pondremos en contacto a la brevedad, gracias.");
         },
         (error) => {
           console.log(error.text);
@@ -31,6 +43,17 @@ export default function Contacto() {
       );
   };
 
+  useEffect(() => {
+    let timeout;
+
+    if (successMessage) {
+      timeout = setTimeout(() => {
+        setSuccessMessage("");
+      }, 5000);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [successMessage]);
   return (
     <>
       <HeaderGeneral />
@@ -46,9 +69,9 @@ export default function Contacto() {
           <p className="ceje-contacto-form--p">
             Al completar este formulario de contacto, encontrarás soluciones para
             cualquier pregunta o consulta relacionada con nuestros servicios.</p>
-          <p> Asimismo, podrás solicitar un presupuesto sin compromiso de manera
+          <p className="ceje-contacto-form--p"> Asimismo, podrás solicitar un presupuesto sin compromiso de manera
             sencilla y rápida mediante este formulario.</p>
-            <p>Nuestro equipo de atención al cliente se encargará de proporcionarte una respuesta rápida en el
+            <p className="ceje-contacto-form--p1">Nuestro equipo de atención al cliente se encargará de proporcionarte una respuesta rápida en el
             menor tiempo posible. Estamos aquí para ayudarte.</p> 
           
         </div>
@@ -72,7 +95,7 @@ export default function Contacto() {
               type="email"
               name="user_email"
               placeholder="Correo Electrónico"
-              required
+              
             />
           </div>
           <div className="ceje-contacto-form__container">
@@ -84,7 +107,7 @@ export default function Contacto() {
               type="number"
               name="user_number"
               placeholder="Número de teléfono"
-              required
+              
             />
           </div>
           <div className="ceje-contacto-form__container">
@@ -122,7 +145,7 @@ export default function Contacto() {
               type="date"
               name="user_rentalDate"
               placeholder="Fecha de alquiler"
-              required
+              
             />
           </div>
           <div className="ceje-contacto-form__container">
@@ -150,6 +173,8 @@ export default function Contacto() {
           </div>
           </div>
           <div className="ceje-contacto-form__container">
+          {error && <p className="error-message">{error}</p>}
+          {successMessage && <p className="success-message">{successMessage}</p>}
             <input
               className="ceje-contacto-form__container--submit"
               type="submit"

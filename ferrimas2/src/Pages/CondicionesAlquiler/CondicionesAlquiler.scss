@@ -1,8 +1,14 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
 .ceje-titularH2{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3vh;
     margin-top: 8vh;
+    font-family: 'Manrope';
 }
 
 .colorRed{
@@ -19,6 +25,7 @@
             margin-top: 10px;
             margin-bottom: 20px;
             margin-left: 30px;
+            font-family: 'Manrope';
             
         }
     }

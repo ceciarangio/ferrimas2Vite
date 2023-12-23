@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 767px) {
 .ceje-secado{
-
+    margin-top: 50px;
     display: grid;
     align-items: center;
     text-align: center;
@@ -20,7 +20,20 @@
         height: 300px;
         position: relative;
             top: 20px;
+            object-fit: cover;
     }
+}
+
+.secado-div {
+    background-color: #fff;
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+    padding: 0px;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    height: 350px;
+    margin-left: 30px;
 }
 }
 
@@ -33,7 +46,7 @@
         padding-top: 100px;
         position: relative;
         bottom: 40px;
-       
+        padding-top: 130px;
 
         h3{
             font-family: 'Manrope';
@@ -44,12 +57,24 @@
             height: 300px;
             position: relative;
             top: 25px;
+            object-fit: cover;
         }
 
     }
 
     .footer-secado{
         margin-top: 150px;
+    }
+    .secado-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+        height: 360px;
+        margin-left: 150px;
     }
 }
 
@@ -61,18 +86,30 @@
         text-align: center;
         position: relative;
         bottom: 180px;
-
+        margin-top: 200px;
         h3{
             font-size: 25px;
             font-family: 'Manrope';
         }
     
         img{
-            width: 480px;
-            height: 480px;
-            object-fit: contain;
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
             position: relative;
             top: 70px;
+            padding-bottom: 100px;
         }
+    }
+    .secado-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 400px;
+        margin-top: 20px;
+        height: 460px;
+        margin-left: 220px;
     }
 }

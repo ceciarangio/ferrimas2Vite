@@ -87,6 +87,11 @@
     padding-top: 10px;
     border-radius: 5px;
   }
+  .cartel{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+
+  }
 }
 
 
@@ -118,11 +123,22 @@
     font-size: 20px;
     font-family: 'Manrope';
   }
+  .cartel{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+
+  }
 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cartel{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+
+  }
+  
   .carteleria-container {
-    margin-top: 25px;
+    padding-top: 155px;
 
     h2{
       text-align: center;
@@ -140,8 +156,8 @@
   
   .img-carteleria {
     width: 150px;
-    height: auto;
-    object-fit: contain;
+    height: 200px;
+    object-fit: cover;
     padding-top: 10px;
     border-radius: 5px;
   }

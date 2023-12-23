@@ -117,7 +117,11 @@
       position: relative;
       margin-top: 30px;
     }
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
   
+    }
   }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .capazos-container {
@@ -151,15 +155,26 @@
     .footer-capazos{
       margin-top: 220px;
     }
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+  
+    }
   }
   @media screen and (min-width: 800px) and (max-width: 1201px) {
     .capazos-container {
       padding-top: 220px;
-      margin-top: 25px;
+
     }
     
     
     .footer-capazos{
-      margin-top: 260px;
+      margin-top: 190px;
+    }
+
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+  
     }
   }

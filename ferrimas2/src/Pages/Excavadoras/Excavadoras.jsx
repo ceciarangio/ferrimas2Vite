@@ -19,28 +19,28 @@ export default function Excavadoras(){
     <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-excavadoras">
-            <div>
+        <div className="ceje-excavadoras animate__animated animate__fadeInRight">
+            <div className='excav-div'>
                 
                 <img src={mini1t} alt='excavadora 1t'/>
                 <h3>Minigiratoria 1 T.</h3>
             </div>
-            <div>
+            <div className='excav-div'>
                 
                 <img src={mini3t} alt='excavadora 3t'/>
                 <h3>Minigiratoria 3.5 T.</h3>
             </div>
-            <div>
+            <div className='excav-div'>
                 
                 <img src={mini5t} alt='excavadora 5t'/>
                 <h3>Minigiratoria 5.5 T.</h3>
             </div>
-            <div>
+            <div className='excav-div'>
                 
                 <img src={excavadoras} alt='excavadoras'/>
                 <h3>Excavadoras</h3>
             </div>
-            <div>
+            <div className='excav-div'>
                 
                 <img src={martilloexc} alt='Martillo'/>
                 <h3>Martillo para Minigiratoria</h3>

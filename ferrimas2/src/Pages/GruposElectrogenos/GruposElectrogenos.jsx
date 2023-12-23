@@ -19,30 +19,30 @@ export default function GruposElectrogenos(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-        <div className="ceje-generadores">
-        <div>
+        <div className="ceje-generadores animate__animated animate__fadeInRight">
+        <div className="electrog-div">
             
-            <img className="animate" src={gene25} alt="Generador-25kv" />
+            <img src={gene25} alt="Generador-25kv" />
             <h3>Generador 25kv</h3>
         </div>
-        <div>
+        <div className="electrog-div">
             
-            <img className="animate__backInDown" src={gene1000} alt="Generador 1000" />
+            <img src={gene1000} alt="Generador 1000" />
             <h3>Generador Ayerbe 1000</h3>
         </div>
-        <div>
+        <div className="electrog-div">
             
-            <img className="animate__backInDown" src={gene3800} alt="Generador-3800" />
+            <img src={gene3800} alt="Generador-3800" />
             <h3>Generador Ayerbe 3800</h3>
         </div>
-        <div>
+        <div className="electrog-div">
             
-            <img className="animate__backInDown" src={gene5000} alt="Generador-5000" />
+            <img src={gene5000} alt="Generador-5000" />
             <h3>Generador Ayerbe 5000</h3>
         </div>
-        <div>
+        <div className="electrog-div">
             
-            <img className="animate__backInDown" src={gene8000} alt="Generador-8000" />
+            <img src={gene8000} alt="Generador-8000" />
             <h3>Generador Ayerbe 8000</h3>
         </div>
         </div>

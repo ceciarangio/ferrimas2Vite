@@ -94,7 +94,11 @@
   .seguridad p {
     font-size: 30px;
   }
-  
+  .seguridad{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -124,12 +128,15 @@
   .footer-seguridad{
     margin-top: 100px;
   }
+  .seguridad{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
 
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .seguridad-container {
-    margin-top: 25px;
-    padding-top: 120px;
+    padding-top: 150px;
 
     h2{
       text-align: center;
@@ -142,8 +149,7 @@
     grid-template-columns: repeat(3, 0.4fr);
     gap: 15px;
     text-align: center;
-    align-items: center;
-    justify-items: center;
+
     margin-left: 45px;
   }
   
@@ -158,5 +164,11 @@
 
   .footer-seguridad{
     margin-top: 100px;
+  }
+
+  .seguridad{
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+
   }
 }

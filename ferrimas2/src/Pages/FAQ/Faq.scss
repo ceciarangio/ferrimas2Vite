@@ -431,7 +431,144 @@
     }
 }
 
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ceje-faq-container{
+        min-height: 70vh;
+    
+        &__faq1{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq2{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq3{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq4{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+    }
+    
+        &__faq5{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq6{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            height: 110px;
+            font-family: 'manrope';
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq7{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq8{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq9{
+            // background-color: beige;
+            font-size: 18px;
+            padding-left: 20px;
+            font-family: 'manrope';
+            height: 150px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq10{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq11{
+            // background-color: beige;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+        &__faq12{
+            // background-color: gainsboro;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'manrope';
+            height: 110px;
+            &--h3{
+                cursor: pointer;
+            }
+        }
+    
+    }
+}
 
 // Animaciones
 .animate__fadeInLeftBig{
