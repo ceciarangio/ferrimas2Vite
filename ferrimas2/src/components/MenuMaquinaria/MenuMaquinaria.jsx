@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./MenuMaquinaria.scss";
-import HeaderGeneral from "../HeaderGeneral/HeaderGeneral";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
@@ -32,7 +31,6 @@ export default function MenuMaquinaria() {
   return (
     <>
     {/* <div className="container"> */}
-      <HeaderGeneral />
       <nav className="vertical-navbar">
         <h2>MAQUINARIA EN ALQUILER</h2>
         <div className="menu-list">
