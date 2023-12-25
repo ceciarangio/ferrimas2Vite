@@ -37,13 +37,12 @@ import BombasAgua from './Pages/BombasAgua/BombasAgua';
 import Compresor from './Pages/Compresores/Compresor';
 import SistemaSecado from './Pages/SistemaSecado/SistemaSecado';
 import Formacion from './Pages/Formacion/Formacion';
-// import Nosotros from './Pages/Nosotros/Nosotros';
 import CarretillasElevadoras from './Pages/CarretillasElevadoras/CarretillasElevadoras'; './Pages/CarretillasElevadoras/CarretillasElevadoras';
 
 import Faq from './Pages/FAQ/Faq';
 import Hormigoneras from './Pages/Hormigoneras/Hormigoneras';
 import Jardineria from './Pages/Jardineria/Jardineria';
-import Nosotros from './Pages/Nosotros/Nosotros';
+// import Nosotros from './Pages/Nosotros/Nosotros';
 
 function App() {
 
@@ -90,7 +89,7 @@ function App() {
         <Route path='/maquinaria/carretillas-elevadoras' element={<CarretillasElevadoras/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/formacion' element={<Formacion/>}/>
-        <Route path='/sobre-nosotros' element={<Nosotros/>}/>
+        {/* <Route path='/sobre-nosotros' element={<Nosotros/>}/> */}
       </Routes>
     </Router>
     </div>
