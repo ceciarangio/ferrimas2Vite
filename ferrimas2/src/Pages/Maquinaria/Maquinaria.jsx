@@ -37,7 +37,7 @@ const Maquinaria = () => {
             
             <Link to='/maquinaria/plataformas-tijera'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12md} alt='PLAT TIJERA'/> PLATAFORMAS DE TIJERA</button></Link>
             
-            <Link to='/maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/> MAQUINARIA DE CORTE</button></Link>
+            <Link to='/maquinaria/maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/> MAQUINARIA DE CORTE</button></Link>
             
           </div>
         </div>

@@ -43,6 +43,7 @@ import CarretillasElevadoras from './Pages/CarretillasElevadoras/CarretillasElev
 import Faq from './Pages/FAQ/Faq';
 import Hormigoneras from './Pages/Hormigoneras/Hormigoneras';
 import Jardineria from './Pages/Jardineria/Jardineria';
+import Nosotros from './Pages/Nosotros/Nosotros';
 
 function App() {
 
@@ -89,7 +90,7 @@ function App() {
         <Route path='/maquinaria/carretillas-elevadoras' element={<CarretillasElevadoras/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/formacion' element={<Formacion/>}/>
-
+        <Route path='/sobre-nosotros' element={<Nosotros/>}/>
       </Routes>
     </Router>
     </div>
