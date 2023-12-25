@@ -81,10 +81,107 @@ const resources = {
             "translated-ventajas-texto7": "Facilita la movilidad de la maquinaria según las necesidades de los proyectos, sin estar limitado a un solo lugar de operación.",
             "translated-ventajas-titulo8": "RESPONSABILIDAD DEL PROVEEDOR",
             "translated-ventajas-texto8": "Los costes asociados con problemas técnicos o de mantenimiento recaen en el proveedor de alquiler, aliviando a la empresa de estas responsabilidades.",
-
-
             // Fin traducción ventajas
-            
+
+            // Inicio traducción Contacto
+            "translated-contacto-titular": "Formulario de Contacto",
+            "translated-contacto-alCompletar": "Al completar este formulario de contacto, encontrarás soluciones para cualquier pregunta o consulta relacionada con nuestros servicios.",
+            "translated-contacto-asimismo": "Asimismo, podrás solicitar un presupuesto sin compromiso de manera sencilla y rápida mediante este formulario.",
+            "translated-contacto-nuestroEquipo": "Nuestro equipo de atención al cliente se encargará de proporcionarte una respuesta rápida en el menor tiempo posible. Estamos aquí para ayudarte.",
+            "translated-contacto-placeholder-nombre": "Nombre o Empresa",
+            "translated-contacto-placeholder-email": "Correo Electrónico",
+            "translated-contacto-placeholder-phonenumber": "Número de teléfono",
+            "translated-contacto-placeholder-machine": "¿Qué máquina desea alquilar?",
+            "translated-contacto-placeholder-ciudad": "Ciudad y población",
+            "translated-contacto-placeholder-fechaAlquiler": "Fecha de alquiler",
+            "translated-contacto-placeholder-diasAlquiler": "Días de alquiler",
+            "translated-contacto-placeholder-infoAdicional": "Información adicional",
+            "translated-contacto-placeholder-enviar": "Enviar",
+            "translated-contacto-placeholder-alpulsar": "Al pulsar en el botón 'Enviar', confirma que ha leído y acepta nuestra",
+            "translated-contacto-placeholder-polipriv": "Política de Privacidad",
+            "translated-contacto-placeholder-successMessage": "Formulario enviado con éxito! Nos pondremos en contacto a la brevedad, gracias.",
+
+            // Fin traducción Contacto
+            // Inicio traducción Formación
+            "translated-contacto-formacion-titular": "FORMACION",
+            "translated-contacto-formacion-colaboramos": "Colaboramos con Autoescuela Eurovial para proporcionar capacitación en el manejo de:",
+            "translated-contacto-formacion-list1": "Carretillas Elevadoras",
+            "translated-contacto-formacion-list2": "Plataformas Elevadoras",
+            "translated-contacto-formacion-list3": "Manipulador telescópico",
+            "translated-contacto-formacion-paramasinfo": "Para más Información puedes contactar al",
+            "translated-contacto-formacion-oatraves": "o a travès de su página web",
+
+            // Fin traducción Formación
+
+            // Inicio traducción Maquinaria
+            "translated-contacto-maquinaria-titulo": "MAQUINARIA DE ALQUILER",
+            "translated-contacto-maquinaria-dumpers": "DUMPERS",
+            "translated-contacto-maquinaria-compactadoras": "COMPACTADORAS",
+            "translated-contacto-maquinaria-excavadoras": "EXCAVADORAS",
+            "translated-contacto-maquinaria-platarticuladas": "PLATAFORMAS ARTICULADAS",
+            "translated-contacto-maquinaria-plattijera": "PLATAFORMAS DE TIJERA",
+            "translated-contacto-maquinaria-maqcorte": "MAQUINARIA DE CORTE",
+
+            // Fin traducción Maquinaria
+
+            // Inicio traducción Menu Maquinaria
+            "translated-contacto-menumaq-titular": "MAQUINARIA EN ALQUILER",
+            "translated-contacto-menumaq-dumpers": "DUMPERS",
+            "translated-contacto-menumaq-gruposelectrogenos": "GRUPOS ELECTROGENOS",
+            "translated-contacto-menumaq-martilloselectricos": "MARTILLOS ELECTRICOS",
+            "translated-contacto-menumaq-maquinariacorte": "MAQUINARIA DE CORTE",
+            "translated-contacto-menumaq-vallas": "VALLAS",
+            "translated-contacto-menumaq-senalizacion": "SEÑALIZACION",
+            "translated-contacto-menumaq-compactadoras": "COMPACTADORAS",
+            "translated-contacto-menumaq-excavadoras": "EXCAVADORAS",
+            "translated-contacto-menumaq-plataformasarticuladas": "PLATAFORMAS ARTICULADAS",
+            "translated-contacto-menumaq-plataformastijera": "PLATAFORMAS DE TIJERA",
+            "translated-contacto-menumaq-limpieza": "LIMPIEZA",
+            "translated-contacto-menumaq-bombasagua": "BOMBAS DE AGUA",
+            "translated-contacto-menumaq-compresoraire": "COMPRESOR DE AIRE",
+            "translated-contacto-menumaq-sistemassecado": "SISTEMAS DE SECADO",
+            "translated-contacto-menumaq-hormigoneras": "HORMIGONERAS",
+            "translated-contacto-menumaq-carretillaselevadoras": "CARRETILLAS ELEVADORAS",
+            "translated-contacto-menumaq-maqjardineria": "MAQUINARIA DE JARDINERIA",
+
+            // Fin traducción Menu Maquinaria
+
+            // Inicio traducción FAQ
+            "translated-faq-titulo": "Preguntas Frecuentes",
+            "translated-faq-titulo-2": "¿Cuáles son los beneficios de alquilar maquinaria en lugar de comprar?",
+            "translated-faq-p1": "¿Cuáles son los beneficios de alquilar maquinaria en lugar de comprar?",
+            "translated-faq-r1": "Si quieres saber cuáles son los beneficios de alquilar maquinaria en lugar de comprar, visita ",
+            "translated-faq-r1-1": "este enlace",
+            "translated-faq-p2": "¿Qué tipos de maquinaria de obra tienen disponible para alquilar?",
+            "translated-faq-r2": "Disponemos de multiples tipos de maquinaria, como Dumpers, Plataformas elevadoras ó excavadoras. Puedes ver la lista completa de maquinaria",
+            "translated-faq-r2-1": " AQUÍ",
+            "translated-faq-p3": "¿Cuál es la duración mínima de alquiler de la maquinaria?",
+            "translated-faq-r3": "La duración mínima de alquiler es de 1 (un) día.",
+            "translated-faq-p4": "¿Cómo se determinan los costos de alquiler?.",
+            "translated-faq-r4": "Los costos de alquiler variarán en función de la maquinaria y cantidad de días. Para saber más, rellene el formulario de contacto que puede encontrar en ",
+            "translated-faq-r4-1": "este enlace",
+            "translated-faq-p5": "¿Ofrecen entrega y recogida de la maquinaria en el lugar de trabajo?",
+            "translated-faq-r5": "Sí. En estos casos al precio se le añaden los portes de la maquinaria, que variarán en función de la distancia.",
+            "translated-faq-p6": "¿Puedo alquilar maquinaria para proyectos a largo plazo?",
+            "translated-faq-r6": "Sí, no hay ningún problema.",
+            "translated-faq-p7": "¿Se proporciona asesoramiento técnico para la selección de maquinaria?",
+            "translated-faq-r7": "Sí. En caso de necesitar asesoramiento, estaremos encantamos de ayudarle.",
+            "translated-faq-p8": "¿Ofrecen opciones de alquiler con operador?",
+            "translated-faq-r8": "No. El alquiler es solamente de la maquinaria.",
+            "translated-faq-p9": "¿Cuál es el proceso para reservar y confirmar un alquiler?",
+            "translated-faq-r9": "Para reservar un alquiler, hay que ponerse en contacto con nuestras oficinas. Desde allí le asesorarán y le guiarán en el proceso de alquiler y confirmación del mismo. También puede contactar con nosotros a través de email o con nuestro ",
+            "translated-faq-r9-1": "formulario",
+            "translated-faq-r9-2": " y le contactaremos a la mayor brevedad posible.",
+            "translated-faq-p10": "¿Qué sucede si la maquinaria se avería durante el período de alquiler?",
+            "translated-faq-r10": "En caso de avería, debe ponerse en contacto con nosotros tan pronto le sea posible con el fin de solucionar esa avería de la forma más rápida posible.",
+            "translated-faq-p11": "¿Cómo puedo realizar el pago del alquiler?",
+            "translated-faq-r11": "El pago del alquiler se puede realizar en efectivo, tarjeta o transferéncia bancaria.",
+            "translated-faq-p12": "¿Cuál es el horario de atención al cliente para consultas y asistencia?",
+            "translated-faq-r12": "Nuestro horario de oficina es de 7:30h a 13:30h y de 15:30h a 18:30h.",
+
+
+
+            // Fin traducción FAQ
             
         }
     },
@@ -166,6 +263,107 @@ const resources = {
             "translated-ventajas-texto8": "Costs associated with technical or maintenance issues fall on the rental provider, relieving the company of these responsibilities.",
 
             // Fin traducción ventajas
+
+            // Inicio traducción Contacto
+            "translated-contacto-titular": "Contact Form",
+            "translated-contacto-alCompletar": "By completing this contact form, you will find solutions for any questions or inquiries related to our services.",
+            "translated-contacto-asimismo": "You can also request a non-binding quote easily and quickly through this form.",
+            "translated-contacto-nuestroEquipo": "Our customer service team will take care of providing you with a quick response as soon as possible. We are here to help you.",
+            "translated-contacto-placeholder-nombre": "Name or Company",
+            "translated-contacto-placeholder-email": "Email",
+            "translated-contacto-placeholder-phonenumber": "Phone Number",
+            "translated-contacto-placeholder-machine": "Which machine do you want to rent?",
+            "translated-contacto-placeholder-ciudad": "City and Town",
+            "translated-contacto-placeholder-fechaAlquiler": "Rental Date",
+            "translated-contacto-placeholder-diasAlquiler": "Rental Days",
+            "translated-contacto-placeholder-infoAdicional": "Additional Information",
+            "translated-contacto-placeholder-enviar": "Send",
+            "translated-contacto-placeholder-alpulsar": "By clicking the 'Send' button, you confirm that you have read and accept our",
+            "translated-contacto-placeholder-polipriv": "Privacy Policy",
+            "translated-contacto-placeholder-successMessage": "Form submitted successfully! We will contact you shortly, thank you.",
+            // Fin traducción Contacto
+
+            // Inicio traducción Formación
+            "translated-contacto-formacion-titular": "TRAINING",
+            "translated-contacto-formacion-colaboramos": "We collaborate with Autoescuela Eurovial to provide training in the handling of:",
+            "translated-contacto-formacion-list1": "Forklifts",
+            "translated-contacto-formacion-list2": "Elevated Platforms",
+            "translated-contacto-formacion-list3": "Telescopic Handler",
+            "translated-contacto-formacion-paramasinfo": "For more information, you can contact them at",
+            "translated-contacto-formacion-oatraves": "or through their website",
+
+            // Fin traducción Formación    
+            
+            // Inicio traducción Maquinaria
+            "translated-contacto-maquinaria-titulo": "RENTAL MACHINERY",
+            "translated-contacto-maquinaria-dumpers": "DUMPERS",
+            "translated-contacto-maquinaria-compactadoras": "COMPACTORS",
+            "translated-contacto-maquinaria-excavadoras": "EXCAVATORS",
+            "translated-contacto-maquinaria-platarticuladas": "ARTICULATED PLATFORMS",
+            "translated-contacto-maquinaria-plattijera": "SCISSOR LIFTS",
+            "translated-contacto-maquinaria-maqcorte": "CUTTING MACHINERY",
+
+            // Fin traducción Maquinaria
+            // Inicio traducción Menu Maquinaria
+            "translated-contacto-menumaq-titular": "MACHINERY FOR RENT",
+            "translated-contacto-menumaq-dumpers": "DUMPERS",
+            "translated-contacto-menumaq-gruposelectrogenos": "POWER GENERATORS",
+            "translated-contacto-menumaq-martilloselectricos": "ELECTRIC HAMMERS",
+            "translated-contacto-menumaq-maquinariacorte": "CUTTING MACHINERY",
+            "translated-contacto-menumaq-vallas": "FENCES",
+            "translated-contacto-menumaq-senalizacion": "SIGNALIZATION",
+            "translated-contacto-menumaq-compactadoras": "COMPACTORS",
+            "translated-contacto-menumaq-excavadoras": "EXCAVATORS",
+            "translated-contacto-menumaq-plataformasarticuladas": "ARTICULATED PLATFORMS",
+            "translated-contacto-menumaq-plataformastijera": "SCISSOR LIFTS",
+            "translated-contacto-menumaq-limpieza": "CLEANING",
+            "translated-contacto-menumaq-bombasagua": "WATER PUMPS",
+            "translated-contacto-menumaq-compresoraire": "AIR COMPRESSOR",
+            "translated-contacto-menumaq-sistemassecado": "DRYING SYSTEMS",
+            "translated-contacto-menumaq-hormigoneras": "CONCRETE MIXERS",
+            "translated-contacto-menumaq-carretillaselevadoras": "FORKLIFTS",
+            "translated-contacto-menumaq-maqjardineria": "GARDENING MACHINERY",
+
+            // Fin traducción Menu Maquinaria
+
+            // Inicio traducción FAQ
+            "translated-faq-titulo": "Frequently Asked Questions",
+            "translated-faq-titulo-2": "What are the benefits of renting machinery instead of buying?",
+            "translated-faq-titulo-3": "If you want to know the benefits of renting machinery instead of buying, visit",
+            "translated-faq-titulo-3-1": "this link",
+            "translated-faq-p1": "What are the benefits of renting machinery instead of buying?",
+            "translated-faq-r1": "If you want to know the benefits of renting machinery instead of buying, visit ",
+            "translated-faq-r1-1": "this link",
+            "translated-faq-p2": "What types of construction machinery do you have available for rent?",
+            "translated-faq-r2": "We have various types of machinery, such as Dumpers, Lift Platforms, and Excavators. You can see the complete list of machinery ",
+            "translated-faq-r2-1": "HERE",
+            "translated-faq-p3": "What is the minimum rental duration for machinery?",
+            "translated-faq-r3": "The minimum rental duration is 1 (one) day.",
+            "translated-faq-p4": "How are rental costs determined?",
+            "translated-faq-r4": "Rental costs will vary depending on the machinery and the number of days. To learn more, fill out the contact form that you can find at ",
+            "translated-faq-r4-1": "this link",
+            "translated-faq-p5": "Do you offer delivery and pickup of machinery at the worksite?",
+            "translated-faq-r5": "Yes. In these cases, the price includes the transportation of the machinery, which will vary depending on the distance.",
+            "translated-faq-p6": "Can I rent machinery for long-term projects?",
+            "translated-faq-r6": "Yes, there is no problem.",
+            "translated-faq-p7": "Is technical advice provided for the selection of machinery?",
+            "translated-faq-r7": "Yes. In case you need advice, we will be happy to help.",
+            "translated-faq-p8": "Do you offer rental options with an operator?",
+            "translated-faq-r8": "No. The rental is only for the machinery.",
+            "translated-faq-p9": "What is the process for booking and confirming a rental?",
+            "translated-faq-r9": "To book a rental, you need to contact our offices. From there, they will advise and guide you through the rental and confirmation process. You can also contact us via email or through our ",
+            "translated-faq-r9-1": "form",
+            "translated-faq-r9-2": " and we will contact you as soon as possible.",
+            "translated-faq-p10": "What happens if the machinery breaks down during the rental period?",
+            "translated-faq-r10": "In case of a breakdown, you should contact us as soon as possible to resolve the issue as quickly as possible.",
+            "translated-faq-p11": "How can I make the payment for the rental?",
+            "translated-faq-r11": "Payment for the rental can be made in cash, by card, or by bank transfer.",
+            "translated-faq-p12": "What is the customer service hours for inquiries and assistance?",
+            "translated-faq-r12": "Our office hours are from 7:30 am to 1:30 pm and from 3:30 pm to 6:30 pm.",
+
+
+
+            // Fin traducción FAQ
         }
     },
     val: {
@@ -246,6 +444,111 @@ const resources = {
             "translated-ventajas-texto8": "Els costos associats a problemes tècnics o de manteniment recauen en el proveïdor de lloguer, alleujant l'empresa d'aquestes responsabilitats.",
 
             // Fin traducción ventajas
+            // Inicio traducción Contacto
+
+            "translated-contacto-titular": "Formulari de Contacte",
+            "translated-contacto-alCompletar": "En completar aquest formulari de contacte, trobaràs solucions per a qualsevol pregunta o consulta relacionada amb els nostres serveis.",
+            "translated-contacto-asimismo": "A més, podràs sol·licitar un pressupost sense compromís de manera senzilla i ràpida mitjançant aquest formulari.",
+            "translated-contacto-nuestroEquipo": "El nostre equip d'atenció al client es responsabilitzarà de proporcionar-te una resposta ràpida en el menor temps possible. Estem aquí per ajudar-te.",
+            "translated-contacto-placeholder-nombre": "Nom o Empresa",
+            "translated-contacto-placeholder-email": "Correu Electrònic",
+            "translated-contacto-placeholder-phonenumber": "Número de Telèfon",
+            "translated-contacto-placeholder-machine": "Quina màquina vols llogar?",
+            "translated-contacto-placeholder-ciudad": "Ciutat i Població",
+            "translated-contacto-placeholder-fechaAlquiler": "Data de Lloguer",
+            "translated-contacto-placeholder-diasAlquiler": "Dies de Lloguer",
+            "translated-contacto-placeholder-infoAdicional": "Informació Addicional",
+            "translated-contacto-placeholder-enviar": "Enviar",
+            "translated-contacto-placeholder-alpulsar": "En prémer el botó 'Enviar', confirmes que has llegit i acceptes la nostra",
+            "translated-contacto-placeholder-polipriv": "Política de Privacitat",
+            "translated-contacto-placeholder-successMessage": "Formulari enviat amb èxit! Ens posarem en contacte aviat, gràcies.",
+            // Fin traducción Contacto
+
+            // Inicio traducción Formación
+
+            "translated-contacto-formacion-titular": "FORMACIÓ",
+            "translated-contacto-formacion-colaboramos": "Col·laborem amb Autoescola Eurovial per proporcionar formació en la manipulació de:",
+            "translated-contacto-formacion-list1": "Carretons Elevadors",
+            "translated-contacto-formacion-list2": "Plataformes Elevadores",
+            "translated-contacto-formacion-list3": "Manipulador telescòpic",
+            "translated-contacto-formacion-paramasinfo": "Per a més informació, podeu contactar amb ells a",
+            "translated-contacto-formacion-oatraves": "o a través del seu lloc web",
+
+            // Fin traducción Formación     
+            
+            // Inicio traducción Maquinaria
+
+            "translated-contacto-maquinaria-titulo": "MAQUINÀRIA DE LLOGUER",
+            "translated-contacto-maquinaria-dumpers": "DUMPERS",
+            "translated-contacto-maquinaria-compactadoras": "COMPACTADORES",
+            "translated-contacto-maquinaria-excavadoras": "EXCAVADORES",
+            "translated-contacto-maquinaria-platarticuladas": "PLATAFORMES ARTICULADES",
+            "translated-contacto-maquinaria-plattijera": "PLATAFORMES DE TISORES",
+            "translated-contacto-maquinaria-maqcorte": "MAQUINÀRIA DE TALL",
+
+            // Fin traducción Maquinaria
+
+            // Inicio traducción Menu Maquinaria
+
+            "translated-contacto-menumaq-titular": "MAQUINÀRIA EN LLOGUER",
+            "translated-contacto-menumaq-dumpers": "DUMPERS",
+            "translated-contacto-menumaq-gruposelectrogenos": "GRUPS ELECTRÒGENS",
+            "translated-contacto-menumaq-martilloselectricos": "MARTELLS ELÈCTRICS",
+            "translated-contacto-menumaq-maquinariacorte": "MAQUINÀRIA DE TALL",
+            "translated-contacto-menumaq-vallas": "VALLES",
+            "translated-contacto-menumaq-senalizacion": "SIGNALITZACIÓ",
+            "translated-contacto-menumaq-compactadoras": "COMPACTADORES",
+            "translated-contacto-menumaq-excavadoras": "EXCAVADORES",
+            "translated-contacto-menumaq-plataformasarticuladas": "PLATAFORMES ARTICULADES",
+            "translated-contacto-menumaq-plataformastijera": "PLATAFORMES DE TIJERA",
+            "translated-contacto-menumaq-limpieza": "NETEJA",
+            "translated-contacto-menumaq-bombasagua": "BOMBES D'AIGUA",
+            "translated-contacto-menumaq-compresoraire": "COMPRESSOR D'AIRE",
+            "translated-contacto-menumaq-sistemassecado": "SISTEMES DE SEQUEDAT",
+            "translated-contacto-menumaq-hormigoneras": "HORMIGONERES",
+            "translated-contacto-menumaq-carretillaselevadoras": "CARRETILLES ELEVADORES",
+            "translated-contacto-menumaq-maqjardineria": "MAQUINÀRIA DE JARDINERIA",
+
+            // Fin traducción Menu Maquinaria
+
+            // Inicio traducción FAQ
+            "translated-faq-titulo": "Preguntes Freqüents",
+            "translated-faq-titulo-2": "Quins són els beneficis de llogar maquinària en lloc de comprar-la?",
+            "translated-faq-titulo-3": "Si vols conèixer els beneficis de llogar maquinària en lloc de comprar-la, visita",
+            "translated-faq-titulo-3-1": "aquest enllaç",
+            "translated-faq-p1": "Quins són els beneficis de llogar maquinària en lloc de comprar-la?",
+            "translated-faq-r1": "Si vols conèixer els beneficis de llogar maquinària en lloc de comprar-la, visita ",
+            "translated-faq-r1-1": "aquest enllaç",
+            "translated-faq-p2": "Quins tipus de maquinària de construcció teniu disponible per llogar?",
+            "translated-faq-r2": "Disposem de diversos tipus de maquinària, com ara Dumpers, Plataformes elevadores i Excavadores. Pots veure la llista completa de maquinària",
+            "translated-faq-r2-1": " ACÍ",
+            "translated-faq-p3": "Quina és la durada mínima de lloguer de la maquinària?",
+            "translated-faq-r3": "La durada mínima de lloguer és d'1 (un) dia.",
+            "translated-faq-p4": "Com es determinen els costos de lloguer?",
+            "translated-faq-r4": "Els costos de lloguer varien en funció de la maquinària i del nombre de dies. Per a obtenir més informació, ompli el formulari de contacte que pot trobar a ",
+            "translated-faq-r4-1": "aquest enllaç",
+            "translated-faq-p5": "Oferiu lliurament i recollida de la maquinària al lloc de treball?",
+            "translated-faq-r5": "Sí. En aquests casos, el preu inclou el transport de la maquinària, que variarà en funció de la distància.",
+            "translated-faq-p6": "Puc llogar maquinària per a projectes a llarg termini?",
+            "translated-faq-r6": "Sí, no hi ha cap problema.",
+            "translated-faq-p7": "Es proporciona assessorament tècnic per a la selecció de maquinària?",
+            "translated-faq-r7": "Sí. En cas que necessitis assessorament, estarem encantats d'ajudar-te.",
+            "translated-faq-p8": "Oferiu opcions de lloguer amb operador?",
+            "translated-faq-r8": "No. El lloguer és només de la maquinària.",
+            "translated-faq-p9": "Quin és el procés per a reservar i confirmar un lloguer?",
+            "translated-faq-r9": "Per a reservar un lloguer, has de posar-te en contacte amb les nostres oficines. Des d'allà, t'assessoraran i t'orientaran en el procés de lloguer i confirmació del mateix. També pots posar-te en contacte amb nosaltres per correu electrònic o a través del nostre ",
+            "translated-faq-r9-1": "formulari ",
+            "translated-faq-r9-2": "i ens posarem en contacte amb tu el més aviat possible.",
+            "translated-faq-p10": "Què passa si la maquinària es trenca durant el període de lloguer?",
+            "translated-faq-r10": "En cas de trencament, has de posar-te en contacte amb nosaltres tan aviat com sigui possible per resoldre el problema el més ràpidament possible.",
+            "translated-faq-p11": "Com puc fer el pagament del lloguer?",
+            "translated-faq-r11": "El pagament del lloguer es pot fer en efectiu, amb targeta o per transferència bancària.",
+            "translated-faq-p12": "Quin és l'horari d'atenció al client per a consultes i assistència?",
+            "translated-faq-r12": "El nostre horari d'oficina és de 7:30h a 13:30h i de 15:30h a 18:30h.",
+
+
+
+            // Fin traducción FAQ
         }
     }
 

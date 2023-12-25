@@ -10,9 +10,12 @@ import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
 import MenuMaquinaria from "../../components/MenuMaquinaria/MenuMaquinaria";
 import './Maquinaria.scss';
 import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+import { useTranslation } from 'react-i18next';
+
 
 
 const Maquinaria = () => {
+  const { t } = useTranslation();
     return (
       <>
       <HeaderGeneral/>
@@ -24,20 +27,20 @@ const Maquinaria = () => {
       </div>
         <div className="maquinaria-container">
           
-          <h2>MAQUINARIA DE ALQUILER</h2>
+          <h2>{t("translated-contacto-maquinaria-titulo")}</h2>
           <div className="botonesmaq-container">
   
-            <Link to='/maquinaria/dumpers'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={dump3500} alt='dumper 3500'/> DUMPERS</button></Link>
+            <Link to='/maquinaria/dumpers'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={dump3500} alt='dumper 3500'/>{t("translated-contacto-maquinaria-dumpers")}</button></Link>
              
-            <Link to='/maquinaria/compactadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={rod650} alt='Rodillo 650'/> COMPACTADORAS</button></Link>
+            <Link to='/maquinaria/compactadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={rod650} alt='Rodillo 650'/>{t("translated-contacto-maquinaria-compactadoras")}</button></Link>
             
-            <Link to='/maquinaria/excavadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={mini3t} alt='minigiratoria 3.5t'/> EXCAVADORAS</button></Link>
+            <Link to='/maquinaria/excavadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={mini3t} alt='minigiratoria 3.5t'/>{t("translated-contacto-maquinaria-excavadoras")}</button></Link>
             
-            <Link to='/maquinaria/plataformas-articuladas'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12m} alt='PLAT ARTICULADA 12M'/> PLATAFORMAS ARTICULADAS</button></Link>
+            <Link to='/maquinaria/plataformas-articuladas'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12m} alt='PLAT ARTICULADA 12M'/>{t("translated-contacto-maquinaria-platarticuladas")}</button></Link>
             
-            <Link to='/maquinaria/plataformas-tijera'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12md} alt='PLAT TIJERA'/> PLATAFORMAS DE TIJERA</button></Link>
+            <Link to='/maquinaria/plataformas-tijera'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12md} alt='PLAT TIJERA'/>{t("translated-contacto-maquinaria-plattijera")}</button></Link>
             
-            <Link to='/maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/> MAQUINARIA DE CORTE</button></Link>
+            <Link to='/maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/>{t("translated-contacto-maquinaria-maqcorte")}</button></Link>
             
           </div>
         </div>

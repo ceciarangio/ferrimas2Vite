@@ -1,26 +1,29 @@
 import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
+import { useTranslation } from 'react-i18next';
+
 import './Formacion.scss';
 
 export default function Formacion(){
+    const { t } = useTranslation();
 
     return <>
         <HeaderGeneral/>
         <div>
             <div>
-            <h2 className="h2-formacion">FORMACION</h2>
+            <h2 className="h2-formacion">{t("translated-contacto-formacion-titular")}</h2>
             <div className="div-containet-formacion">
             <img className="img-formacion" src='https://autoescuelaeurovial.com/assets/eurovial/images/logo-eurovial.png' alt="pagina autoescuela"/>
             <div className="div-formacion">
-            <p>Colaboramos con Autoescuela Eurovial para proporcionar capacitación en el manejo de:</p>
+            <p>{t("translated-contacto-formacion-colaboramos")}</p>
                 <ul>
-                    <li>Carretillas Elevadoras</li>
-                    <li>Plataformas Elevadoras</li>
-                    <li>Manipulador telescópico</li>
+                    <li>{t("translated-contacto-formacion-list1")}</li>
+                    <li>{t("translated-contacto-formacion-list2")}</li>
+                    <li>{t("translated-contacto-formacion-list3")}</li>
                 </ul>
                 
-                <p>Para más Información puedes contactar al <span>690883755</span></p>
-                <p>O a travès de su página web <a>https://autoescuelaeurovial.com/es</a></p>
+                <p>{t("translated-contacto-formacion-paramasinfo")} <span>690883755</span></p>
+                <p>{t("translated-contacto-formacion-oatraves")} <a href="https://autoescuelaeurovial.com/es">https://autoescuelaeurovial.com/es</a></p>
                 </div>
                 </div>
             </div>
