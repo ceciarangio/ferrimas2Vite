@@ -43,8 +43,7 @@ main {
   &__whiteBg{
       margin-top: 10px;
       background-color: rgba($color: #ffffff, $alpha: 0.85);
-      padding-left: 10px;
-      padding-right: 10px;
+
   }
 
     &--img{
@@ -97,10 +96,9 @@ span{
     height: fit-content;
     
     &__whiteBg{
-        margin-top: 20px;
+
         background-color: rgba($color: #ffffff, $alpha: 0.85);
-        padding-left: 10px;
-        padding-right: 10px;
+
     }
     &--h2{
         padding-top: 30px;
@@ -432,10 +430,9 @@ span{
       height: fit-content;
       
       &__whiteBg{
-          margin-top: 20px;
+
           background-color: rgba($color: #ffffff, $alpha: 0.85);
-          padding-left: 10px;
-          padding-right: 10px;
+
       }}
 
     &__maquinariaCard{
@@ -508,10 +505,7 @@ span{
    
   
     &__whiteBg{
-        margin-top: 10px;
         background-color: rgba($color: #ffffff, $alpha: 0.85);
-        padding-left: 10px;
-        padding-right: 10px;
     }
   
       &--img{
@@ -650,7 +644,7 @@ span{
 
 
   .container3claves{
-    background-color: white;
+
     &--h2{
       margin-top: 70px;
       font-size: 3rem;
@@ -737,7 +731,6 @@ span{
       font-size: 3rem;
       margin-top: 70px;
       margin-bottom: 70px;
-      background-color: white;
     }
     &--p{
       font-size: 1.5rem;
