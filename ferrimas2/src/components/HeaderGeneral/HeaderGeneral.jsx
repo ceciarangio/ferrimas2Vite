@@ -12,6 +12,7 @@ export default function HeaderGeneral(){
     const { t } = useTranslation();
 
     return <>
+    
     <header className="header">
     <Link to={'/'}><img src={logo} className="logoFerrimas2" alt="logo" /></Link>
     <div className="ceje-header__language-menu-container">

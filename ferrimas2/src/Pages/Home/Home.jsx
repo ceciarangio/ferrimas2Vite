@@ -142,6 +142,7 @@ export default function Home() {
         <Link to="/contacto"><button className="botonPresupuesto">{t("translated-Home-pide-presupuesto")}</button></Link>
       </div>
       </div>
+      
 
       <footer className="footer">
         <Footer/>
