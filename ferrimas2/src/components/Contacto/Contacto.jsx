@@ -3,12 +3,15 @@ import emailjs from "@emailjs/browser";
 import Footer from "../Footer/Footer";
 import HeaderGeneral from "../HeaderGeneral/HeaderGeneral";
 import "./Contacto.scss";
+import { useTranslation } from 'react-i18next';
 
 import { Link } from "react-router-dom";
 
 import WhatsAppLink from "../WhatsAppLink/WhatsAppLink";
 
 export default function Contacto() {
+  const { t } = useTranslation();
+
   const form = useRef();
   const [error, setError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -35,7 +38,7 @@ export default function Contacto() {
         (result) => {
           console.log(result.text);
           setError(""); // Reinicia el mensaje de error si la operación fue exitosa
-          setSuccessMessage("Formulario enviado con éxito! Nos pondremos en contacto a la brevedad, gracias.");
+          setSuccessMessage(t("translated-contacto-placeholder-successMessage"));
         },
         (error) => {
           console.log(error.text);
@@ -65,14 +68,11 @@ export default function Contacto() {
         <form className="ceje-contacto-form" ref={form} onSubmit={sendEmail}>
         
         <div>
-          <h3 className="ceje-contacto-form--h3">Formulario de Contacto</h3>
+          <h3 className="ceje-contacto-form--h3">{t("translated-contacto-titular")}</h3>
           <p className="ceje-contacto-form--p">
-            Al completar este formulario de contacto, encontrarás soluciones para
-            cualquier pregunta o consulta relacionada con nuestros servicios.</p>
-          <p className="ceje-contacto-form--p"> Asimismo, podrás solicitar un presupuesto sin compromiso de manera
-            sencilla y rápida mediante este formulario.</p>
-            <p className="ceje-contacto-form--p1">Nuestro equipo de atención al cliente se encargará de proporcionarte una respuesta rápida en el
-            menor tiempo posible. Estamos aquí para ayudarte.</p> 
+          {t("translated-contacto-alCompletar")}</p>
+          <p className="ceje-contacto-form--p"> {t("translated-contacto-asimismo")}</p>
+            <p className="ceje-contacto-form--p1">{t("translated-contacto-nuestroEquipo")}</p> 
           
         </div>
         <div className="ceje-contacto-form__formulario">
@@ -82,7 +82,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="text"
               name="user_name"
-              placeholder="Nombre o Empresa"
+              placeholder={t("translated-contacto-placeholder-nombre")}
               required
             />
           </div>
@@ -94,7 +94,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="email"
               name="user_email"
-              placeholder="Correo Electrónico"
+              placeholder={t("translated-contacto-placeholder-email")}
               
             />
           </div>
@@ -106,7 +106,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="number"
               name="user_number"
-              placeholder="Número de teléfono"
+              placeholder={t("translated-contacto-placeholder-phonenumber")}
               
             />
           </div>
@@ -118,7 +118,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="text"
               name="user_machinery"
-              placeholder="¿Qué máquina desea alquilar?"
+              placeholder={t("translated-contacto-placeholder-machine")}
               required
             />
           </div>
@@ -130,7 +130,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="text"
               name="user_city"
-              placeholder="Ciudad y población"
+              placeholder={t("translated-contacto-placeholder-ciudad")}
               required
             />
           </div>
@@ -138,13 +138,13 @@ export default function Contacto() {
           <div className="ceje-contacto-form__formulario__derecha">
           <div className="ceje-contacto-form__container">
             <label className="ceje-contacto-form__container--label">
-              Fecha de alquiler
+            {t("translated-contacto-placeholder-fechaAlquiler")}
             </label>
             <input
               className="ceje-contacto-form__container--input"
               type="date"
               name="user_rentalDate"
-              placeholder="Fecha de alquiler"
+              placeholder={t("translated-contacto-placeholder-fechaAlquiler")}
               
             />
           </div>
@@ -156,7 +156,7 @@ export default function Contacto() {
               className="ceje-contacto-form__container--input"
               type="number"
               name="user_rentalDays"
-              placeholder="Días de alquiler"
+              placeholder={t("translated-contacto-placeholder-diasAlquiler")}
               required
             />
           </div>
@@ -167,7 +167,7 @@ export default function Contacto() {
             <textarea
               className="ceje-contacto-form__container--input--comentarios"
               name="user_comments"
-              placeholder="Información adicional"
+              placeholder={t("translated-contacto-placeholder-infoAdicional")}
               />
           </div>
           </div>
@@ -178,9 +178,9 @@ export default function Contacto() {
             <input
               className="ceje-contacto-form__container--submit"
               type="submit"
-              value="Enviar"
+              value={t("translated-contacto-placeholder-enviar")}
             />
-            <small className="small">Al pulsar en el botón 'Enviar', confirma que ha leído y acepta nuestra <Link to={'/politica-de-privacidad'}>Política de Privacidad</Link></small>
+            <small className="small">{t("translated-contacto-placeholder-alpulsar")} <Link to={'/politica-de-privacidad'}>{t("translated-contacto-placeholder-polipriv")}</Link></small>
           </div>
         </form>
       </div>

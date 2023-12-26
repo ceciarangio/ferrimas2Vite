@@ -3,10 +3,15 @@ import "./MenuMaquinaria.scss";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
+
 
 
 
 export default function MenuMaquinaria() {
+
+  const { t } = useTranslation();
+
   const [menuItems, setMenuItems] = useState({
     dumpers: false,
     gruposElectrogenos: false,
@@ -32,7 +37,7 @@ export default function MenuMaquinaria() {
     <>
     {/* <div className="container"> */}
       <nav className="vertical-navbar">
-        <h2>MAQUINARIA EN ALQUILER</h2>
+        <h2>{t("translated-contacto-menumaq-titular")}</h2>
         <div className="menu-list">
         <div className="menu-item">
               <Link to='/maquinaria/dumpers'>
@@ -40,7 +45,7 @@ export default function MenuMaquinaria() {
                   className={`menu-header ${menuItems.dumpers ? "menu-header--open" : ""}`}
                   onClick={() => toggleMenu("dumpers")}
                 >
-                  DUMPERS{' '}
+                  {t("translated-contacto-menumaq-dumpers")}{' '}
                   <FontAwesomeIcon className='a-none' icon={menuItems.dumpers ? faChevronDown : faChevronRight} />
                 </h4>
               </Link>
@@ -60,7 +65,7 @@ export default function MenuMaquinaria() {
                   className={`menu-header ${menuItems.gruposElectrogenos ? "menu-header--open" : ""}`}
                   onClick={() => toggleMenu("gruposElectrogenos")}
                 >
-                  GRUPOS ELECTROGENOS{' '}
+                  {t("translated-contacto-menumaq-gruposelectrogenos")}{' '}
                   <FontAwesomeIcon className='a-none' icon={menuItems.gruposElectrogenos ? faChevronDown : faChevronRight} />
                 </h4>
               </Link>
@@ -80,7 +85,7 @@ export default function MenuMaquinaria() {
                   className={`menu-header ${menuItems.martillosElectricos ? "menu-header--open" : ""}`}
                   onClick={() => toggleMenu("martillosElectricos")}
                 >
-                  MARTILLOS ELECTRICOS{' '}
+                  {t("translated-contacto-menumaq-martilloselectricos")}{' '}
                   <FontAwesomeIcon className='a-none' icon={menuItems.martillosElectricos ? faChevronDown : faChevronRight} />
                 </h4>
               </Link>
@@ -100,7 +105,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.maquinariaCorte ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("maquinariaCorte")}
     >
-      MAQUINARIA DE CORTE{' '}
+      {t("translated-contacto-menumaq-maquinariacorte")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.maquinariaCorte ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -125,7 +130,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.vallas ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("vallas")}
     >
-      VALLAS{' '}
+      {t("translated-contacto-menumaq-vallas")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.vallas ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -142,7 +147,7 @@ export default function MenuMaquinaria() {
     className={`menu-header ${menuItems.semaforos ? "menu-header--open" : ""}`}
     onClick={() => toggleMenu("semaforos")}
   >
-    SEÑALIZACION{' '}
+    {t("translated-contacto-menumaq-senalizacion")}{' '}
     <span className="arrow-icon"></span>
   </h4> </Link>
   {/* {menuItems.semaforos && (
@@ -158,7 +163,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.compactadoras ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("compactadoras")}
     >
-      COMPACTADORAS{' '}
+      {t("translated-contacto-menumaq-compactadoras")}{' '}
       <FontAwesomeIcon  className='a-none' icon={menuItems.compactadoras ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -178,7 +183,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.excavadoras ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("excavadoras")}
     >
-      EXCAVADORAS{' '}
+      {t("translated-contacto-menumaq-excavadoras")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.excavadoras ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -196,7 +201,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasArticuladas ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasArticuladas")}
     >
-      PLATAFORMAS ARTICULADAS{' '}
+      {t("translated-contacto-menumaq-plataformasarticuladas")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasArticuladas ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -217,7 +222,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
     >
-      PLATAFORMAS DE TIJERA{' '}
+      {t("translated-contacto-menumaq-plataformastijera")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -238,7 +243,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
     >
-      LIMPIEZA{' '}
+      {t("translated-contacto-menumaq-limpieza")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -258,7 +263,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
     >
-      BOMBAS DE AGUA{' '}
+      {t("translated-contacto-menumaq-bombasagua")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -278,7 +283,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
     >
-      COMPRESOR DE AIRE{' '}
+      {t("translated-contacto-menumaq-compresoraire")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -298,7 +303,7 @@ export default function MenuMaquinaria() {
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
     >
-      SISTEMAS DE SECADO{' '}
+      {t("translated-contacto-menumaq-sistemassecado")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -317,7 +322,7 @@ export default function MenuMaquinaria() {
     <h4
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
-    >HORMIGONERAS{' '}
+    >{t("translated-contacto-menumaq-hormigoneras")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -328,7 +333,7 @@ export default function MenuMaquinaria() {
     <h4
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
-    >CARRETILLAS ELEVADORAS{' '}
+    >{t("translated-contacto-menumaq-carretillaselevadoras")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
@@ -348,7 +353,7 @@ export default function MenuMaquinaria() {
     <h4
       className={`menu-header ${menuItems.plataformasTijera ? "menu-header--open" : ""}`}
       onClick={() => toggleMenu("plataformasTijera")}
-    >MAQUINARIA DE JARDINERIA{' '}
+    >{t("translated-contacto-menumaq-maqjardineria")}{' '}
       <FontAwesomeIcon className='a-none' icon={menuItems.plataformasTijera ? faChevronDown : faChevronRight} />
     </h4>
   </Link>
