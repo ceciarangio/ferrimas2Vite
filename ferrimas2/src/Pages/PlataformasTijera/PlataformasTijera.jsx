@@ -22,33 +22,33 @@ export default function PlataformasArticuladas(){
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
     </div>
-        <div className="ceje-platTijera">
-            <div>
+        <div className="ceje-platTijera animate__animated animate__fadeInRight">
+            <div className="platTijera-div">
                 
                 <img src={plat6m} alt="plataforma 6m"/>
                 <h3>{t("translated-plattijera-1")}</h3>
             </div>
-            <div>
+            <div className="platTijera-div">
                 
                 <img src={plat8m} alt="plataforma 8m"/>
                 <h3>{t("translated-plattijera-2")}</h3>
             </div>
-            <div>
+            <div className="platTijera-div">
                 
                 <img src={plat10m} alt="plataforma 10m"/>
                 <h3>{t("translated-plattijera-3")}</h3>
             </div>
-            <div>
+            <div className="platTijera-div">
                 
                 <img src={plat12me} alt="plataforma 12m"/>
                 <h3>{t("translated-plattijera-4")}</h3>
             </div>
-            <div>
+            <div className="platTijera-div">
                 
                 <img src={plat12md} alt="plataforma 12m"/>
                 <h3>{t("translated-plattijera-5")}</h3>
             </div>
-            <div>
+            <div className="platTijera-div">
             
                 <img src={plat18m} alt="plataforma 18m"/>
                 <h3>{t("translated-plattijera-6")}</h3>

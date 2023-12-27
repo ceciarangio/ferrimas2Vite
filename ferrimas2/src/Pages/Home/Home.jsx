@@ -68,7 +68,7 @@ export default function Home() {
     <div className="cejeMaquinaria__contain animate__animated animate__fadeInRight">
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-            <Link to="/plataformas-tijera" className="linkWithoutDecoration">
+            <Link to="/maquinaria/plataformas-tijera" className="linkWithoutDecoration">
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={plataftijera} alt="plataforma 18mt" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-plataformas-elevadoras")}</p>
             </Link>
