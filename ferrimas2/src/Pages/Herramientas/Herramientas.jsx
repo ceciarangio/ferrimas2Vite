@@ -33,7 +33,7 @@ const Herramientas = () => {
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
       <div className="herramientas-container">
-        <h2>HERRAMIENTAS</h2>
+        <h2>{t("translated-shop-gen-0")}</h2>
         <div className="herramientas-row">
           {herramientas && herramientas.length > 0 ? (
             herramientas.map((herramienta, index) => (

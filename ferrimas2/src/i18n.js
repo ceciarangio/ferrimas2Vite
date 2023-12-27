@@ -318,6 +318,7 @@ const resources = {
 
 
             // Inicio traduccion Tienda
+            "translated-shop-gen-0": "HERRAMIENTAS",
             "translated-shop-gen-1": "Pilas",
             "translated-shop-gen-2": "Baterías",
             "translated-shop-gen-3": "Bidones de gasolina",
@@ -342,6 +343,50 @@ const resources = {
             "translated-shop-gen-22": "Taco Fisher",
             "translated-shop-gen-23": "Talochas",
             "translated-shop-gen-24": "Trencillas",
+
+
+            "translated-shop-cart-0": "Carteles en general",
+            "translated-shop-cart-1": "Peligro",
+            "translated-shop-cart-2": "Prohibido el paso",
+            "translated-shop-cart-3": "Stop",
+            "translated-shop-cart-4": "Uso obligatorio de gafas de seguridad",
+            "translated-shop-cart-5": "Velocidad",
+            "translated-shop-cart-6": "Señales en general",
+
+
+            "translated-shop-segu-0": "Elementos de Seguridad",
+            "translated-shop-segu-1": "Calzado de seguridad",
+            "translated-shop-segu-2": "Cascos de obra",
+            "translated-shop-segu-3": "Faja lumbar",
+            "translated-shop-segu-4": "Rodilleras",
+            "translated-shop-segu-5": "Chaleco reflectante",
+            "translated-shop-segu-6": "Guantes",
+
+
+            "translated-shop-ilum-0": "Iluminación",
+            "translated-shop-ilum-1": "Focos de luz",
+            "translated-shop-ilum-2": "Balizas",
+            "translated-shop-ilum-3": "Luz de obra",
+
+            "translated-shop-aceit-0": "Aceites y Limpiaparabrisas",
+            "translated-shop-aceit-1": "Aceite diesel, industrial, vehículos ligeros",
+            "translated-shop-aceit-2": "Limpiaparabrisas",
+
+            "translated-shop-capazos-0": "Capazos",
+            "translated-shop-capazos-1": "Caldereta 11/16 Litros",
+            "translated-shop-capazos-2": "Capazo",
+            "translated-shop-capazos-3": "Capazo 12 Litros",
+
+
+            "translated-shop-menuTienda-0": "TIENDA",
+            "translated-shop-menuTienda-1": "HERRAMIENTAS en GENERAL",
+            "translated-shop-menuTienda-2": "HERRAMIENTAS",
+            "translated-shop-menuTienda-3": "CARTELERIA",
+            "translated-shop-menuTienda-4": "ELEMENTOS DE SEGURIDAD",
+            "translated-shop-menuTienda-5": "SEGURIDAD",
+            "translated-shop-menuTienda-6": "ILUMINACION",
+            "translated-shop-menuTienda-7": "ACEITES / LIMPIAPARABRISAS",
+            "translated-shop-menuTienda-8": "CAPAZOS",
 
 
 
@@ -680,6 +725,51 @@ const resources = {
             "translated-shop-gen-22": "Fisher Plugs",
             "translated-shop-gen-23": "Trowels",
             "translated-shop-gen-24": "Twines",
+
+
+            "translated-shop-cart-1": "Danger",
+            "translated-shop-cart-2": "No entry",
+            "translated-shop-cart-3": "Stop",
+            "translated-shop-cart-4": "Mandatory use of safety glasses",
+            "translated-shop-cart-5": "Speed",
+            "translated-shop-cart-6": "General signs",
+
+            "translated-shop-segu-1": "Safety footwear",
+            "translated-shop-segu-2": "Construction helmets",
+            "translated-shop-segu-3": "Lumbar belt",
+            "translated-shop-segu-4": "Knee pads",
+            "translated-shop-segu-5": "Reflective vest",
+            "translated-shop-segu-6": "Gloves",
+
+            "translated-shop-ilum-1": "Spotlights",
+            "translated-shop-ilum-2": "Beacons",
+            "translated-shop-ilum-3": "Work light",
+
+            "translated-shop-aceit-1": "Diesel, Industrial, Light vehicle oil",
+            "translated-shop-aceit-2": "Windshield washer fluid",
+
+
+            "translated-shop-capazos-1": "Bucket 11/16 Liters",
+            "translated-shop-capazos-2": "Basket",
+            "translated-shop-capazos-3": "Basket 12 Liters",
+
+            "translated-shop-gen-0": "TOOLS",
+            "translated-shop-cart-0": "General Signs",
+            "translated-shop-segu-0": "Safety Elements",
+            "translated-shop-ilum-0": "Lighting",
+            "translated-shop-aceit-0": "Oils and Windshield Washer",
+            "translated-shop-capazos-0": "Baskets",
+
+
+            "translated-shop-menuTienda-0": "SHOP",
+            "translated-shop-menuTienda-1": "TOOLS in GENERAL",
+            "translated-shop-menuTienda-2": "TOOLS",
+            "translated-shop-menuTienda-3": "SIGNAGE",
+            "translated-shop-menuTienda-4": "SAFETY ELEMENTS",
+            "translated-shop-menuTienda-5": "SAFETY",
+            "translated-shop-menuTienda-6": "LIGHTING",
+            "translated-shop-menuTienda-7": "OILS / WINDSHIELD WASHER",
+            "translated-shop-menuTienda-8": "BASKETS",
 
         }
     },
@@ -1021,7 +1111,51 @@ const resources = {
             "translated-shop-gen-22": "Taco Fisher",
             "translated-shop-gen-23": "Taloches",
             "translated-shop-gen-24": "Trencilles",
-            
+
+            "translated-shop-cart-1": "Danger",
+            "translated-shop-cart-2": "No entry",
+            "translated-shop-cart-3": "Stop",
+            "translated-shop-cart-4": "Mandatory use of safety glasses",
+            "translated-shop-cart-5": "Speed",
+            "translated-shop-cart-6": "General signs",
+
+            "translated-shop-segu-1": "Calçat de seguretat",
+            "translated-shop-segu-2": "Casc de construcció",
+            "translated-shop-segu-3": "Cinturó llombar",
+            "translated-shop-segu-4": "Genolleres",
+            "translated-shop-segu-5": "Vestit reflectant",
+            "translated-shop-segu-6": "Guants",
+
+            "translated-shop-ilum-1": "Projectors de llum",
+            "translated-shop-ilum-2": "Balises",
+            "translated-shop-ilum-3": "Llum d'obra",
+
+
+            "translated-shop-aceit-1": "Oli dièsel, industrial, vehicles lleugers",
+            "translated-shop-aceit-2": "Líquid neteja parabrises",
+
+
+            "translated-shop-capazos-1": "Gerra 11/16 litres",
+            "translated-shop-capazos-2": "Cabàs",
+            "translated-shop-capazos-3": "Cabàs 12 litres",
+
+            "translated-shop-gen-0": "EINES",
+            "translated-shop-cart-0": "Cartells en general",
+            "translated-shop-segu-0": "Elements de Seguretat",
+            "translated-shop-ilum-0": "Il·luminació",
+            "translated-shop-aceit-0": "Oleis i Rentalliberes",
+            "translated-shop-capazos-0": "Cabassos",
+
+
+            "translated-shop-menuTienda-0": "BOTIGA",
+            "translated-shop-menuTienda-1": "EINES en GENERAL",
+            "translated-shop-menuTienda-2": "EINES",
+            "translated-shop-menuTienda-3": "CARTELLERIA",
+            "translated-shop-menuTienda-4": "ELEMENTS DE SEGURETAT",
+            "translated-shop-menuTienda-5": "SEGURETAT",
+            "translated-shop-menuTienda-6": "IL·LUMINACIÓ",
+            "translated-shop-menuTienda-7": "OLIS / NETEJAFANALS",
+            "translated-shop-menuTienda-8": "CAPAZOS",
         }
     }
 
