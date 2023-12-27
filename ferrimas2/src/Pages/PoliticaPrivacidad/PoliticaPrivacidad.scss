@@ -1,12 +1,48 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+
+
+
 .politicaPrivacidad{
     padding-top: 2vh;
     padding-left: 20px;
 
     h1{
         padding-bottom: 5vh;
+        font-family: 'Manrope';
+    }
+
+    p{
+        font-family: 'Manrope';
     }
 
 }
 .politicaPrivacidad-footer{
     margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .politicaPrivacidad{
+        padding-top: 10vh;
+        padding-left: 20px;
+    
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .politicaPrivacidad{
+        padding-top: 10vh;
+        padding-left: 20px;
+    
+        }
+}
+
+@media screen and (min-width: 1024px) {
+    .politicaPrivacidad{
+        padding-top: 2vh;
+        padding-left: 20px;
+    }    
 }
