@@ -12,62 +12,64 @@ import hidrocalie from '../../public/assets/Limpieza/hidrolimpiadora-karcher-cal
 import Footer from "../../components/Footer/Footer";
 import './Limpieza.scss';
 import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+import { useTranslation } from "react-i18next";
 
 export default function Limpieza(){
+    const {t} = useTranslation();
 
     return <>
         <HeaderGeneral/>
         <MenuMaquinaria/>
         <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
-      </div>
+    </div>
         <div className="ceje-limpieza animate__animated animate__fadeInRight">
             <div className="limpieza-div">
                 
                 <img src={aspiIndus} alt="Aspiradora Industrial"/>
-                <h3>Aspiradora Industrial</h3>
-                <p>De polvo y agua. Hilti</p>
+                <h3>{t("translated-limpieza-1")}</h3>
+                <p>{t("translated-limpieza-1-1")}</p>
             </div>
             <div className="limpieza-div">
                 
                 <img src={barredora} alt="Barredora Manual"/>
-                <h3>Barredora Manual</h3>
+                <h3>{t("translated-limpieza-2")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={abrillan} alt="Abrillan"/>
-                <h3>Abrillantadora</h3>
+                <h3>{t("translated-limpieza-3")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={fregadora} alt="Fregadora"/>
-                <h3>Fregadora</h3>
+                <h3>{t("translated-limpieza-4")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={lijadora} alt="Lijadora de Pared"/>
-                <h3>Lijadora de Pared</h3>
+                <h3>{t("translated-limpieza-5")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={vaporeta} alt=""/>
-                <h3>Vaporeta - Aspirador de Tapicería</h3>
+                <h3>{t("translated-limpieza-6")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={hidrog} alt="Hidrolimpiadora gasolina"/>
-                <h3>Hidrolimpiadora de Gasolina</h3>
+                <h3>{t("translated-limpieza-7")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={hidroele} alt="Hidrolimpiadora Eléctrica"/>
-                <h3>Hidrolimpiadora Eléctrica</h3>
+                <h3>{t("translated-limpieza-8")}</h3>
             </div>
             <div className="limpieza-div">
                 
                 <img src={hidrocalie} alt="Hidrolimpiadora Eléctrica caliente"/>
-                <h3>Hidrolimpiadora Eléctrica</h3>
-                <p>Agua Caliente</p>
+                <h3>{t("translated-limpieza-8")}</h3>
+                <p>{t("translated-limpieza-9")}</p>
             </div>
         </div>
         <div>

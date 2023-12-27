@@ -6,8 +6,10 @@ import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Herramientas.scss';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Herramientas = () => {
+  const {t} = useTranslation();
   const [herramientas, setHerramientas] = useState([]);
 
   useEffect(() => {
@@ -36,8 +38,8 @@ const Herramientas = () => {
           {herramientas && herramientas.length > 0 ? (
             herramientas.map((herramienta, index) => (
               <div key={index} className="herramienta">
-                <h3>{herramienta.nombre}</h3>
-                <img src={herramienta.foto} alt={herramienta.nombre} />
+                <h3>{t(herramienta.nombre)}</h3>
+                <img src={herramienta.foto} alt={t(herramienta.nombre)} />
                 <p>{/* Agrega aquí cualquier información adicional que desees mostrar */}</p>
               </div>
             ))

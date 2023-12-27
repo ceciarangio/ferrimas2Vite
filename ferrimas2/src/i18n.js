@@ -192,11 +192,163 @@ const resources = {
             // Fin traducción Política Cookies
 
             // Inicio traducción Aviso Legal
-            "translated-avisolegal": "<h2>Aviso Legal</h2><p>Última modificación: 30 de Noviembre de 2023 Este documento regula el uso del sitio web de Ferri Mas 2 S.L. (en adelante, 'el si tio web'). La utilización del sitio web otorga la condición de usuario, implicando la aceptación plena y sin reservas de todas las disposiciones.</p><p>Condiciones de Uso</p>        <p>Ferri Mas 2 S.L. se reserva el derecho de modificar estas condiciones en cualquier momento sin notificación previa. Los cambios se anunciarán en esta página con razonable antelación a su implementación. Se recomienda revisar periódicamente las condiciones. La utilización del sitio web después de los cambios implica la aceptación de las nuevas condiciones. Si en algún momento no acepta las condiciones, debe dejar de usar el sitio web. Cualquier propuesta, comunicación o cláusula que modifique estas condiciones no será considerada ni tendrá efecto.</p>        <p>0. Definiciones</p>        <p>Sitio web: Todas las características, contenidos y servicios ofrecidos a través de aplicaciones móviles/de escritorio y el sitio web ferrimas2.com o sitios afiliados. Usuario: Persona, dispositivo, servicio, API, aplicación, robot, alienígena o inteligencia artificial que accede al sitio web.</p><p>1. Aceptación de las Condiciones de Uso</p> <p>El usuario declara haber leído y aceptado las condiciones. Asegura tener la capacidad jurídica para formar parte del acuerdo, no utilizará derechos de forma ilícita y usará el servicio según lo descrito.</p><p>2. Derechos de Autor</p> <p>El sitio web, incluyendo diseño, textos, logotipos, imágenes, código fuente, pertenece a Ferri Mas 2 S.L. No se puede usar sin permiso. Contenidos no originales indican la fuente y licencia original.</p><p>3. Restricciones de Uso</p> <p>No se puede utilizar el sitio web para actividades ilícitas o contradictorias. El servicio es solo para uso personal no lucrativo. Usted reconoce que el servicio ha sido desarrollado por Ferri Mas 2 S.L.</p><p>4. Exclusión de Garantías y Responsabilidad</p><p>El usuario utiliza el sitio bajo su responsabilidad. El sitio web no garantiza el acceso sin errores ni se hace responsable de daños causados por elementos destructivos. Se excluye responsabilidad por daños derivados del acceso al sitio.</p><p>5. Enlaces y Framing</p> <p>Se pueden incluir enlaces a cualquier página o contenido del sitio web, excluyendo archivos no HTML. No se puede enlazar desde sitios con temas inapropiados o ilegales. No se permite framing que altere la integridad del sitio web.</p> <p>6. Jurisdicción</p><p>Las condiciones se rigen por las leyes del Reino de España. Cualquier acción legal se presentará en los tribunales de Alicante</p><p>7. Finalización</p><p>Ambas partes pueden finalizar la relación por incumplimiento. En caso de incumplimiento, el usuario debe dejar de usar el servicio y destruir todo material obtenido del sitio web.</p>"
-
-
+            "translated-avisolegal": "<h2>Aviso Legal</h2><p>Última modificación: 30 de Noviembre de 2023 Este documento regula el uso del sitio web de Ferri Mas 2 S.L. (en adelante, 'el si tio web'). La utilización del sitio web otorga la condición de usuario, implicando la aceptación plena y sin reservas de todas las disposiciones.</p><p>Condiciones de Uso</p>        <p>Ferri Mas 2 S.L. se reserva el derecho de modificar estas condiciones en cualquier momento sin notificación previa. Los cambios se anunciarán en esta página con razonable antelación a su implementación. Se recomienda revisar periódicamente las condiciones. La utilización del sitio web después de los cambios implica la aceptación de las nuevas condiciones. Si en algún momento no acepta las condiciones, debe dejar de usar el sitio web. Cualquier propuesta, comunicación o cláusula que modifique estas condiciones no será considerada ni tendrá efecto.</p>        <p>0. Definiciones</p>        <p>Sitio web: Todas las características, contenidos y servicios ofrecidos a través de aplicaciones móviles/de escritorio y el sitio web ferrimas2.com o sitios afiliados. Usuario: Persona, dispositivo, servicio, API, aplicación, robot, alienígena o inteligencia artificial que accede al sitio web.</p><p>1. Aceptación de las Condiciones de Uso</p> <p>El usuario declara haber leído y aceptado las condiciones. Asegura tener la capacidad jurídica para formar parte del acuerdo, no utilizará derechos de forma ilícita y usará el servicio según lo descrito.</p><p>2. Derechos de Autor</p> <p>El sitio web, incluyendo diseño, textos, logotipos, imágenes, código fuente, pertenece a Ferri Mas 2 S.L. No se puede usar sin permiso. Contenidos no originales indican la fuente y licencia original.</p><p>3. Restricciones de Uso</p> <p>No se puede utilizar el sitio web para actividades ilícitas o contradictorias. El servicio es solo para uso personal no lucrativo. Usted reconoce que el servicio ha sido desarrollado por Ferri Mas 2 S.L.</p><p>4. Exclusión de Garantías y Responsabilidad</p><p>El usuario utiliza el sitio bajo su responsabilidad. El sitio web no garantiza el acceso sin errores ni se hace responsable de daños causados por elementos destructivos. Se excluye responsabilidad por daños derivados del acceso al sitio.</p><p>5. Enlaces y Framing</p> <p>Se pueden incluir enlaces a cualquier página o contenido del sitio web, excluyendo archivos no HTML. No se puede enlazar desde sitios con temas inapropiados o ilegales. No se permite framing que altere la integridad del sitio web.</p> <p>6. Jurisdicción</p><p>Las condiciones se rigen por las leyes del Reino de España. Cualquier acción legal se presentará en los tribunales de Alicante</p><p>7. Finalización</p><p>Ambas partes pueden finalizar la relación por incumplimiento. En caso de incumplimiento, el usuario debe dejar de usar el servicio y destruir todo material obtenido del sitio web.</p>",
 
             // Fin traducción Aviso Legal
+
+            // Inicio maquinaria Dumpers
+            "translated-maqdumpers-1": 'Dúmper 2000kg',
+            "translated-maqdumpers-1-1": 'Hidroestático, 4x4 , con pala',
+            "translated-maqdumpers-2": 'Dúmper 2000kg',
+            "translated-maqdumpers-2-1": 'Hidroestático, 4x4 , sin pala',
+            "translated-maqdumpers-3": 'Dúmper 2500kg',
+            "translated-maqdumpers-3-1": 'Hidroestático, 4x4 , giratorio',
+            "translated-maqdumpers-4": 'Dúmper 3500kg',
+            "translated-maqdumpers-4-1": 'Hidroestático, 4x4 , con pala',
+            "translated-maqdumpers-5": 'Dúmper 6000kg',
+            "translated-maqdumpers-5-1": 'Hidroestático, 4x4 , con pala',
+            "translated-maqdumpers-6": 'Mini Dumpera',
+            "translated-maqdumpers-7": 'Carretilla Oruga',
+            // Fin maquinaria Dumpers
+
+            // Inicio grupos electrogenos
+            "translated-grelectro-1": 'Generador 25kv',
+            "translated-grelectro-2": 'Generador Ayerbe 1000',
+            "translated-grelectro-3": 'Generador Ayerbe 3800',
+            "translated-grelectro-4": 'Generador Ayerbe 5000',
+            "translated-grelectro-5": 'Generador Ayerbe 8000',
+            // Fin grupos electrogenos
+
+            // Inicio Jardineria
+            "translated-jardi-1": 'Aholladora',
+            "translated-jardi-2": 'Desbrozadora',
+            "translated-jardi-3": 'Labradora',
+            "translated-jardi-4": 'Cortasetos',
+            "translated-jardi-5": 'Sopladora Eléctrica',
+            "translated-jardi-6": 'Sopladora de Gasolina',
+            "translated-jardi-7": 'Trituradora',
+            // Fin jardineria
+
+            // Carretillas Elevadoras Inicio
+            "translated-carreleva-1": '1500kg Eléctrica',
+            "translated-carreleva-2": '1500kg Diesel',
+            "translated-carreleva-3": '1600kg Eléctrica',
+            "translated-carreleva-4": '2000kg Diesel 4x4',
+            "translated-carreleva-5": '2500kg Diesel',
+            "translated-carreleva-6": 'Apilador Manual 1000kg',
+            "translated-carreleva-7": 'Transpaleta',
+            // Carretillas Elevadoras Fin
+
+            "translated-hormigonera-1": 'Hormigonera 140 - 180 L.',
+            "translated-hormigonera-2": 'Hormigonera 300 - 500 L.',
+            "translated-hormigonera-3": 'Cubilote',
+
+            "translated-sissecado-1": 'Cañon de secado gasóleo 25 KW',
+            "translated-sissecado-2": 'Cañon de secado a gas',
+            "translated-sissecado-3": 'Deshumificador',
+
+            "translated-compreaire": 'Compresor de Aire',
+
+            "translated-bombagua-1": "Bomba de Agua gasolina",
+            "translated-bombagua-2": "Bomba de Agua eléctrica sumergible",
+
+            "translated-limpieza-1": "Aspiradora Industrial",
+            "translated-limpieza-1-1": "De polvo y agua. Hilti",
+            "translated-limpieza-2": "Barredora Manual",
+            "translated-limpieza-3": "Abrillantadora",
+            "translated-limpieza-4": "Fregadora",
+            "translated-limpieza-5": "Lijadora de Pared",
+            "translated-limpieza-6": "Vaporeta - Aspirador de Tapicería",
+            "translated-limpieza-7": "Hidrolimpiadora de Gasolina",
+            "translated-limpieza-8": "Hidrolimpiadora Eléctrica",
+            "translated-limpieza-9": "Agua Caliente",
+
+            "translated-plattijera-1": "6 m. Eléctrica",
+            "translated-plattijera-2": "8 m. Eléctrica",
+            "translated-plattijera-3": "10 m. Eléctrica",
+            "translated-plattijera-4": "12 m. Eléctrica",
+            "translated-plattijera-5": "12 m. Diesel",
+            "translated-plattijera-6": "18 m. Diesel",
+
+            "translated-platarti-1": "11 m. Eléctrica",
+            "translated-platarti-2": "12 m. Diesel",
+            "translated-platarti-3": "16 m. Diesel",
+            "translated-platarti-4": "20 m. Diesel",
+            "translated-platarti-5": "23 m. Telescópica Diesel",
+            "translated-platarti-6": "Plataformas",
+
+
+            "translated-compactadoras-1": "Pisón",
+            "translated-compactadoras-2": "PiBandeja Compactadorasón",
+            "translated-compactadoras-3": "Rodillo 650kg",
+            "translated-compactadoras-4": "Rodillo 3000kg",
+
+
+            "translated-semaf-1": "Semáforos",
+            "translated-semaf-2": "Señales de Obra",
+
+            "translated-vallas-1": "Vallas Metalicas",
+            "translated-vallas-2": "Vallas de Protección",
+
+            "translated-martelec-1": "Martillo Eléctrico Hilti te70",
+            "translated-martelec-2": "Martillo Eléctrico Hilti t500",
+            "translated-martelec-3": "Martillo Eléctrico Hilti t1000",
+            "translated-martelec-4": "Taladros",
+            "translated-martelec-5": "Taladro Martillo",
+
+
+            "translated-excavadoras-1": "Minigiratoria 1 T.",
+            "translated-excavadoras-2": "Minigiratoria 3.5 T.",
+            "translated-excavadoras-3": "Minigiratoria 5.5 T.",
+            "translated-excavadoras-4": "Excavadoras",
+            "translated-excavadoras-5": "Martillo para Minigiratoria",
+            "translated-excavadoras-6": "Mini Pala",
+
+
+            "translated-maqcorte-1": "Cortadora de Juntas 45 d.",
+            "translated-maqcorte-2": "Cortadora de Juntas 35 d.",
+            "translated-maqcorte-3": "Rubi 0.60 / 1.20 m.",
+            "translated-maqcorte-4": "Virutex para Cortar Parquet",
+            "translated-maqcorte-5": "Mesa de Corte Húmedo",
+            "translated-maqcorte-6": "Mesa de Corte Seco",
+            "translated-maqcorte-7": "Sierra Circular para madera",
+            "translated-maqcorte-8": "Radial de Gasolina",
+            "translated-maqcorte-9": "Radial Eléctrica 230 mm.",
+            "translated-maqcorte-10": "Radial Eléctrica 115 mm.",
+
+
+            // Inicio traduccion Tienda
+            "translated-shop-gen-1": "Pilas",
+            "translated-shop-gen-2": "Baterías",
+            "translated-shop-gen-3": "Bidones de gasolina",
+            "translated-shop-gen-4": "Bomba de engrase",
+            "translated-shop-gen-5": "Bomba de presión",
+            "translated-shop-gen-6": "Botas de agua",
+            "translated-shop-gen-7": "Brocas Bosch",
+            "translated-shop-gen-8": "Cable extensible",
+            "translated-shop-gen-9": "Carracas",
+            "translated-shop-gen-10": "Carretillas",
+            "translated-shop-gen-11": "Discos",
+            "translated-shop-gen-12": "Limpieza",
+            "translated-shop-gen-13": "Niveladores, espátulas",
+            "translated-shop-gen-14": "Espumas",
+            "translated-shop-gen-15": "Generadores",
+            "translated-shop-gen-16": "Grasas",
+            "translated-shop-gen-17": "Hachas",
+            "translated-shop-gen-18": "Llaves",
+            "translated-shop-gen-19": "Mangos, palos",
+            "translated-shop-gen-20": "Picos, rastrillos",
+            "translated-shop-gen-21": "Sogas",
+            "translated-shop-gen-22": "Taco Fisher",
+            "translated-shop-gen-23": "Talochas",
+            "translated-shop-gen-24": "Trencillas",
+
+
+
+
+            // Fin traduccion Tienda
+
+
         }
     },
     en: {
@@ -388,9 +540,147 @@ const resources = {
             // Fin traducción Política Cookies
 
             // Inicio traducción Aviso Legal
-            "translated-avisolegal": "<h2>Legal Notice</h2><p>Last Modified: November 30, 2023 This document regulates the use of the Ferri Mas 2 S.L. website (hereinafter, 'the website'). The use of the website grants the user status, implying full and unconditional acceptance of all provisions.</p><p>Terms of Use</p> <p>Ferri Mas 2 S.L. reserves the right to modify these conditions at any time without prior notice. Changes will be announced on this page reasonably in advance of their implementation. It is recommended to periodically review the conditions. The use of the website after changes implies acceptance of the new conditions. If, at any time, you do not accept the conditions, you must stop using the website. Any proposal, communication, or clause modifying these conditions will not be considered or have effect.</p> <p>0. Definitions</p> <p>Website: All features, content, and services offered through mobile/desktop applications and the website ferrimas2.com or affiliated sites. User: Person, device, service, API, application, robot, alien, or artificial intelligence accessing the website.</p><p>1. Acceptance of Terms of Use</p> <p>The user declares to have read and accepted the conditions. Ensures having the legal capacity to be part of the agreement, will not use rights unlawfully, and will use the service as described.</p><p>2. Copyright</p> <p>The website, including design, texts, logos, images, source code, belongs to Ferri Mas 2 S.L. It cannot be used without permission. Non-original content indicates the source and original license.</p><p>3. Use Restrictions</p> <p>The website cannot be used for unlawful or contradictory activities. The service is for personal non-profit use only. You acknowledge that the service has been developed by Ferri Mas 2 S.L.</p><p>4. Disclaimer and Liability Exclusion</p> <p>The user uses the site at their own risk. The website does not guarantee error-free access and is not responsible for damage caused by destructive elements. Liability for damages arising from access to the site is excluded.</p><p>5. Links and Framing</p> <p>Links to any page or content of the website may be included, excluding non-HTML files. Linking from sites with inappropriate or illegal themes is not allowed. Framing that alters the integrity of the website is not permitted.</p><p>6. Jurisdiction</p> <p>The conditions are governed by the laws of the Kingdom of Spain. Any legal action will be filed in the courts of Alicante.</p><p>7. Termination</p> <p>Both parties may terminate the relationship for breach. In case of breach, the user must stop using the service and destroy all material obtained from the website.</p>"
+            "translated-avisolegal": "<h2>Legal Notice</h2><p>Last Modified: November 30, 2023 This document regulates the use of the Ferri Mas 2 S.L. website (hereinafter, 'the website'). The use of the website grants the user status, implying full and unconditional acceptance of all provisions.</p><p>Terms of Use</p> <p>Ferri Mas 2 S.L. reserves the right to modify these conditions at any time without prior notice. Changes will be announced on this page reasonably in advance of their implementation. It is recommended to periodically review the conditions. The use of the website after changes implies acceptance of the new conditions. If, at any time, you do not accept the conditions, you must stop using the website. Any proposal, communication, or clause modifying these conditions will not be considered or have effect.</p> <p>0. Definitions</p> <p>Website: All features, content, and services offered through mobile/desktop applications and the website ferrimas2.com or affiliated sites. User: Person, device, service, API, application, robot, alien, or artificial intelligence accessing the website.</p><p>1. Acceptance of Terms of Use</p> <p>The user declares to have read and accepted the conditions. Ensures having the legal capacity to be part of the agreement, will not use rights unlawfully, and will use the service as described.</p><p>2. Copyright</p> <p>The website, including design, texts, logos, images, source code, belongs to Ferri Mas 2 S.L. It cannot be used without permission. Non-original content indicates the source and original license.</p><p>3. Use Restrictions</p> <p>The website cannot be used for unlawful or contradictory activities. The service is for personal non-profit use only. You acknowledge that the service has been developed by Ferri Mas 2 S.L.</p><p>4. Disclaimer and Liability Exclusion</p> <p>The user uses the site at their own risk. The website does not guarantee error-free access and is not responsible for damage caused by destructive elements. Liability for damages arising from access to the site is excluded.</p><p>5. Links and Framing</p> <p>Links to any page or content of the website may be included, excluding non-HTML files. Linking from sites with inappropriate or illegal themes is not allowed. Framing that alters the integrity of the website is not permitted.</p><p>6. Jurisdiction</p> <p>The conditions are governed by the laws of the Kingdom of Spain. Any legal action will be filed in the courts of Alicante.</p><p>7. Termination</p> <p>Both parties may terminate the relationship for breach. In case of breach, the user must stop using the service and destroy all material obtained from the website.</p>",
 
             // Fin traducción Aviso Legal
+
+            "translated-maqdumpers-1": 'Dump Truck 2000kg',
+            "translated-maqdumpers-1-1": 'Hydrostatic, 4x4, with shovel',
+            "translated-maqdumpers-2": 'Dump Truck 2000kg',
+            "translated-maqdumpers-2-1": 'Hydrostatic, 4x4, without shovel',
+            "translated-maqdumpers-3": 'Dump Truck 2500kg',
+            "translated-maqdumpers-3-1": 'Hydrostatic, 4x4, rotary',
+            "translated-maqdumpers-4": 'Dump Truck 3500kg',
+            "translated-maqdumpers-4-1": 'Hydrostatic, 4x4, with shovel',
+            "translated-maqdumpers-5": 'Dump Truck 6000kg',
+            "translated-maqdumpers-5-1": 'Hydrostatic, 4x4, with shovel',
+            "translated-maqdumpers-6": 'Mini Dumper',
+            "translated-maqdumpers-7": 'Crawler Wheelbarrow',
+
+            "translated-grelectro-1": 'Generator 25kVA',
+            "translated-grelectro-2": 'Ayerbe Generator 1000',
+            "translated-grelectro-3": 'Ayerbe Generator 3800',
+            "translated-grelectro-4": 'Ayerbe Generator 5000',
+            "translated-grelectro-5": 'Ayerbe Generator 8000',
+
+            "translated-jardi-1": 'Earth Auger',
+            "translated-jardi-2": 'Brush Cutter',
+            "translated-jardi-3": 'Plow',
+            "translated-jardi-4": 'Hedge Trimmer',
+            "translated-jardi-5": 'Electric Blower',
+            "translated-jardi-6": 'Gas Blower',
+            "translated-jardi-7": 'Shredder',
+
+
+            "translated-carreleva-1": '1500kg Electric',
+            "translated-carreleva-2": '1500kg Diesel',
+            "translated-carreleva-3": '1600kg Electric',
+            "translated-carreleva-4": '2000kg Diesel 4x4',
+            "translated-carreleva-5": '2500kg Diesel',
+            "translated-carreleva-6": 'Manual Stacker 1000kg',
+            "translated-carreleva-7": 'Pallet Jack',
+
+            "translated-hormigonera-1": 'Concrete Mixer 140 - 180 L.',
+            "translated-hormigonera-2": 'Concrete Mixer 300 - 500 L.',
+            "translated-hormigonera-3": 'Concrete Skip',
+
+            "translated-sissecado-1": 'Diesel Drying Cannon 25 KW',
+            "translated-sissecado-2": 'Gas Drying Cannon',
+            "translated-sissecado-3": 'Dehumidifier',
+
+            "translated-compreaire": 'Air Compressor',
+
+            "translated-bombagua-1": "Gasoline Water Pump",
+            "translated-bombagua-2": "Submersible Electric Water Pump",
+
+            "translated-limpieza-1": "Industrial Vacuum Cleaner",
+            "translated-limpieza-1-1": "Dust and Water. Hilti",
+            "translated-limpieza-2": "Manual Sweeper",
+            "translated-limpieza-3": "Polisher",
+            "translated-limpieza-4": "Scrubber",
+            "translated-limpieza-5": "Wall Sander",
+            "translated-limpieza-6": "Steam Cleaner - Upholstery Vacuum",
+            "translated-limpieza-7": "Gasoline Pressure Washer",
+            "translated-limpieza-8": "Electric Pressure Washer",
+            "translated-limpieza-9": "Hot Water",
+
+            "translated-plattijera-1": "6 m. Electric",
+            "translated-plattijera-2": "8 m. Electric",
+            "translated-plattijera-3": "10 m. Electric",
+            "translated-plattijera-4": "12 m. Electric",
+            "translated-plattijera-5": "12 m. Diesel",
+            "translated-plattijera-6": "18 m. Diesel",
+
+            "translated-platarti-1": "11 m. Electric",
+            "translated-platarti-2": "12 m. Diesel",
+            "translated-platarti-3": "16 m. Diesel",
+            "translated-platarti-4": "20 m. Diesel",
+            "translated-platarti-5": "23 m. Telescopic Diesel",
+            "translated-platarti-6": "Platforms",
+
+            "translated-compactadoras-1": "Tamping Rammer",
+            "translated-compactadoras-2": "Plate Compactor",
+            "translated-compactadoras-3": "650kg Roller",
+            "translated-compactadoras-4": "3000kg Roller",
+
+            "translated-semaf-1": "Traffic Lights",
+            "translated-semaf-2": "Construction Signs",
+
+            "translated-vallas-1": "Metal Fences",
+            "translated-vallas-2": "Safety Barriers",
+
+            "translated-martelec-1": "Hilti te70 Electric Hammer",
+            "translated-martelec-2": "Hilti t500 Electric Hammer",
+            "translated-martelec-3": "Hilti t1000 Electric Hammer",
+            "translated-martelec-4": "Drills",
+            "translated-martelec-5": "Hammer Drill",
+
+
+            "translated-excavadoras-1": "Mini Excavator 1 T.",
+            "translated-excavadoras-2": "Mini Excavator 3.5 T.",
+            "translated-excavadoras-3": "Mini Excavator 5.5 T.",
+            "translated-excavadoras-4": "Excavators",
+            "translated-excavadoras-5": "Hammer for Mini Excavator",
+            "translated-excavadoras-6": "Mini Loader",
+
+
+            "translated-maqcorte-1": "Joint Cutter 45 d.",
+            "translated-maqcorte-2": "Joint Cutter 35 d.",
+            "translated-maqcorte-3": "Rubi 0.60 / 1.20 m.",
+            "translated-maqcorte-4": "Virutex for Parquet Cutting",
+            "translated-maqcorte-5": "Wet Cutting Table",
+            "translated-maqcorte-6": "Dry Cutting Table",
+            "translated-maqcorte-7": "Circular Saw for Wood",
+            "translated-maqcorte-8": "Gasoline Cut-off Saw",
+            "translated-maqcorte-9": "Electric Cut-off Saw 230 mm.",
+            "translated-maqcorte-10": "Electric Cut-off Saw 115 mm.",
+
+
+            "translated-shop-gen-1": "Batteries",
+            "translated-shop-gen-2": "Battery Packs",
+            "translated-shop-gen-3": "Gasoline Canisters",
+            "translated-shop-gen-4": "Grease Pump",
+            "translated-shop-gen-5": "Pressure Pump",
+            "translated-shop-gen-6": "Rubber Boots",
+            "translated-shop-gen-7": "Bosch Drill Bits",
+            "translated-shop-gen-8": "Extension Cord",
+            "translated-shop-gen-9": "Ratchets",
+            "translated-shop-gen-10": "Hand Trucks",
+            "translated-shop-gen-11": "Discs",
+            "translated-shop-gen-12": "Cleaning",
+            "translated-shop-gen-13": "Levelers, Spatulas",
+            "translated-shop-gen-14": "Foams",
+            "translated-shop-gen-15": "Generators",
+            "translated-shop-gen-16": "Greases",
+            "translated-shop-gen-17": "Axes",
+            "translated-shop-gen-18": "Keys",
+            "translated-shop-gen-19": "Handles, Sticks",
+            "translated-shop-gen-20": "Picks, Rakes",
+            "translated-shop-gen-21": "Ropes",
+            "translated-shop-gen-22": "Fisher Plugs",
+            "translated-shop-gen-23": "Trowels",
+            "translated-shop-gen-24": "Twines",
+
         }
     },
     val: {
@@ -589,12 +879,149 @@ const resources = {
             // Fin traducción Política Cookies
 
             // Inicio traducción Aviso Legal
-            "translated-avisolegal": "<h2>Avís Legal</h2><p>Última modificació: 30 de novembre de 2023 Aquest document regula l'ús del lloc web de Ferri Mas 2 S.L. (d'ara endavant, 'el lloc web'). L'ús del lloc web atorga la condició d'usuari, implicant l'acceptació plena i sense reserves de totes les disposicions.</p><p>Condicions d'Ús</p> <p>Ferri Mas 2 S.L. es reserva el dret de modificar aquestes condicions en qualsevol moment sense notificació prèvia. Els canvis s'anunciaran en aquesta pàgina amb una antelació raonable a la seva implementació. Es recomana revisar periòdicament les condicions. L'ús del lloc web després dels canvis implica l'acceptació de les noves condicions. Si, en algun moment, no accepteu les condicions, heu de deixar d'utilitzar el lloc web. Qualsevol proposta, comunicació o clàusula que modifiqui aquestes condicions no serà considerada ni tindrà efecte.</p> <p>0. Definicions</p> <p>Lloc web: Totes les característiques, continguts i serveis oferts a través d'aplicacions mòbils/d'escriptori i del lloc web ferrimas2.com o llocs afiliats. Usuari: Persona, dispositiu, servei, API, aplicació, robot, alien o intel·ligència artificial que accedeix al lloc web.</p><p>1. Acceptació de les Condicions d'Ús</p> <p>L'usuari declara haver llegit i acceptat les condicions. Assegura tenir la capacitat jurídica per formar part de l'acord, no utilitzarà drets de manera il·lícita i usarà el servei segons el descrit.</p><p>2. Drets d'Autor</p> <p>El lloc web, incloent disseny, textos, logotips, imatges, codi font, pertany a Ferri Mas 2 S.L. No es pot utilitzar sense permís. Els continguts no originals indiquen la font i llicència original.</p><p>3. Restriccions d'Ús</p> <p>No es pot utilitzar el lloc web per a activitats il·lícites o contradictòries. El servei és només per a ús personal no lucratiu. Reconeixeu que el servei ha estat desenvolupat per Ferri Mas 2 S.L.</p><p>4. Exclusió de Garanties i Responsabilitat</p> <p>L'usuari utilitza el lloc sota la seva responsabilitat. El lloc web no garanteix l'accés sense errors ni es fa responsable dels danys causats per elements destructius. S'exclou la responsabilitat pels danys derivats de l'accés al lloc.</p><p>5. Enllaços i Framing</p> <p>S'inclouran enllaços a qualsevol pàgina o contingut del lloc web, exclòs arxius no HTML. No es pot enllaçar des de llocs amb temes inadequats o il·legals. No es permet el framing que alteri la integritat del lloc web.</p><p>6. Jurisdicció</p> <p>Les condicions estan regides per les lleis del Regne d'Espanya. Qualsevol acció legal es presentarà als tribunals d'Alacant.</p><p>7. Finalització</p> <p>Ambdues parts poden finalitzar la relació per incompliment. En cas d'incompliment, l'usuari ha de deixar d'utilitzar el servei i destruir tot material obtingut del lloc web.</p>"
-
-
-
+            "translated-avisolegal": "<h2>Avís Legal</h2><p>Última modificació: 30 de novembre de 2023 Aquest document regula l'ús del lloc web de Ferri Mas 2 S.L. (d'ara endavant, 'el lloc web'). L'ús del lloc web atorga la condició d'usuari, implicant l'acceptació plena i sense reserves de totes les disposicions.</p><p>Condicions d'Ús</p> <p>Ferri Mas 2 S.L. es reserva el dret de modificar aquestes condicions en qualsevol moment sense notificació prèvia. Els canvis s'anunciaran en aquesta pàgina amb una antelació raonable a la seva implementació. Es recomana revisar periòdicament les condicions. L'ús del lloc web després dels canvis implica l'acceptació de les noves condicions. Si, en algun moment, no accepteu les condicions, heu de deixar d'utilitzar el lloc web. Qualsevol proposta, comunicació o clàusula que modifiqui aquestes condicions no serà considerada ni tindrà efecte.</p> <p>0. Definicions</p> <p>Lloc web: Totes les característiques, continguts i serveis oferts a través d'aplicacions mòbils/d'escriptori i del lloc web ferrimas2.com o llocs afiliats. Usuari: Persona, dispositiu, servei, API, aplicació, robot, alien o intel·ligència artificial que accedeix al lloc web.</p><p>1. Acceptació de les Condicions d'Ús</p> <p>L'usuari declara haver llegit i acceptat les condicions. Assegura tenir la capacitat jurídica per formar part de l'acord, no utilitzarà drets de manera il·lícita i usarà el servei segons el descrit.</p><p>2. Drets d'Autor</p> <p>El lloc web, incloent disseny, textos, logotips, imatges, codi font, pertany a Ferri Mas 2 S.L. No es pot utilitzar sense permís. Els continguts no originals indiquen la font i llicència original.</p><p>3. Restriccions d'Ús</p> <p>No es pot utilitzar el lloc web per a activitats il·lícites o contradictòries. El servei és només per a ús personal no lucratiu. Reconeixeu que el servei ha estat desenvolupat per Ferri Mas 2 S.L.</p><p>4. Exclusió de Garanties i Responsabilitat</p> <p>L'usuari utilitza el lloc sota la seva responsabilitat. El lloc web no garanteix l'accés sense errors ni es fa responsable dels danys causats per elements destructius. S'exclou la responsabilitat pels danys derivats de l'accés al lloc.</p><p>5. Enllaços i Framing</p> <p>S'inclouran enllaços a qualsevol pàgina o contingut del lloc web, exclòs arxius no HTML. No es pot enllaçar des de llocs amb temes inadequats o il·legals. No es permet el framing que alteri la integritat del lloc web.</p><p>6. Jurisdicció</p> <p>Les condicions estan regides per les lleis del Regne d'Espanya. Qualsevol acció legal es presentarà als tribunals d'Alacant.</p><p>7. Finalització</p> <p>Ambdues parts poden finalitzar la relació per incompliment. En cas d'incompliment, l'usuari ha de deixar d'utilitzar el servei i destruir tot material obtingut del lloc web.</p>",
 
             // Fin traducción Aviso Legal
+
+            "translated-maqdumpers-1": 'Volquet 2000kg',
+            "translated-maqdumpers-1-1": 'Hidroestàtic, 4x4, amb pala',
+            "translated-maqdumpers-2": 'Volquet 2000kg',
+            "translated-maqdumpers-2-1": 'Hidroestàtic, 4x4, sense pala',
+            "translated-maqdumpers-3": 'Volquet 2500kg',
+            "translated-maqdumpers-3-1": 'Hidroestàtic, 4x4, giratori',
+            "translated-maqdumpers-4": 'Volquet 3500kg',
+            "translated-maqdumpers-4-1": 'Hidroestàtic, 4x4, amb pala',
+            "translated-maqdumpers-5": 'Volquet 6000kg',
+            "translated-maqdumpers-5-1": 'Hidroestàtic, 4x4, amb pala',
+            "translated-maqdumpers-6": 'Mini Volquet',
+            "translated-maqdumpers-7": 'Carretilla Oruga',
+
+            "translated-grelectro-1": 'Generador 25 kVA',
+            "translated-grelectro-2": 'Generador Ayerbe 1000',
+            "translated-grelectro-3": 'Generador Ayerbe 3800',
+            "translated-grelectro-4": 'Generador Ayerbe 5000',
+            "translated-grelectro-5": 'Generador Ayerbe 8000',
+
+            "translated-jardi-1": 'Arreladora',
+            "translated-jardi-2": 'Desbrossadora',
+            "translated-jardi-3": 'Llauradora',
+            "translated-jardi-4": 'Tailadora',
+            "translated-jardi-5": 'Bufadora Elèctrica',
+            "translated-jardi-6": 'Bufadora de Gasolina',
+            "translated-jardi-7": 'Trituradora',
+
+
+            "translated-carreleva-1": '1500kg Elèctrica',
+            "translated-carreleva-2": '1500kg Dièsel',
+            "translated-carreleva-3": '1600kg Elèctrica',
+            "translated-carreleva-4": '2000kg Dièsel 4x4',
+            "translated-carreleva-5": '2500kg Dièsel',
+            "translated-carreleva-6": 'Apilador Manual 1000kg',
+            "translated-carreleva-7": 'Transpaleta',
+
+
+            "translated-hormigonera-1": 'Hormigonera 140 - 180 L.',
+            "translated-hormigonera-2": 'Hormigonera 300 - 500 L.',
+            "translated-hormigonera-3": 'Cubilote',
+
+            "translated-sissecado-1": 'Cano de assecament gasoil 25 KW',
+            "translated-sissecado-2": 'Cano de assecament a gas',
+            "translated-sissecado-3": 'Desumidificador',
+
+            "translated-compreaire": "Compresor d'Aire",
+
+            "translated-bombagua-1": "Bomba d'Aigua de Gasolina",
+            "translated-bombagua-2": "Bomba d'Aigua Elèctrica Submergible",
+
+            "translated-limpieza-1": "Aspiradora Industrial",
+            "translated-limpieza-1-1": "De polvo y agua. Hilti",
+            "translated-limpieza-2": "Barridaora Manual",
+            "translated-limpieza-3": "Abrillantadora",
+            "translated-limpieza-4": "Fregadora",
+            "translated-limpieza-5": "Lijadora de Pared",
+            "translated-limpieza-6": "Vaporeta - Aspirador de Tapisseria",
+            "translated-limpieza-7": "Hidrojardinera de Gasolina",
+            "translated-limpieza-8": "Hidrojardinera Elèctrica",
+            "translated-limpieza-9": "Aigua Calenta",
+
+            "translated-plattijera-1": "6 m. Elèctrica",
+            "translated-plattijera-2": "8 m. Elèctrica",
+            "translated-plattijera-3": "10 m. Elèctrica",
+            "translated-plattijera-4": "12 m. Elèctrica",
+            "translated-plattijera-5": "12 m. Dièsel",
+            "translated-plattijera-6": "18 m. Dièsel",
+
+            "translated-platarti-1": "11 m. Elèctrica",
+            "translated-platarti-2": "12 m. Dièsel",
+            "translated-platarti-3": "16 m. Dièsel",
+            "translated-platarti-4": "20 m. Dièsel",
+            "translated-platarti-5": "23 m. Telescòpica Dièsel",
+            "translated-platarti-6": "Plataformes",
+
+            "translated-compactadoras-1": "Pisó",
+            "translated-compactadoras-2": "Pla Pisó Compactadora",
+            "translated-compactadoras-3": "Rul·lo 650kg",
+            "translated-compactadoras-4": "Rul·lo 3000kg",
+
+
+            "translated-semaf-1": "Semàfors",
+            "translated-semaf-2": "Senyals d'Obra",
+
+            "translated-vallas-1": "Tanques metàl·lics",
+            "translated-vallas-2": "Barreres de seguretat",
+
+            "translated-martelec-1": "Martell Elèctric Hilti te70",
+            "translated-martelec-2": "Martell Elèctric Hilti t500",
+            "translated-martelec-3": "Martell Elèctric Hilti t1000",
+            "translated-martelec-4": "Taladros",
+            "translated-martelec-5": "Taladro Martell",
+
+
+            "translated-excavadoras-1": "Miniexcaradora 1 T.",
+            "translated-excavadoras-2": "Miniexcaradora 3.5 T.",
+            "translated-excavadoras-3": "Miniexcaradora 5.5 T.",
+            "translated-excavadoras-4": "Excavadores",
+            "translated-excavadoras-5": "Martell per a Miniexcaradora",
+            "translated-excavadoras-6": "Mini Cargadora",
+
+
+            "translated-maqcorte-1": "Tallador de Juntes 45 d.",
+            "translated-maqcorte-2": "Tallador de Juntes 35 d.",
+            "translated-maqcorte-3": "Rubi 0.60 / 1.20 m.",
+            "translated-maqcorte-4": "Virutex per Tallar Parquet",
+            "translated-maqcorte-5": "Taula de Tall Humit",
+            "translated-maqcorte-6": "Taula de Tall Sec",
+            "translated-maqcorte-7": "Serra Circular per a fusta",
+            "translated-maqcorte-8": "Radial de Gasolina",
+            "translated-maqcorte-9": "Radial Elèctrica 230 mm.",
+            "translated-maqcorte-10": "Radial Elèctrica 115 mm.",
+
+
+            "translated-shop-gen-1": "Piles",
+            "translated-shop-gen-2": "Bateries",
+            "translated-shop-gen-3": "Bídons de gasolina",
+            "translated-shop-gen-4": "Bombeta de greix",
+            "translated-shop-gen-5": "Bomba de pressió",
+            "translated-shop-gen-6": "Botes d'aigua",
+            "translated-shop-gen-7": "Broques Bosch",
+            "translated-shop-gen-8": "Cable extensible",
+            "translated-shop-gen-9": "Carracas",
+            "translated-shop-gen-10": "Carretillas",
+            "translated-shop-gen-11": "Discs",
+            "translated-shop-gen-12": "Neteja",
+            "translated-shop-gen-13": "Nivelladors, espàtules",
+            "translated-shop-gen-14": "Espumes",
+            "translated-shop-gen-15": "Generadors",
+            "translated-shop-gen-16": "Greixos",
+            "translated-shop-gen-17": "Dets",
+            "translated-shop-gen-18": "Llaves",
+            "translated-shop-gen-19": "Mans, pals",
+            "translated-shop-gen-20": "Picos, rastells",
+            "translated-shop-gen-21": "Cordes",
+            "translated-shop-gen-22": "Taco Fisher",
+            "translated-shop-gen-23": "Taloches",
+            "translated-shop-gen-24": "Trencilles",
+            
         }
     }
 

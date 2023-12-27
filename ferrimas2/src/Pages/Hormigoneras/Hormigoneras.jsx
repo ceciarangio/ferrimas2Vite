@@ -6,8 +6,10 @@ import hormig300 from '../../public/assets/Hormigoneras/hormigonera-350-elec.png
 import cubilote from '../../public/assets/Hormigoneras/cubilote.png';
 import Footer from "../../components/Footer/Footer";
 import './Hormigoneras.scss';
+import { useTranslation } from "react-i18next";
 
 export default function Hormigoneras(){
+    const {t} = useTranslation();
 
     return <>
     <HeaderGeneral/>
@@ -18,15 +20,15 @@ export default function Hormigoneras(){
       <div className="ceje-hormigonera">
         <div className='hormig-div'>
             <img src={hormig150} alt="hormigonera 150l"/>
-            <h3>Hormigonera 140 - 180 L.</h3>
+            <h3>{t("translated-hormigonera-1")}</h3>
         </div>
         <div className='hormig-div'>
             <img src={hormig300} alt="hormigonera 300l"/>
-            <h3>Hormigonera 300 - 500 L.</h3>
+            <h3>{t("translated-hormigonera-2")}</h3>
         </div>
         <div className='hormig-div'>
             <img src={cubilote} alt="cubilote"/>
-            <h3>Cubilote</h3>
+            <h3>{t("translated-hormigonera-3")}</h3>
         </div>
       </div>
       <div>

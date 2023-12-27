@@ -10,9 +10,11 @@ import Footer from "../../components/Footer/Footer";
 import minidum from "../../public/assets/Dumpers/mini-dumper.png";
 import oruga from "../../public/assets/Dumpers/carretilla-oruga.png";
 import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+import { useTranslation } from "react-i18next";
 
 
 export default function Dumpers(){
+    const { t } = useTranslation();
 
     return<>
     <HeaderGeneral/>
@@ -23,40 +25,40 @@ export default function Dumpers(){
     <div className="ceje-dumpers animate__animated animate__fadeInRight">
         <div className="dumpers-div">
             <img src={dum2000} alt="dumper-2000-pala"/>
-            <h3>Dúmper 2000kg</h3>
-            <p>Hidroestático, 4x4 , con pala</p>
+            <h3>{t("translated-maqdumpers-1")}</h3>
+            <p>{t("translated-maqdumpers-1-1")}</p>
         </div>
         <div className="dumpers-div">
             <img src={dum2000p} alt="dumper-2000"/>
-            <h3>Dúmper 2000kg</h3>
-            <p>Hidroestático, 4x4 , sin pala</p>
+            <h3>{t("translated-maqdumpers-2")}</h3>
+            <p>{t("translated-maqdumpers-2-1")}</p>
         </div>
         <div className="dumpers-div">
             {/* <h3>Dúmper 2500kg</h3>
             <p>Hidroestático, 4x4 , giratorio</p> */}
             <img src={dum2500} alt="dumper-2500"/>
-            <h3>Dúmper 2500kg</h3>
-            <p>Hidroestático, 4x4 , giratorio</p>
+            <h3>{t("translated-maqdumpers-3")}</h3>
+            <p>{t("translated-maqdumpers-3-1")}</p>
         </div>
         <div className="dumpers-div">
             <img src={dump3500} alt="dumper3500"/>
-            <h3>Dúmper 3500kg</h3>
-            <p>Hidroestático, 4x4 , con pala</p>
+            <h3>{t("translated-maqdumpers-4")}</h3>
+            <p>{t("translated-maqdumpers-4-1")}</p>
         </div>
         <div className="dumpers-div">
             <img src={dump6500} alt="dumper-6000"/>
-            <h3>Dúmper 6000kg</h3>
-            <p>Hidroestático, 4x4 , con pala</p>
+            <h3>{t("translated-maqdumpers-5")}</h3>
+            <p>{t("translated-maqdumpers-5-1")}</p>
         </div>
         <div className="dumpers-div">
         
             <img src={minidum} alt="mini dumper"/>
-            <h3>Mini Dumper</h3>
+            <h3>{t("translated-maqdumpers-6")}</h3>
         </div>
         <div className="dumpers-div">
             
             <img src={oruga} alt="oruga"/>
-            <h3>Carretilla Oruga</h3>
+            <h3>{t("translated-maqdumpers-7")}</h3>
             
         </div>
         </div>
