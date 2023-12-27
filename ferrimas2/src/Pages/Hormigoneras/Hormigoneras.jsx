@@ -17,7 +17,7 @@ export default function Hormigoneras(){
     <div className="whatsapp">
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
-      <div className="ceje-hormigonera">
+      <div className="ceje-hormigonera animate__animated animate__fadeInRight">
         <div className='hormig-div'>
             <img src={hormig150} alt="hormigonera 150l"/>
             <h3>{t("translated-hormigonera-1")}</h3>
