@@ -6,8 +6,10 @@ import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Carteleria = () => {
+  const {t} = useTranslation();
   const [carteleria, setCarteleria] = useState([]);
 
   useEffect(() => {
@@ -33,12 +35,12 @@ const Carteleria = () => {
       </div>
       <div>
         <div className="carteleria-container">
-          <h2>Carteles en general</h2>
+          <h2>{t("translated-shop-cart-0")}</h2>
             <div className="carteles-row">
               {carteleria.map((cartel, index) => (
                 <div key={index} className="cartel">
-                <p>{cartel.nombre}</p>
-                  <img className='img-carteleria' src={cartel.foto} alt={cartel.nombre} />
+                <p>{t(cartel.nombre)}</p>
+                  <img className='img-carteleria' src={cartel.foto} alt={t(cartel.nombre)} />
                   
                 </div>
               ))}

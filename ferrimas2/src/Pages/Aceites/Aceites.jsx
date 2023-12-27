@@ -5,8 +5,10 @@ import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import './Aceites.scss';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Aceites = () => {
+  const {t} = useTranslation();
   const [aceites, setAceites] = useState([]);
 
   useEffect(() => {
@@ -29,13 +31,13 @@ const Aceites = () => {
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
     <div className="aceites-container">
-      <h2>Aceites y Limpiaparabrisas</h2>
+      <h2>{t("translated-shop-aceit-0")}</h2>
       <div className="aceites-row">
         {aceites && aceites.length > 0 ? (
             aceites.map((aceite, index) => (
             <div key={index} className="aceites">
-             <p> {aceite.nombre}</p>
-        <img src={aceite.foto} alt="lala"/>
+            <p> {t(aceite.nombre)}</p>
+        <img src={aceite.foto} alt={t(aceite.nombre)}/>
             </div>
           ))
         ) : (

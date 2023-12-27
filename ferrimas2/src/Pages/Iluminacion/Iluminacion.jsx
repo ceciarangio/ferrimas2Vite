@@ -5,8 +5,10 @@ import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Iluminacion.scss'; // Asegúrate de tener la ruta correcta
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Iluminacion = () => {
+  const {t} = useTranslation();
   const [iluminacion, setIluminacion] = useState([]);
 
   useEffect(() => {
@@ -30,13 +32,13 @@ const Iluminacion = () => {
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
       <div className="iluminacion-container">
-        <h2>Iluminación</h2>
+        <h2>{t("translated-shop-ilum-0")}</h2>
         <div className='iluminacion-row'>
         {iluminacion && iluminacion.length > 0 ? (
           iluminacion.map((iluminaciones, index) => (
             <div key={index} className='iluminacion'>
-              <p>{iluminaciones.nombre}</p>
-              <img src={iluminaciones.foto} alt="lala" />
+              <p>{t(iluminaciones.nombre)}</p>
+              <img src={iluminaciones.foto} alt={t(iluminaciones.nombre)} />
             </div>
           ))
         ) : (

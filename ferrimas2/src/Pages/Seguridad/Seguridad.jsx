@@ -6,8 +6,10 @@ import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
 import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Seguridad = () => {
+  const {t} = useTranslation();
   const [seguridad, setSeguridad] = useState([]);
 
   useEffect(() => {
@@ -43,13 +45,13 @@ const Seguridad = () => {
       </div>
       <div>
         <div className="seguridad-container">
-          <h2>Elementos de Seguridad</h2>
+          <h2>{t("translated-shop-segu-0")}</h2>
           {seguridadRows.map((row, rowIndex) => (
             <div key={rowIndex} className="seguridad-row">
               {row.map((seguridad, index) => (
                 <div key={index} className="seguridad">
-                <p>{seguridad.nombre}</p>
-                  <img src={seguridad.foto} alt={seguridad.nombre} />
+                <p>{t(seguridad.nombre)}</p>
+                  <img src={seguridad.foto} alt={t(seguridad.nombre)} />
                   
                 </div>
               ))}

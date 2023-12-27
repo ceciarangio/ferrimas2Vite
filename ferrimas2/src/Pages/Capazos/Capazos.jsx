@@ -6,8 +6,10 @@ import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
 import './Capazos.scss';
 import Footer from '../../components/Footer/Footer';
 import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
 
 const Herramientas = () => {
+  const {t} = useTranslation();
   const [capazos, setCapazos] = useState([]);
 
   useEffect(() => {
@@ -31,13 +33,13 @@ const Herramientas = () => {
         <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
       </div>
       <div className="capazos-container">
-        <h2>Capazos</h2>
+        <h2>{t("translated-shop-capazos-0")}</h2>
         <div className="capazos-row">
           {capazos && capazos.length > 0 ? (
             capazos.map((capazo, index) => (
               <div key={index} className="capazo">
-                <h3>{capazo.nombre}</h3>
-                <img src={capazo.foto} alt={capazo.nombre} />
+                <h3>{t(capazo.nombre)}</h3>
+                <img src={capazo.foto} alt={t(capazo.nombre)} />
                 
               </div>
             ))
