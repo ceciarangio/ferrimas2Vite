@@ -33,7 +33,7 @@ export default function Home() {
 
         <div className="divTextoG__container">
           <h2 className="divTextoG__container--h2 animate__animated animate__fadeInLeft">{t("translated-Home-exploraNuestraGama")}</h2>
-          <button className="divTextoG__container--button animate__animated animate__fadeInLeft">{t("translated-Home-botonOpcionesMaquinaria")}</button>
+          <Link to='/maquinaria' ><button className="divTextoG__container--button animate__animated animate__fadeInLeft">{t("translated-Home-botonOpcionesMaquinaria")}</button></Link>
         </div>
       </div>
       </div>
