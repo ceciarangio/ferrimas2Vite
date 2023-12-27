@@ -13,8 +13,11 @@ import radiale115 from '../../public/assets/Maquinaria-corte/RADIAL-elec-115 mm.
 import './MaquinariaCortes.scss';
 import Footer from "../../components/Footer/Footer";
 import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+import { useTranslation } from "react-i18next";
 
 export default function MaquinariaCorte(){
+
+    const {t} = useTranslation();
 
     return <>
         <HeaderGeneral/>
@@ -26,52 +29,52 @@ export default function MaquinariaCorte(){
         <div className="maquicorte-div">
             
             <img src={cortajuntas45} alt="cortajuntas45"/>
-            <h3>Cortadora de Juntas 45 d.</h3>
+            <h3>{t("translated-maqcorte-1")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={cortajuntas35} alt="cortajuntas35"/>
-            <h3>Cortadora de Juntas 35 d.</h3>
+            <h3>{t("translated-maqcorte-2")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={rubi} alt="rubi"/>
-            <h3>Rubi 0.60 / 1.20 m.</h3>
+            <h3>{t("translated-maqcorte-3")}</h3>
         </div>
         <div className="maquicorte-div">
            
             <img src={virutex} alt="corta parquet"/>
-            <h3>Virutex para Cortar Parquet</h3>
+            <h3>{t("translated-maqcorte-4")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={cortehumedo} alt=" corte humedo"/>
-            <h3>Mesa de Corte Húmedo</h3>
+            <h3>{t("translated-maqcorte-5")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={corteseco} alt="corte seco"/>
-            <h3>Mesa de Corte Seco</h3>
+            <h3>{t("translated-maqcorte-6")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={sierra} alt="Sierra Circular"/>
-            <h3>Sierra Circular para madera</h3>
+            <h3>{t("translated-maqcorte-7")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={radialg} alt="Radial"/>
-            <h3>Radial de Gasolina</h3>
+            <h3>{t("translated-maqcorte-8")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={radiale230} alt="Radial Eléctrica"/>
-            <h3>Radial Eléctrica 230 mm.</h3>
+            <h3>{t("translated-maqcorte-9")}</h3>
         </div>
         <div className="maquicorte-div">
             
             <img src={radiale115} alt="Radial Eléctrica 115"/>
-            <h3>Radial Eléctrica 115 mm.</h3>
+            <h3>{t("translated-maqcorte-10")}</h3>
         </div>
         </div>
         <div>

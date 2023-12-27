@@ -8,10 +8,12 @@ import gene8000 from '../../public/assets/generador/ayerbe-8000.png';
 import './GruposElectrogenos.scss';
 import Footer from "../../components/Footer/Footer";
 import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+import { useTranslation } from "react-i18next";
 
 
 
 export default function GruposElectrogenos(){
+    const { t } = useTranslation();
 
     return <>
         <HeaderGeneral/>
@@ -23,27 +25,27 @@ export default function GruposElectrogenos(){
         <div className="electrog-div">
             
             <img src={gene25} alt="Generador-25kv" />
-            <h3>Generador 25kv</h3>
+            <h3>{t("translated-grelectro-1")}</h3>
         </div>
         <div className="electrog-div">
             
             <img src={gene1000} alt="Generador 1000" />
-            <h3>Generador Ayerbe 1000</h3>
+            <h3>{t("translated-grelectro-2")}</h3>
         </div>
         <div className="electrog-div">
             
             <img src={gene3800} alt="Generador-3800" />
-            <h3>Generador Ayerbe 3800</h3>
+            <h3>{t("translated-grelectro-3")}</h3>
         </div>
         <div className="electrog-div">
             
             <img src={gene5000} alt="Generador-5000" />
-            <h3>Generador Ayerbe 5000</h3>
+            <h3>{t("translated-grelectro-4")}</h3>
         </div>
         <div className="electrog-div">
             
             <img src={gene8000} alt="Generador-8000" />
-            <h3>Generador Ayerbe 8000</h3>
+            <h3>{t("translated-grelectro-5")}</h3>
         </div>
         </div>
         <div className="footer-dumpers">

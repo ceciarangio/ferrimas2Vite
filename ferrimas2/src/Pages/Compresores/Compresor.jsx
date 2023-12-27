@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
 import MenuMaquinaria from "../../components/MenuMaquinaria/MenuMaquinaria";
@@ -6,6 +7,7 @@ import compresor from '../../public/assets/Compresor/compresor-aire.png';
 import './Compresor.scss';
 
 export default function Compresor(){
+    const {t} = useTranslation();
 
     return <>
         <HeaderGeneral/>
@@ -16,7 +18,7 @@ export default function Compresor(){
         <div className="ceje-compresor animate__animated animate__fadeInRight">
             <div className="compresor-div">
                 <img src={compresor} alt="compresor de aire"/>
-                <h3>Compresor de Aire</h3>
+                <h3>{t("translated-compreaire")}</h3>
             </div>
         </div>
         <div className="footer-compresor">
