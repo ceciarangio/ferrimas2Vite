@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/dumper" className="linkWithoutDecoration">
+          <Link to="/maquinaria/dumpers" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={dumper} alt="dumper 2000kg" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-dumpers")}</p>
@@ -87,7 +87,7 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/excavadoras" className="linkWithoutDecoration">
+          <Link to="/maquinaria/excavadoras" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={excavadoras} alt="excavadoras" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
@@ -97,7 +97,7 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/generadores" className="linkWithoutDecoration">
+          <Link to="/maquinaria/grupos-electrogenos" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={generadores} alt="generador 20kva" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-generadores")}</p>
@@ -107,7 +107,7 @@ export default function Home() {
       </div>
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
-          <Link to="/carretillas-elevadoras" className="linkWithoutDecoration">
+          <Link to="/maquinaria/plataformas-articuladas" className="linkWithoutDecoration">
 
             <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={carretillaelevadora} alt="carretillas elevadoras" />
             <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-carretillas-elevadoras")}</p>

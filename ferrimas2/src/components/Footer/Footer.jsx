@@ -37,10 +37,14 @@ export default function Footer() {
             </div>
 
         </div>
+        <div className='flex-footer'>
         <div className='ceje-footer__avisos'>
             <p className='ceje-footer__avisos--p'><Link to='/politica-de-privacidad' >Política de privacidad</Link> - <Link to='/politica-de-cookies'> Política de cookies</Link> - <Link to='/aviso-legal'>Aviso legal</Link></p>
 
         </div>
-
+        <div className='ceje-footer__avisos'>
+            <p className='ceje-footer__avisos--p'><a href='https://www.linkedin.com/in/cecilia-arangio-miori/'>Ce</a>--<a href='https://www.linkedin.com/in/jes%C3%BAs-s%C3%A1nchez-vilches-164319b0/'>Je</a> Diseño Web.</p>
+        </div>
+</div>
     </>
 }

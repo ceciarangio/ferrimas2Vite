@@ -17,7 +17,6 @@ import Capazos from './Pages/Capazos/Capazos';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n'; // Importa tu configuración de i18n
 
-import MenuMaquinaMobile from './components/MenuMaquinaMobile/MenuMaquinaMobile';
 import Dumpers from './Pages/Dumpers/Dumpers';
 import GruposElectrogenos from './Pages/GruposElectrogenos/GruposElectrogenos';
 import MartillosElectricos from './Pages/MartillosElectricos/MartillosElectricos';
@@ -61,7 +60,6 @@ function App() {
         <Route path='/aviso-legal' element={<AvisoLegal/>}/>
         <Route path='/tienda' element={<Tienda/>}/>
         <Route path='/maquinaria' element={<Maquinaria/>}/>
-        <Route path='/maquinaria' element={<MenuMaquinaMobile/>}/>
         <Route path='/herramientas' element={<Herramientas/>}/>
         <Route path='iluminacion' element={<Iluminacion/>}/>
         <Route path='aceites' element={<Aceites/>}/>
