@@ -65,7 +65,7 @@ export default function Home() {
       <h2 className="divMaqAlquiler--h2">{t("translated-Home-maquinaria-alquiler")}</h2>
       <p className="divMaqAlquiler--p">{t("translated-Home-masveinteanos")}</p>
     </div>
-    <div className="cejeMaquinaria__contain animate__animated animate__fadeInRight">
+    <div className="cejeMaquinaria__contain">
       <div className="cejeMaquinaria__contain__maquinariaCard">
           <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
             <Link to="/maquinaria/plataformas-tijera" className="linkWithoutDecoration">
