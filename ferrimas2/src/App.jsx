@@ -61,10 +61,10 @@ function App() {
         <Route path='/tienda' element={<Tienda/>}/>
         <Route path='/maquinaria' element={<Maquinaria/>}/>
         <Route path='/herramientas' element={<Herramientas/>}/>
-        <Route path='iluminacion' element={<Iluminacion/>}/>
-        <Route path='aceites' element={<Aceites/>}/>
-        <Route path='elementos-seguridad' element={<Seguridad/>}/>
-        <Route path='carteleria' element={<Carteleria/>}/>
+        <Route path='/iluminacion' element={<Iluminacion/>}/>
+        <Route path='/aceites' element={<Aceites/>}/>
+        <Route path='/elementos-seguridad' element={<Seguridad/>}/>
+        <Route path='/carteleria' element={<Carteleria/>}/>
         <Route path='/capazos' element={<Capazos/>}/>
         <Route path='/maquinaria/dumpers' element={<Dumpers/>}/>
         <Route path='/maquinaria/grupos-electrogenos' element={<GruposElectrogenos/>}/>
