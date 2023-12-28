@@ -9,7 +9,7 @@
   z-index: 100;
   width: 100px;
   cursor: pointer;
-}
+}g
 
 .footer{
   margin-top: 0;
@@ -41,9 +41,10 @@ main {
  
 
   &__whiteBg{
-      margin-top: 10px;
-      background-color: rgba($color: #ffffff, $alpha: 0.85);
-
+    margin-top: 10px;
+    background-color: rgba($color: #ffffff, $alpha: 0.85);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
     &--img{
@@ -96,9 +97,8 @@ span{
     height: fit-content;
     
     &__whiteBg{
-      padding-left: 10px;
-      padding-right: 10px;
-        background-color: rgba($color: #ffffff, $alpha: 0.85);
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
 
     }
     &--h2{
@@ -237,6 +237,9 @@ span{
         display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+
       }
     }
     
@@ -346,6 +349,9 @@ span{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
@@ -403,6 +409,9 @@ span{
       display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+
     }
   }
   .ceje-container__presupuesto--h2{
@@ -438,6 +447,10 @@ span{
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
   
@@ -474,8 +487,8 @@ span{
       height: fit-content;
       
       &__whiteBg{
-
-          background-color: rgba($color: #ffffff, $alpha: 0.85);
+        margin-top: 10px;
+        background-color: rgba($color: #ffffff, $alpha: 0.85);
 
       }}
 
@@ -549,6 +562,10 @@ span{
    
   
     &__whiteBg{
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+      padding-left: 10px;
+      padding-right: 10px;
         background-color: rgba($color: #ffffff, $alpha: 0.85);
     }
   
@@ -714,6 +731,10 @@ span{
       display: flex;
       flex-direction: column;
       background-color: white;
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+      padding-left: 10px;
+      padding-right: 10px;
       &__tresDivs{
         display: flex;
         flex-direction: row;
@@ -908,6 +929,11 @@ span{
       display: flex;
       flex-direction: column;
       background-color: white;
+      margin-top: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.85);
+      padding-left: 10px;
+      padding-right: 10px;
+
       &__tresDivs{
         display: flex;
         flex-direction: row;
