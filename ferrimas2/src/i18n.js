@@ -279,7 +279,7 @@ const resources = {
 
 
             "translated-compactadoras-1": "Pisón",
-            "translated-compactadoras-2": "PiBandeja Compactadorasón",
+            "translated-compactadoras-2": "Bandeja Compactadora",
             "translated-compactadoras-3": "Rodillo 650kg",
             "translated-compactadoras-4": "Rodillo 3000kg",
 
