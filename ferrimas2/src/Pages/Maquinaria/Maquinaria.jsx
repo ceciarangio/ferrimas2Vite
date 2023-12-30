@@ -30,17 +30,17 @@ const Maquinaria = () => {
           <h2>{t("translated-contacto-maquinaria-titulo")}</h2>
           <div className="botonesmaq-container">
   
-            <Link to='/maquinaria/dumpers'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={dump3500} alt='dumper 3500'/>{t("translated-contacto-maquinaria-dumpers")}</button></Link>
+            <Link to='/maquinaria/alquiler-dumpers'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={dump3500} alt='dumper 3500'/>{t("translated-contacto-maquinaria-dumpers")}</button></Link>
              
-            <Link to='/maquinaria/compactadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={rod650} alt='Rodillo 650'/>{t("translated-contacto-maquinaria-compactadoras")}</button></Link>
+            <Link to='/maquinaria/alquiler-compactadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={rod650} alt='Rodillo 650'/>{t("translated-contacto-maquinaria-compactadoras")}</button></Link>
             
-            <Link to='/maquinaria/excavadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={mini3t} alt='minigiratoria 3.5t'/>{t("translated-contacto-maquinaria-excavadoras")}</button></Link>
+            <Link to='/maquinaria/alquiler-excavadoras'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={mini3t} alt='minigiratoria 3.5t'/>{t("translated-contacto-maquinaria-excavadoras")}</button></Link>
             
-            <Link to='/maquinaria/plataformas-articuladas'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12m} alt='PLAT ARTICULADA 12M'/>{t("translated-contacto-maquinaria-platarticuladas")}</button></Link>
+            <Link to='/maquinaria/alquiler-plataformas-articuladas'><button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12m} alt='PLAT ARTICULADA 12M'/>{t("translated-contacto-maquinaria-platarticuladas")}</button></Link>
             
-            <Link to='/maquinaria/plataformas-tijera'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12md} alt='PLAT TIJERA'/>{t("translated-contacto-maquinaria-plattijera")}</button></Link>
+            <Link to='/maquinaria/alquiler-plataformas-tijera'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={plat12md} alt='PLAT TIJERA'/>{t("translated-contacto-maquinaria-plattijera")}</button></Link>
             
-            <Link to='/maquinaria/maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/>{t("translated-contacto-maquinaria-maqcorte")}</button></Link>
+            <Link to='/maquinaria/alquiler-maquinaria-corte'> <button className='buttonMaqui'><img className='ceje-imgMaquinaria' src={cortehumedo} alt='MAQUINARIA DE CORTE'/>{t("translated-contacto-maquinaria-maqcorte")}</button></Link>
 
           </div>
         </div>

@@ -66,25 +66,25 @@ function App() {
         <Route path='/elementos-seguridad' element={<Seguridad/>}/>
         <Route path='/carteleria' element={<Carteleria/>}/>
         <Route path='/capazos' element={<Capazos/>}/>
-        <Route path='/maquinaria/dumpers' element={<Dumpers/>}/>
-        <Route path='/maquinaria/grupos-electrogenos' element={<GruposElectrogenos/>}/>
-        <Route path='/maquinaria/martillos-electricos' element={<MartillosElectricos/>}/>
-        <Route path='/maquinaria/maquinaria-corte' element={<MaquinariaCorte/>}/>
-        <Route path='/maquinaria/vallas' element={<Vallas/>}/>
-        <Route path='/maquinaria/senalizacion' element={<Semaforos/>}/>
-        <Route path='/maquinaria/compactadoras' element={<Compactadoras/>}/>
-        <Route path='/maquinaria/excavadoras' element={<Excavadoras/>}/>
-        <Route path='/maquinaria/plataformas-articuladas' element={<PlataformasArticuladas/>}/>
-        <Route path='/maquinaria/plataformas-tijera' element={<PlataformasTijera/>}/>
-        <Route path='/maquinaria/limpieza' element={<Limpieza/>}/>
-        <Route path='/maquinaria/bombas-agua' element={<BombasAgua/>}/>
-        <Route path='/maquinaria/compresor-aire' element={<Compresor/>}/>
-        <Route path='/maquinaria/sistema-secado' element={<SistemaSecado/>}/>
+        <Route path='/maquinaria/alquiler-dumpers' element={<Dumpers/>}/>
+        <Route path='/maquinaria/alquiler-grupos-electrogenos' element={<GruposElectrogenos/>}/>
+        <Route path='/maquinaria/alquiler-martillos-electricos' element={<MartillosElectricos/>}/>
+        <Route path='/maquinaria/alquiler-maquinaria-corte' element={<MaquinariaCorte/>}/>
+        <Route path='/maquinaria/alquiler-vallas' element={<Vallas/>}/>
+        <Route path='/maquinaria/alquiler-senalizacion' element={<Semaforos/>}/>
+        <Route path='/maquinaria/alquiler-compactadoras' element={<Compactadoras/>}/>
+        <Route path='/maquinaria/alquiler-excavadoras' element={<Excavadoras/>}/>
+        <Route path='/maquinaria/alquiler-plataformas-articuladas' element={<PlataformasArticuladas/>}/>
+        <Route path='/maquinaria/alquiler-plataformas-tijera' element={<PlataformasTijera/>}/>
+        <Route path='/maquinaria/alquiler-limpieza' element={<Limpieza/>}/>
+        <Route path='/maquinaria/alquiler-bombas-agua' element={<BombasAgua/>}/>
+        <Route path='/maquinaria/alquiler-compresor-aire' element={<Compresor/>}/>
+        <Route path='/maquinaria/alquiler-sistema-secado' element={<SistemaSecado/>}/>
         <Route path='/ventajas' element={<Ventajas/>}/>
         <Route path='/condiciones-alquiler' element={<CondicionesAlquiler/>}/>
-        <Route path='/maquinaria/hormigoneras' element={<Hormigoneras/>}/>
-        <Route path='/maquinaria/jardineria' element={<Jardineria/>}/>
-        <Route path='/maquinaria/carretillas-elevadoras' element={<CarretillasElevadoras/>}/>
+        <Route path='/maquinaria/alquiler-hormigoneras' element={<Hormigoneras/>}/>
+        <Route path='/maquinaria/alquiler-jardineria' element={<Jardineria/>}/>
+        <Route path='/maquinaria/alquiler-carretillas-elevadoras' element={<CarretillasElevadoras/>}/>
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/formacion' element={<Formacion/>}/>
         {/* <Route path='/sobre-nosotros' element={<Nosotros/>}/> */}
