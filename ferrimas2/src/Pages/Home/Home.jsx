@@ -1,122 +1,148 @@
 import { Link } from "react-router-dom";
-import Hamburguesa from "../../components/Hamburguesa/Hamburguesa";
-import LanguageSelector from "../../components/LanguageSelector/LanguageSelector";
-import logo from '../../public/assets/logo.png';
-import dumper from "../../public/assets/Dumpers/dumper 2000kg.jpg";
-import plataftijera from "../../public/assets/plataformas-elevadoras-tijera/plataforma-gasoil-4x4.jpg";
-import vallas from "../../public/assets/vallas/valla-peatonal.jpg";
-import generadores from "../../public/assets/generador/generador-20.jpg";
+import dumper from "../../public/assets/Dumpers/dump-2000kg.png";
+import plataftijera from "../../public/assets/plataformas-elevadoras-tijera/tijera-12m-elec.png";
+import maquinageneral from "../../public/assets/todo-maquinas.png";
+import generadores from "../../public/assets/generador/generador-25kv.png";
 import carretillaelevadora from "../../public/assets/carretilla-elevadora/carret-2000-diesel.png";
-import excavadoras from "../../public/assets/excavadoras/excavadora-5.5-kubota.jpg";
+import excavadoras from "../../public/assets/excavadoras/excav-1000kg.png";
 import './Home.scss';
 import Footer from "../../components/Footer/Footer";
 import HeaderGeneral from "../../components/HeaderGeneral/HeaderGeneral";
+import { useTranslation } from 'react-i18next';
+import WhatsAppLink from "../../components/WhatsAppLink/WhatsAppLink";
+
+
 
 export default function Home() {
+  const { t } = useTranslation();
+
+  
+
 
     return <>
       <HeaderGeneral/>
-      
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
     <main>
+    <div className="container3claves__whiteBg">
       <div className="divTextoG">
-        <div className="bordeSeparador">
+        {/* <div className="bordeSeparador">
           <div className="bordeSeparador__separador"></div>
-        </div>
+        </div> */}
 
         <div className="divTextoG__container">
-          <h2 className="divTextoG__container--h2 animate__animated animate__fadeInLeft">Explora nuestra completa gama de maquinaria de obra, disponible para alquiler.</h2>
-          <button className="divTextoG__container--button animate__animated animate__fadeInLeft">Ver opciones de maquinaria</button>
+          <h2 className="divTextoG__container--h2 animate__animated animate__fadeInLeft">{t("translated-Home-exploraNuestraGama")}</h2>
+          <Link to='/maquinaria' ><button className="divTextoG__container--button animate__animated animate__fadeInLeft">{t("translated-Home-botonOpcionesMaquinaria")}</button></Link>
         </div>
       </div>
-      <div className="bordeSeparador">
+      </div>
+      {/* {/* <div className="bordeSeparador">
         <div className="bordeSeparador__separador"></div>
-      </div>
+      </div> */}
       <div className="container3claves">
-      <div className="container3claves__whiteBg">
-        <h2 className="container3claves--h2">DESCUBRE LAS VENTAJAS CON FERRIMAS2</h2>
-        <div className="container3claves__div">
-          <h3 className="container3claves--h3">SEGURIDAD</h3>
-          <p className="container3claves--p">Optar por el alquiler de maquinaria para construcción con <span>FerriMas2</span> te garantiza la solución más segura, completa y rentable para impulsar tu obra o proyecto. Nuestra maquinaria siempre se encuentra en condiciones óptimas, asegurando un entorno de trabajo seguro.</p>
+      
+        <div className="container3claves__whiteBg">
+        <h2 className="container3claves--h2">{t("translated-Home-ventajasFerriMas2")}</h2>
+        <div className="container3claves__whiteBg__tresDivs">
+          <div className="container3claves__div">
+            <h3 className="container3claves--h3">{t("translated-Home-seguridad")}</h3>
+            <p className="container3claves--p" dangerouslySetInnerHTML={{ __html: t("translated-Home-seguridad-descripción")}} />
+          </div>
+          <div className="container3claves__div">
+            <h3 className="container3claves--h3">{t("translated-Home-ahorro")}</h3>
+            <p className="container3claves--p">{t("translated-Home-ahorro-descripción")}</p>
+          </div>
+          <div className="container3claves__div">
+            <h3 className="container3claves--h3">{t("translated-Home-eficiencia")}</h3>
+            <p className="container3claves--p">{t("translated-Home-eficiencia-descripción")}</p>
+          </div>
         </div>
-        <div className="container3claves__div">
-          <h3 className="container3claves--h3">AHORRO</h3>
-          <p className="container3claves--p">Al elegir el alquiler, tienes el control total sobre los costes de mantenimiento, incluyendo seguro de responsabilidad civil, transporte, almacenamiento y mantenimiento mecánico. Esto significa un ahorro significativo, ya que no tienes que preocuparte por estos aspectos.</p>
-        </div>
-        <div className="container3claves__div">
-          <h3 className="container3claves--h3">EFICIENCIA</h3>
-          <p className="container3claves--p">Seleccionar la máquina adecuada para cada trabajo, proyecto o evento garantiza eficiencia tanto en tiempo como en costes adicionales. El alquiler de maquinaria te permite adaptar tus recursos según las necesidades específicas de cada tarea, optimizando el rendimiento.</p>
-        </div>
-        <p className="container3claves--p2">Descubre la tranquilidad de trabajar con maquinaria en perfectas condiciones, controla tus gastos y maximiza la eficiencia con el alquiler de <span>FerriMas2</span>.<br/> ¡Haz avanzar tu obra de manera segura y eficiente!</p>
+        <p className="container3claves--p2" dangerouslySetInnerHTML={{ __html: t('translated-Home-tranquilidad') }}/>
       </div>
     </div>
     <div className="divMaqAlquiler">
-      <h2>Maquinaria en Alquiler</h2>
-      <p>Más de 20 años trabajando junto a profesionales y particulares</p>
+      <h2 className="divMaqAlquiler--h2">{t("translated-Home-maquinaria-alquiler")}</h2>
+      <p className="divMaqAlquiler--p">{t("translated-Home-masveinteanos")}</p>
     </div>
     <div className="cejeMaquinaria__contain">
-      <div className="maquinariaCard">
-        <Link to="/plataformas-tijera" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img src={plataftijera} alt="plataforma 18mt" />
-            <p>Plataformas Elevadoras</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+            <Link to="/maquinaria/plataformas-tijera" className="linkWithoutDecoration">
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={plataftijera} alt="plataforma 18mt" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-plataformas-elevadoras")}</p>
+            </Link>
+
           </div>
-        </Link>
       </div>
-      <div className="maquinariaCard">
-        <Link to="/dumper" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img src={dumper} alt="dumper 2000kg" />
-            <p>Dumpers</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+          <Link to="/maquinaria/dumpers" className="linkWithoutDecoration">
+
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={dumper} alt="dumper 2000kg" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-dumpers")}</p>
+          </Link>
+
           </div>
-        </Link>
       </div>
-      <div className="maquinariaCard">
-        <Link to="/vallas" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img src={vallas} alt="valla peatonal" />
-            <p>Vallas</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+          <Link to="/maquinaria/excavadoras" className="linkWithoutDecoration">
+
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={excavadoras} alt="excavadoras" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-excavadoras")}</p>
+          </Link>
+
           </div>
-        </Link>
       </div>
-      <div className="maquinariaCard">
-        <Link to="/generadores" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img className="generador" src={generadores} alt="generador 20kva" />
-            <p>Generadores</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+          <Link to="/maquinaria/grupos-electrogenos" className="linkWithoutDecoration">
+
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={generadores} alt="generador 20kva" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-generadores")}</p>
+          </Link>
+
           </div>
-        </Link>
       </div>
-      <div className="maquinariaCard">
-        <Link to="/carretillas-elevadoras" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img src={carretillaelevadora} alt="carretillas elevadoras" />
-            <p>Carretillas Elevadoras</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+          <Link to="/maquinaria/plataformas-articuladas" className="linkWithoutDecoration">
+
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={carretillaelevadora} alt="carretillas elevadoras" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-carretillas-elevadoras")}</p>
+          </Link>
+
           </div>
-        </Link>
       </div>
-      <div className="maquinariaCard">
-        <Link to="/excavadoras" className="linkWithoutDecoration">
-          <div className="imageContainer">
-            <img src={excavadoras} alt="excavadoras" />
-            <p>Excavadoras</p>
+      <div className="cejeMaquinaria__contain__maquinariaCard">
+          <div className="cejeMaquinaria__contain__maquinariaCard__imageContainer">
+          <Link to="/maquinaria" className="linkWithoutDecoration">
+
+            <img className="cejeMaquinaria__contain__maquinariaCard__imageContainer--img" src={maquinageneral} alt="maquinaria general" />
+            <p className="cejeMaquinaria__contain__maquinariaCard__imageContainer--p">{t("translated-Home-more")}</p>
+          </Link>
+
           </div>
-        </Link>
       </div>
     </div>
       <div className="ceje-container__presupuesto">
       <div className="ceje-container__presupuesto__whiteBg">
-        <h2 className="ceje-container__presupuesto--h2">¡CONSIGUE TU PRESUPUESTO HOY MISMO!</h2>
-        <div className="ceje-container__presupuesto__rentabilidad">
-          <p className="ceje-container__presupuesto--p"><span>Rentabilidad Garantizada:</span> Alquilar nuestras máquinas para obras brinda un control de los gastos de manera eficiente y efectiva.</p>
+        <h2 className="ceje-container__presupuesto--h2">{t("translated-Home-consigue-presupuesto")}</h2>
+        <div className="ceje-container__presupuesto__divs">
+          <div className="ceje-container__presupuesto__rentabilidad">
+            <p className="ceje-container__presupuesto__rentabilidad--p" dangerouslySetInnerHTML={{ __html: t("translated-Home-rentabilidad-garantizada")}} />
+          </div>
+          <div className="ceje-container__presupuesto__rentabilidad">
+            <p className="ceje-container__presupuesto__rentabilidad--p" dangerouslySetInnerHTML={{ __html: t("translated-Home-soluciones-adaptadas")}} /></div>
+          <div className="ceje-container__presupuesto__rentabilidad">
+            <p className="ceje-container__presupuesto__rentabilidad--p" dangerouslySetInnerHTML={{ __html: t("translated-Home-atencion-cliente")}} />
+          </div>
         </div>
-        <div className="ceje-container__presupuesto__necesidades">
-          <p className="ceje-container__presupuesto--p"><span> Soluciones Adaptadas a tus Necesidades:</span> Proporcionamos soluciones personalizadas que se ajustan específicamente a los requisitos de cada cliente.</p></div>
-        <div className="ceje-container__presupuesto__atencion">
-          <p className="ceje-container__presupuesto--p"><span>Atención al cliente: </span>Nos esforzamos por ofrecer un servicio al cliente excepcional, asegurando una experiencia satisfactoria para cada uno de nuestros clientes.</p>
-        </div>
-        <Link to="/contacto"><button>¡Pide ya tu presupuesto!</button></Link>
+        <Link to="/contacto"><button className="botonPresupuesto">{t("translated-Home-pide-presupuesto")}</button></Link>
       </div>
       </div>
+      
 
       <footer className="footer">
         <Footer/>

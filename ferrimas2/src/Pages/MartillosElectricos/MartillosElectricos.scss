@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  }
+
+@media screen and (max-width: 767px) {
+.ceje-martilloselec{
+
+    display: grid;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    margin-top: 100px;
+
+    h3{
+        font-family: 'Manrope';
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        position: relative;
+            top: 40px;
+            object-fit: cover;
+    }
+}
+
+.martillo-div {
+    background-color: #fff;
+    border: 1px solid #e2f8d8;
+    box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+    padding: 0px;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    height: 350px;
+    margin-left: 30px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ceje-martilloselec{
+        margin-left: 235px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+        padding-top: 150px;
+
+        h3{
+            font-family: 'Manrope';
+            padding-bottom: 60px;
+        }
+    
+        img{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: 80px;
+            padding-bottom: 80px;
+            object-fit: cover;
+            padding-right: 30px
+        }
+    }
+    .martillo-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 250px;
+        margin-top: 20px;
+        height: 370px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ceje-martilloselec{
+        margin-left: 370px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 160px;
+        margin-top: 200px;
+
+        h3{
+            font-size: 25px;
+            font-family: 'Manrope';
+        }
+    
+        img{
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            position: relative;
+            top: 90px;
+            padding-bottom: 100px;
+            padding-right: 50px;
+        }
+    }
+
+    .martillo-div {
+        background-color: #fff;
+        border: 1px solid #e2f8d8;
+        box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+        padding: 0px;
+        text-align: center;
+        width: 350px;
+        margin-top: 20px;
+        height: 470px;
+        margin-left: 50px;
+    }
+}

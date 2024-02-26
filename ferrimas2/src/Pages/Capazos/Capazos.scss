@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+  }
+  
+  .capazos-container {
+    padding-top: 50px;
+    min-height: 60vh;
+
+  
+    h2{
+      text-align: center;
+      font-size: 50px;
+    }
+  }
+  
+  .capazos-row {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .capazo {
+    cursor: pointer;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-right: 40px;
+  }
+  
+  .capazo:hover {
+    background-color: #728F30;
+  }
+  .capazo img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .capazo p {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Manrope';
+  }
+  
+  
+  .last-row {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-capazos{
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+  .capazos-container {
+      h2{
+        text-align: right;
+        font-size: 50px;
+        padding-right: 320px;
+      }
+    }
+    
+    .capazos-row {
+      display: grid;
+          grid-template-columns: repeat(3, 0.2fr);
+  
+          justify-content: end;
+      text-align: center;
+    }
+    
+    
+    .capazo img {
+      width: 150px;
+      height: auto;
+      object-fit: contain;
+      padding-top: 10px;
+      border-radius: 5px;
+    }
+    .capazo h3 {
+        font-size: 30px;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .capazos-container {
+      padding-top: 100px;
+  
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+    .capazos-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .capazo img {
+      width: 90px;
+      height: auto;
+      object-fit: contain;
+      padding-top: 10px;
+      border-radius: 5px;
+    }
+
+    .footer-capazos{
+      position: relative;
+      margin-top: 30px;
+    }
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+  
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .capazos-container {
+      padding-top: 180px;
+      
+  
+      h2{
+        text-align: center;
+        font-size: 50px;
+      }
+    }
+    
+    .capazos-row {
+      display: grid;
+      grid-template-columns: repeat(3, 0.4fr);
+      gap: 15px;
+      text-align: center;
+
+      margin-left: 45px;
+    }
+    
+    
+    .capazo img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .capazo p {
+      font-size: 35px;
+    }
+    .footer-capazos{
+      margin-top: 220px;
+    }
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+  
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 1201px) {
+    .capazos-container {
+      padding-top: 220px;
+
+    }
+    
+    
+    .footer-capazos{
+      margin-top: 190px;
+    }
+
+    .capazo{
+      border: 1px solid #e2f8d8;
+      box-shadow: 15px 10px 8px rgba(51, 155, 10, 0.1);
+  
+    }
+  }

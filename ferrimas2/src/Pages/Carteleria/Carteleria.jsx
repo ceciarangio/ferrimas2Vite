@@ -1,0 +1,58 @@
+// Carteleria.jsx
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import './Carteleria.scss';
+import HeaderGeneral from '../../components/HeaderGeneral/HeaderGeneral';
+import MenuTiendaD from '../../components/MenuTiendaD/MenuTiendaD';
+import Footer from '../../components/Footer/Footer';
+import WhatsAppLink from '../../components/WhatsAppLink/WhatsAppLink';
+import { useTranslation } from 'react-i18next';
+
+const Carteleria = () => {
+  const {t} = useTranslation();
+  const [carteleria, setCarteleria] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://raw.githubusercontent.com/ceciarangio/JsonFerrimas2/main/db.json');
+        setCarteleria(response.data.carteleria);
+      } catch (error) {
+        console.error('Error al obtener datos:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+
+  return (
+    <>
+      <HeaderGeneral />
+      <MenuTiendaD />
+      <div className="whatsapp">
+        <WhatsAppLink phoneNumber="+34647834593" message={"Buenos días, estaría interesado/a en saber más sobre el alquiler de maquinaria."}/>
+      </div>
+      <div>
+        <div className="carteleria-container">
+          <h2>{t("translated-shop-cart-0")}</h2>
+            <div className="carteles-row">
+              {carteleria.map((cartel, index) => (
+                <div key={index} className="cartel">
+                <p>{t(cartel.nombre)}</p>
+                  <img className='img-carteleria' src={cartel.foto} alt={t(cartel.nombre)} />
+                  
+                </div>
+              ))}
+            </div>
+          
+        </div>
+      </div>
+      <div className='footer-carteles'>
+        <Footer/>
+      </div>
+    </>
+  );
+};
+
+export default Carteleria;

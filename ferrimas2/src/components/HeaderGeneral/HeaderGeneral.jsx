@@ -2,22 +2,41 @@ import Hamburguesa from "../Hamburguesa/Hamburguesa";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import './HeaderGeneral.scss';
 import logo from '../../public/assets/logo.png';
+import { Link } from "react-router-dom";
+// import i18n from "../../i18n";
+import { useTranslation } from 'react-i18next';
 
 
 
 export default function HeaderGeneral(){
-
+    const { t } = useTranslation();
 
     return <>
+    
     <header className="header">
-        <img src={logo} className="logoFerrimas2" alt="logo" />
-        {/* <p className="idiomas">Idiomas</p> */}
-        <LanguageSelector/>
+    <Link to={'/'}><img src={logo} className="logoFerrimas2" alt="logo" /></Link>
+    <div className="ceje-header__language-menu-container">
+        <div className="ceje-opcionesHeader">
+            <Link to="/tienda" className="ceje-opcionesHeader--a">{t('translated-header-shop')}</Link>
+            {/* <a href="#" className="ceje-opcionesHeader--a--aboutUs">{t('translated-header-aboutUs')}</a> */}
+            <Link to={'/ventajas'} className="ceje-opcionesHeader--a--ventajas" >{t('translated-header-ventajas')}</Link>
+            <Link to="/formacion" className="ceje-opcionesHeader--a">{t('translated-header-training')}</Link>
+            <Link to="/maquinaria" className="ceje-opcionesHeader--a">{t('translated-header-rental')}</Link>
+            <Link to={'/condiciones-alquiler'} className="ceje-opcionesHeader--a--condiciones" >
+            {t('translated-header-rental-conditions')}</Link>
+            <a href="#" className="ceje-opcionesHeader--a--faq">{t('translated-header-faq')}</a>
+            <Link to="/contacto" className="ceje-opcionesHeader--a">{t('translated-header-contact')}</Link>
+        </div>
+        <div className="ceje-header__language-menu-container__language-selector">
+            <LanguageSelector/>
+        </div>
+    </div>
+
         <div className="ceje-hambu">
             <Hamburguesa/>
         </div>
     </header>
+    <div className="ceje-header-margInf"/>
     </>
 
 }
-

@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+.ceje-ventajas-h1{
+    margin-top: 9vh;
+    text-align: center;
+    font-family: 'Manrope';
+}
+
+.ceje-ventajasContainer{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    &__ventajas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 500px;
+        height: 250px;
+        border: solid 2px black;
+        transition: background-color 0.5s ease;
+        
+
+        &--h2{
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            font-family: 'Manrope';
+        }
+
+        &--p{
+            text-align: justify;
+            font-size: 1.2rem;
+            padding: 0px 50px;
+            width: 380px;
+            height: auto;
+            font-style: italic;
+            font-weight: 400;
+            font-family: 'Manrope';
+        }
+    }
+}
+
+.ceje-ventajasContainer__ventajas:hover{
+    background-color: #97C103;
+}
