@@ -1,57 +1,103 @@
-.ceje-footer{
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+.flex-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ceje-footer {
+    width: 100%;
+    padding-top: 20px;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-decoration: none;
     list-style: none;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: start;
 
-    &__avisos{
+    &__avisos {
+        padding-left: 50px;
+        padding-right: 50px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         background-color: black;
         color: white;
         font-size: 14px;
-        padding-left: 20px;
         line-height: 10px;
-
-        &--p{
-            color: white;
-            cursor: pointer;
-            text-decoration: underline;
-            width: fit-content;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+        &--p a {
+        color: rgb(190, 190, 190);
+        cursor: pointer;
+        text-decoration: none;
+        width: fit-content;
+        font-family: 'Manrope';
+        }
+        &--p a:hover {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        width: fit-content;
         }
     }
-
-    &__delegacion{
+    
+    &__delegacion {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    
+        &__direccion {
+        text-align: left;
+        list-style: none;
+        margin-bottom: 50px;
+        font-family: 'Manrope';
 
-        &__direccion{
+        &__li{
+            padding-left: 50px;
+            padding-right: 50px;
+            font-family: 'Manrope';
+        }
+
+        &--h2 {
+            color: rgb(158, 158, 158);
+            font-size: 16px;
+            font-family: 'Manrope';
+        }
+        &--p {
+            font-size: 1.1rem;
+            font-family: 'Manrope';
+        }
+        }
+        &__contacto {
             text-align: left;
             list-style: none;
-            &--h2{
+            margin-bottom: 50px;
+            &--h2 {
                 color: rgb(158, 158, 158);
                 font-size: 16px;
             }
-            &--p{
-                font-size: 14px;
+            &--p {
+                font-size: 1.1rem;
             }
-        }
-        &__contacto{
-            text-align: left;
-            list-style: none;
-            &--h2{
-                color: rgb(158, 158, 158);
-                font-size: 16px;
-            }
-            &--p{
-                font-size: 14px;
-            }
-        }
+        } 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .flex-footer{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}
+.ceje-titularH2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3vh;
+    margin-top: 8vh;
+    font-family: 'Manrope';
+}
+
+.colorRed{
+    color: red;
+}
+
+.ceje-condicionesContainer{
+
+
+    &__condicionesAlquiler{
+
+        &--p{
+            font-size: 1.3rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 25px;
+            font-family: 'Manrope';
+            
+        }
+    }
+}
