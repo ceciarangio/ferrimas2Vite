@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: ./dist
+  DEPLOYMENT_FOLDER: ./ferrimas2/dist
 
 jobs:
 # Please do not rename this job
@@ -37,6 +37,7 @@ jobs:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
         run: |
+          cd ferrimas2
           npm install
           npm run build
 
@@ -46,7 +47,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: d4b49912-c62d-4a48-8a2d-9dff2634189b
+          project-id: b6304a0c-7f91-400d-a9d9-12ed660dcb8d
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
