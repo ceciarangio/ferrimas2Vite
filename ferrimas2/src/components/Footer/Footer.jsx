@@ -48,12 +48,7 @@ export default function Footer() {
             <p className="ceje-footer__subvencion--p">
                 Ferrimas2 S.L. ha recibido una ayuda de 2.900 € para la adquisición de un vehículo eléctrico Tesla Model 3 de la Unión Europea con cargo al Fondo NextGenerationEU, en el marco del Plan de Recuperación, Transformación y Resiliencia, para la adquisición de vehículos eléctricos “enchufables” y de pila combustible dentro del Programa de incentivos a la movilidad eficiente y sostenible (Programa MOVES III Vehículos Comunitat Valenciana) del Ministerio para la Transición Ecológica y el Reto Demográfico a través del IDAE, gestionado por el Instituto Valenciano de Competitividad Empresarial (IVACE).
             </p>
-            <p className="ceje-footer__subvencion--p">
-                
-  {`Ferrimas2 S.L. ha recibido una ayuda de 2.900 € para la adquisición de un vehículo eléctrico Tesla Model 3...`}
-
-
-            </p>
+        
 <div className="ceje-footer__subvencion-logos">
   <img src={moves} alt="Programa MOVES III" />
   <img src={idae} alt="IDAE" />
