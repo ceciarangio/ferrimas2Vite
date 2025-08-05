@@ -101,3 +101,32 @@
         flex-wrap: wrap;
     }
 }
+
+.ceje-footer__subvencion {
+    background-color: black;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: white;
+    font-family: 'Manrope';
+
+    &--p {
+        margin: 0.5rem auto;
+        max-width: 900px;
+        line-height: 1.5;
+    }
+}
+
+.ceje-footer__subvencion-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    img {
+        max-height: 40px;
+        width: auto;
+    }
+}
