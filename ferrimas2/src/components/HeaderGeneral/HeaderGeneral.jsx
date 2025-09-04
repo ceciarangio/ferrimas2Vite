@@ -14,15 +14,8 @@ export default function HeaderGeneral(){
     const { t } = useTranslation();
 
     return <>
-    <video
-  autoPlay
-  loop
-  muted
-  playsInline
-  className="video-fondo"
->
+<video autoPlay muted loop className="video-fondo">
   <source src={fondoVideo} type="video/mp4" />
-  Tu navegador no soporta el video HTML5.
 </video>
 
     <header className="header">
