@@ -14,9 +14,15 @@ export default function HeaderGeneral(){
     const { t } = useTranslation();
 
     return <>
-<video autoPlay muted loop className="video-fondo">
-  <source src={fondoVideo} type="video/mp4" />
-</video>
+<video
+  className="video-fondo"
+  autoPlay
+  muted
+  loop
+  playsInline
+  src={fondoVideo}
+/>
+
 
     <header className="header">
     <Link to={'/'}><img src={logo} className="logoFerrimas2" alt="logo" /></Link>
