@@ -30,14 +30,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: v18
+          node-version: vcd ferrimas2
 
       - name: Build Node assets
         env:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
         run: |
-          cd ferrimas2
           npm install
           npm run build
 
@@ -47,7 +46,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: f279e632-6353-4928-8cbc-c5061dd51c5b
+          project-id: 0fb31522-74bd-45f0-992b-859e0281665b
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
