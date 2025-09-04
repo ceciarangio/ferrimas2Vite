@@ -1,3 +1,10 @@
+.video-fondo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .header{
     position: fixed;
     min-height: 53px;
@@ -78,7 +85,18 @@
     .ceje-header-margInf{
         height: 8vh;
     }
+
+  
+  .video-fondo {
+    width: 100vw;
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+    margin-top: 60px; /* Si tu header es fijo y tiene altura */
+  }
 }
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Estilos para tablets en modo retrato */
@@ -265,4 +283,15 @@
     .ceje-header-margInf{
         height: 8vh;
     }
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; // para que quede detrás del header
+  pointer-events: none; // evita interferencias con clics
 }
