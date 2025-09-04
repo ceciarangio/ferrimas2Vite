@@ -5,6 +5,8 @@ import logo from '../../public/assets/logo.png';
 import { Link } from "react-router-dom";
 // import i18n from "../../i18n";
 import { useTranslation } from 'react-i18next';
+import fondoVideo from '../../LOGOS-tesla/fondo.mp4';
+
 
 
 
@@ -12,7 +14,17 @@ export default function HeaderGeneral(){
     const { t } = useTranslation();
 
     return <>
-    
+    <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="video-fondo"
+>
+  <source src={fondoVideo} type="video/mp4" />
+  Tu navegador no soporta el video HTML5.
+</video>
+
     <header className="header">
     <Link to={'/'}><img src={logo} className="logoFerrimas2" alt="logo" /></Link>
     <div className="ceje-header__language-menu-container">
